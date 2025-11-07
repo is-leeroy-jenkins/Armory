@@ -13,7 +13,7 @@
 
 ## 📘 Overview
 
-**Halo Kitty Adventures** is a structured educational repository supporting the **Federal Data Analytics Integration & Modernization** initiatives.
+**Halo Kitty Adventures** is a educational repository supporting the **Federal Data Analytics Integration & Modernization** initiatives.
 It consolidates four core learning domains — **Excel Formulas**, **SQL**, **VBA**, and **Python** — into a unified framework that builds technical fluency from tactical spreadsheet analytics to enterprise-scale data science.
 
 Each tutorial is written for analysts modernizing workflows under the **Army Data Plan (ADP)** and **DoD AI/ML modernization** strategy.
