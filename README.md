@@ -1,5 +1,5 @@
-# 🪖 Halo Kitty Adventures
-
+###### Halo Kitty Adventures
+[]()
 ### *A Learning Repository for Data Analytics Integration & Modernization*
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
