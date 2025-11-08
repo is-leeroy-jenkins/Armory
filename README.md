@@ -1,7 +1,6 @@
 ###### Halo Kitty Adventures
+[](https://github.com/is-leeroy-jenkins/Halo-Kitty-Adventures/blob/main/resources/Project.png)
 <div>
-<img src="https://github.com/is-leeroy-jenkins/Halo-Kitty-Adventures/blob/main/resources/Project.png" style="width:800px;height:200px">
-
 <div>
 <h2> Data Analytics Integration & Modernization </h2>
 </div>
