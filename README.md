@@ -1,5 +1,5 @@
 ###### Halo Kitty Adventures
-![](https://github.com/is-leeroy-jenkins/Halo-Kitty-Adventures/blob/main/resources/images/Data.gif)
+![](https://github.com/is-leeroy-jenkins/Halo-Kitty-Adventures/blob/main/resources/images/Project.png)
 <div>
 <div>
 <h2> Data Analytics Integration & Modernization </h2>
