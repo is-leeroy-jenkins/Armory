@@ -2,18 +2,6 @@
 
 ![](https://github.com/is-leeroy-jenkins/Halo-Kitty-Adventures/blob/main/resources/images/Project.png)
 
-<div>
-<div>
-<h2> Data Analytics Integration & Modernization </h2>
-</div>
-  <p>
-    An educational repository supporting the Federal Data Analytics Integration & Modernization initiatives. It consolidates four core learning domains — Excel, SQL, VBA, and Python — into a unified framework that builds technical fluency from tactical spreadsheet analytics to enterprise-scale data science
-  </p>
-</div>
-
-
-
-
 ## 📑 Table of Contents
 - [Excel Formulas](#-excel-formulas--the-foundation)
 - [SQL](#-sql)
@@ -27,6 +15,19 @@
 - [CSS3](#-css3--designing-with-purpose)
 - [Power BI](#-power-bi--modern-visual-analytics)
 - [DAX](#-dax--advanced-calculation-logic)
+
+
+<div>
+<div>
+<h2> Data Analytics Integration & Modernization </h2>
+</div>
+  <p>
+    An educational repository supporting the Federal Data Analytics Integration & Modernization initiatives. It consolidates four core learning domains — Excel, SQL, VBA, and Python — into a unified framework that builds technical fluency from tactical spreadsheet analytics to enterprise-scale data science
+  </p>
+</div>
+
+
+
 
 
 
