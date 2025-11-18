@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2e13c333-3bec-45e4-bd3e-36cc4f3b5b81" name="Changes" comment="updates">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/css-tutorial.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/css/css-tutorial.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/html-tutorial.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/html/html-tutorial.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +110,7 @@
       <workItem from="1763426796031" duration="799000" />
       <workItem from="1763427624972" duration="163000" />
       <workItem from="1763427796859" duration="5550000" />
-      <workItem from="1763478514795" duration="3362000" />
+      <workItem from="1763478514795" duration="5576000" />
     </task>
     <task id="LOCAL-00001" summary="updates">
       <option name="closed" value="true" />
@@ -367,7 +368,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763479611994</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="updates">
+      <option name="closed" value="true" />
+      <created>1763482467492</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1763482467492</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
