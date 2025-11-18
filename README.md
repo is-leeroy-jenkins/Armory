@@ -1,5 +1,7 @@
-###### Halo Kitty Adventures
+###### _
+
 ![](https://github.com/is-leeroy-jenkins/Halo-Kitty-Adventures/blob/main/resources/images/Project.png)
+
 <div>
 <div>
 <h2> Data Analytics Integration & Modernization </h2>
@@ -12,12 +14,45 @@
   </p>
 </div>
 
+![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
+![VBA](https://img.shields.io/badge/VBA-Excel%20%26%20Access-green.svg)
+![SQL](https://img.shields.io/badge/SQL-Access%20%26%20SQLite-orange.svg)
+![Excel](https://img.shields.io/badge/Excel-Formulas-lightgreen.svg)
+![HTML5](https://img.shields.io/badge/HTML5-Web%20Structure-red.svg)
+![CSS3](https://img.shields.io/badge/CSS3-Web%20Design-blue.svg)
+![PowerBI](https://img.shields.io/badge/Power%20BI-Analytics%20%26%20DAX-gold.svg)
+![DAX](https://img.shields.io/badge/DAX-Data%20Modeling-purple.svg)
+![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+
+
+
+## 📑 Table of Contents
+
+* [Overview](#-overview)
+* [Repository Structure](#-repository-structure)
+* [Learning Objectives](#-learning-objectives)
+* [Excel Formulas — "The Foundation"](#-excel-formulas--the-foundation)
+* [SQL — "The Language of Data"](#-sql--the-language-of-data)
+* [VBA — "Classic Automation"](#-vba--classic-automation)
+* [Python — "Advanced Analytics"](#-python--advanced-analytics)
+* [HTML5 — Web Foundations for Analytics](#-html5--web-foundations-for-analytics)
+* [CSS3 — Designing with Purpose](#-css3--designing-with-purpose)
+* [Power BI — Modern Visual Analytics](#-power-bi--modern-visual-analytics)
+* [DAX — Advanced Calculation Logic](#-dax--advanced-calculation-logic)
+* [Integrated Learning Framework](#-integrated-learning-framework)
+* [Combined Learning Progression Diagram](#-combined-learning-progression-diagram)
+* [Alignment with Army Data Modernization](#-alignment-with-army-data-modernization)
+* [Reference Materials](#-reference-materials)
+* [Prerequisites](#-prerequisites)
+* [Author](#-author)
+* [License](#-license)
+
 
 
 ## 📘 Overview
 
-- Each tutorial is written for analysts modernizing workflows.
-- Lessons progress linearly, introducing tools and logic at each level of the Army’s analytic maturity model.
+* Each tutorial is written for analysts modernizing workflows.
+* Lessons progress linearly, introducing tools and logic at each level of the analytic maturity model.
 
 
 
@@ -51,30 +86,31 @@ Halo-Kitty-Adventures/
 │   ├── pbi-tutorial.ipynb
 │
 └── README.md
-
 ```
 
 
 
 ## 🎯 Learning Objectives
-|        Domain | Goal                                                                       | Outcome                                                   |
-| ------------: | -------------------------------------------------------------------------- | --------------------------------------------------------- |
-|  **🧮 Excel** | Teach analytical reasoning through structured formulas and dynamic arrays. | Accurate, repeatable spreadsheet analytics.               |
-|    **🐘 SQL** | Develop mastery in querying and normalizing structured data.               | Clean, standardized datasets for enterprise use.          |
-|    **⚙️ VBA** | Enable automation and interoperability across MS Office applications.      | Time savings and reduced data errors.                     |
-| **🐍 Python** | Build modern analytics and AI pipelines.                                   | Automated RAG, ETL, and ML capabilities.                  |
-|  **🌐 HTML5** | Introduce web structure for Army analytics dashboards.                     | Standardized, accessible web-based analytics interfaces.  |
-|   **🎨 CSS3** | Teach styling and responsive design principles.                            | Visually coherent, device-agnostic Army web applications. |
+
+|              Domain | Goal                                                               | Outcome                                                |
+| ------------------: | ------------------------------------------------------------------ | ------------------------------------------------------ |
+|        **🧮 Excel** | Teach analytical reasoning through structured formulas and arrays. | Accurate, repeatable spreadsheet analytics.            |
+| **🐘 SQL (Access)** | Rapid desktop queries, prototyping, legacy data management.        | Dynamic reports, parameterized queries, legacy bridge. |
+| **🐘 SQL (SQLite)** | Portable analytics engine, Python integration, scalable analytics. | Large data, pipeline-ready, app and BI integration.    |
+|  **⚙️ VBA (Excel)** | Automate Excel reporting, charting, and integration with Office.   | Faster reports, error-free automation, user macros.    |
+| **⚙️ VBA (Access)** | Automate database tasks, forms, data imports, reporting.           | Automated imports/exports, validated data pipelines.   |
+|       **🐍 Python** | Build modern analytics and AI pipelines.                           | Automated RAG, ETL, and ML capabilities.               |
+|        **🌐 HTML5** | Introduce web structure for dashboards and analytics sites.        | Structured, accessible web-based analytics.            |
+|         **🎨 CSS3** | Teach styling and responsive web design for analytics portals.     | Visually coherent, device-agnostic web applications.   |
 
 
 
-## 🧮 Excel Formulas — *“The Foundation”*
+## 🧮 Excel Formulas — *"The Foundation"*
 
 <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Halo-Kitty-Adventures/blob/main/excel/notebooks/formulas.ipynb" target="_parent">
 <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 > Every data workflow begins in Excel — transforming raw numbers into insight.
-
 
 **Core Topics**
 
@@ -89,59 +125,103 @@ Halo-Kitty-Adventures/
 
 **Example:**
 
-> Automate daily readiness metrics using dynamic array formulas that update automatically as new personnel data arrives.
+> Automate daily readiness metrics using dynamic array formulas that update automatically as new data arrives.
 
 
+## 🧾 SQL (Access) — *Desktop Relational Data Management*
 
-## 🧾 SQL — *“The Language of Data”*
-<a href="https://colab.research.google.com/github/is-leeroy-jenkins/Halo-Kitty-Adventures/blob/main/sql/notebooks/access.ipynb" target="_parent">
+<a href="https://colab.research.google.com/github/is-leeroy-jenkins/Halo-Kitty-Adventures/blob/main/sql/notebooks/sql-access.ipynb" target="_parent">
 <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
-
-> Build and query relational datasets to power analytics across tactical and enterprise systems.
+> Query, join, and aggregate data in Microsoft Access for rapid prototyping and legacy workflow integration.
 
 **Core Topics**
 
 * SELECT query execution order
-* INNER / OUTER / CROSS joins
-* Subqueries and aggregation
-* Normalization and indexing
-* Access SQL macros and parameterized prompts
-* Migrating Access queries to SQLite
-
-**Army Example:**
-
-> Create SQL joins between GFEBS obligation records and Power BI reporting datasets to reconcile funding execution in real time.
-
-
-
-## ⚙️ VBA — *“Classic Automation”*
-<a href="https://colab.research.google.com/github/is-leeroy-jenkins/Halo-Kitty-Adventures/blob/main/python/notebooks/vba.ipynb" target="_parent">
-<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
-
-
-> Learn the Visual Basic for Applications (VBA) environment to automate tasks across Microsoft Office.
-
-**Core Topics**
-
-* Procedures, parameters, and return values
-* Event handling and error trapping
-* File System Object (FSO) for file I/O
-* Collections, Dictionaries, and Arrays
-* ADO/DAO database connections
-* Excel ↔ Word ↔ Outlook integration
-* UserForms and Ribbon customization
+* INNER, OUTER, and CROSS joins in Access
+* Crosstab, make-table, and append queries
+* Access parameter prompts and macros
+* Aggregation, grouping, and summary statistics
+* Access SQL syntax quirks and best practices
 
 **Example:**
 
-> Automatically generate Excel readiness dashboards from Access data, email them via Outlook, and archive backups with one button click.
+> Join personnel and operational tables using parameter prompts, creating dynamic Access queries for ad hoc reporting.
 
 
 
-## 🐍 Python — *“Advanced Analytics”*
-<a href="https://colab.research.google.com/github/is-leeroy-jenkins/Halo-Kitty-Adventures/blob/main/python/notebooks/python.ipynb" target="_parent">
+## 🧾 SQL (SQLite) — *Portable, Modern Data Engine*
+
+<a href="https://colab.research.google.com/github/is-leeroy-jenkins/Halo-Kitty-Adventures/blob/main/sql/notebooks/sql-sqlite.ipynb" target="_parent">
 <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
+> Use SQLite to store, manage, and query datasets in a single-file, portable, SQL-compliant engine for analytics pipelines and app development.
+
+**Core Topics**
+
+* Creating and normalizing tables for analytics
+* Standard ANSI SQL features and constraints
+* Complex subqueries, views, triggers, and indices
+* Integration with Python and Power BI
+* Data migration from Access to SQLite
+* Performance and scalability for large datasets
+
+**Example:**
+
+> Export Access data to SQLite, then run complex analytics queries in Python or BI tools without needing Access or SQL Server.
+
+
+
+## ⚙️ VBA (Excel) — *Excel Macro Automation*
+
+<a href="https://colab.research.google.com/github/is-leeroy-jenkins/Halo-Kitty-Adventures/blob/main/vba/notebook/vba-tutorial.ipynb" target="_parent">
+<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+
+> Automate repetitive tasks, reporting, and analysis in Microsoft Excel using VBA.
+
+**Core Topics**
+
+* Subroutines and functions
+* Event-driven macros (Workbook, Worksheet events)
+* Automating formulas, formatting, charting
+* Integrating Excel with Outlook for email workflows
+* UserForms for Excel data entry and control
+* Error handling and debugging tools in Excel
+* Leveraging named ranges and structured references
+
+**Example:**
+
+> Automatically generate, format, and distribute Excel-based dashboards on a scheduled basis, emailing results to stakeholders with a single button click.
+
+
+
+## ⚙️ VBA (Access) — *Database Automation*
+
+<a href="https://colab.research.google.com/github/is-leeroy-jenkins/Halo-Kitty-Adventures/blob/main/vba/notebook/vba-access.ipynb" target="_parent">
+<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+
+> Use VBA in Microsoft Access to automate database operations, form management, and advanced data integration.
+
+**Core Topics**
+
+* Automating Access forms and reports
+* DAO and ADO for recordset manipulation
+* Importing/exporting data to Excel, text, or other databases
+* Batch updates and data validation
+* Triggering Access macros with events
+* Linking Access to other Office applications
+* Advanced query and parameterization workflows
+
+**Example:**
+
+> Build an Access tool that imports operational data, transforms and validates records, and then exports the cleaned dataset for analysis or reporting.
+
+
+
+## 🐍 Python — *"Advanced Analytics"*
+
+<a href="https://colab.research.google.com/github/is-leeroy-jenkins/Halo-Kitty-Adventures/blob/main/python/notebooks/python.ipynb" target="_parent">
+<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 > Transition into enterprise-grade analytics and machine learning using modern open-source tooling.
 
@@ -157,15 +237,16 @@ Halo-Kitty-Adventures/
 
 **Example:**
 
-> Use Python ETL scripts to consolidate O&M execution data, generate predictive models, and deploy dashboards supporting OUSD(C) reporting.
+> Use Python ETL scripts to consolidate execution data, generate predictive models, and deploy dashboards.
+
+
 
 # 🌐 HTML5 — *Web Foundations for Analytics*
 
 <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Halo-Kitty-Adventures/blob/main/html/html-tutorial.ipynb" target="_parent">
 <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
-
-> Teach structure, semantics, and accessibility for data dashboards and Army web analytics systems.
+> Teach structure, semantics, and accessibility for data dashboards and web analytics systems.
 
 ## Core Topics
 
@@ -178,11 +259,11 @@ Halo-Kitty-Adventures/
 ## Notebook Examples
 
 * `HTML5_Element_Guide.ipynb` — Organized by element group (metadata, form, text, media)
-* `HTML5_Examples.ipynb` — Practical snippets and Army-themed dashboards
+* `HTML5_Examples.ipynb` — Practical snippets and analytics-themed dashboards
 
 ## Example
 
-> Build a responsive command dashboard prototype with HTML5 elements to display live readiness metrics and operational KPIs.
+> Build a responsive dashboard prototype with HTML5 elements to display live metrics and KPIs.
 
 
 
@@ -190,7 +271,6 @@ Halo-Kitty-Adventures/
 
 <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Halo-Kitty-Adventures/blob/main/css/css-tutorial.ipynb" target="_parent">
 <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
-
 
 > Master layout and design for analytics dashboards and knowledge portals.
 
@@ -208,12 +288,13 @@ Halo-Kitty-Adventures/
 * `CSS3_Examples_and_Layouts.ipynb` — Real-world styling exercises
 
 
+
 # 📊 Power BI — *Modern Visual Analytics*
 
 <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Halo-Kitty-Adventures/blob/main/python/notebooks/pbi.ipynb" target="_parent">
 <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
-> Learn to build interactive dashboards, integrate multi‑source datasets, and publish secure analytics for commanders and staff.
+> Learn to build interactive dashboards, integrate multi‑source datasets, and publish secure analytics.
 
 ## Core Topics
 
@@ -228,80 +309,109 @@ Halo-Kitty-Adventures/
 ## Notebook Examples
 
 * `PowerBI_Data_Modeling.ipynb` — Demonstrates shaping data for clean relationships
-* `PowerBI_DAX_Workshop.ipynb` — DAX patterns and readiness‑focused formulas
-* `PowerBI_Dashboard_Examples.ipynb` — Example Army execution, readiness, and personnel dashboards
+* `PowerBI_DAX_Workshop.ipynb` — DAX patterns and analytics‑focused formulas
+* `PowerBI_Dashboard_Examples.ipynb` — Example execution, readiness, and personnel dashboards
 
 ## Example
 
-> Create an end‑to‑end execution dashboard that connects Access/SQL/Python outputs, applies DAX time‑intelligence, and publishes to a secure Army workspace for operational leaders.
+> Create an end‑to‑end execution dashboard that connects Access/SQL/Python outputs, applies DAX time‑intelligence, and publishes to a secure workspace for decision makers.
+
+
+
+## 📐 DAX — *Advanced Calculation Logic*
+
+<a href="https://colab.research.google.com/github/is-leeroy-jenkins/Halo-Kitty-Adventures/blob/main/excel/notebooks/dax.ipynb" target="_parent">
+<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+
+> Add advanced calculation logic used across Power BI, Analysis Services, and modern dashboarding.
+
+### Core Topics
+
+* Row context vs. filter context
+* Evaluation context transition
+* `CALCULATE` and filter modifiers
+* Iterators (`SUMX`, `AVERAGEX`, `FILTER`)
+* Time intelligence (`DATEADD`, `TOTALYTD`, `SAMEPERIODLASTYEAR`)
+* Measures vs. calculated columns
+* Variables (`VAR`) and performance optimization
+
+### Notebook Examples
+
+* `DAX_Fundamentals.ipynb` — Core concepts, context evaluation, and basic measures
+* `DAX_Time_Intelligence.ipynb` — Fiscal year modeling, rolling periods, readiness metrics
+* `DAX_Advanced_Patterns.ipynb` — Budget execution KPIs, cumulative totals, operational ratios
+
+### Example
+
+> Build FY-based obligation and disbursement measures using DAX time-intelligence patterns to support operational reporting and decision-making.
+
+
 
 ## 🧠 Integrated Learning Framework
-| Layer             | Excel       | SQL               | VBA          | Python              | HTML5           | CSS3            |
-| :---------------- | :---------- | :---------------- | :----------- | :------------------ | :-------------- | :-------------- |
-| **Data Access**   | Sheets      | Queries           | DAO/ADO      | `pandas`, `sqlite3` | Forms & Inputs  | Styled Tables   |
-| **Automation**    | Formulas    | Stored Procedures | Macros       | Scripts             | Web Scripts     | Animations      |
-| **Analytics**     | PivotTables | Aggregates        | Reports      | AI Models           | Data Pages      | Visual Themes   |
-| **Visualization** | Charts      | Views             | Excel Graphs | Plotly, Seaborn     | Canvas, SVG     | Layout & Colors |
-| **Deployment**    | Workbooks   | Databases         | Add-ins      | Flask APIs          | HTML Dashboards | CSS UI Layer    |
+
+| Layer             | Excel    | SQL (Access)  | SQL (SQLite)  | VBA (Excel)      | VBA (Access)       | Python              | HTML5           | CSS3            |
+| :---------------- | :------- | :------------ | :------------ | :--------------- | :----------------- | :------------------ | :-------------- | :-------------- |
+| **Data Access**   | Sheets   | Access tables | SQLite tables | Named ranges     | DAO/ADO Recordset  | `pandas`, `sqlite3` | Forms & Inputs  | Styled Tables   |
+| **Automation**    | Formulas | Macros        | Python/BI     | Macros & Events  | Form/Report Macros | Scripts, schedulers | Web Scripts     | Animations      |
+| **Analytics**     | Pivots   | Totals/Stats  | Aggregates    | Chart Macros     | Batch Processing   | AI Models           | Data Pages      | Visual Themes   |
+| **Visualization** | Charts   | Reports       | BI Tools      | Chart Automation | Report Exports     | Plotly, Seaborn     | Canvas, SVG     | Layout & Colors |
+| **Deployment**    | Books    | Access DB     | SQLite DB     | Add-ins          | Add-ins/Reports    | Flask, FastAPI      | HTML Dashboards | CSS UI Layer    |
 
 
 
-
-
-# 📈 Combined Learning Progression Diagram
+## 📈 Combined Learning Progression Diagram
 
 ```
 ┌──────────────────────────┐
 │        🧮 Excel          │
-│  Foundations of Army     │
-│  analytics: formulas,    │
-│  tables, dynamic arrays  │
 └──────────────┬───────────┘
                │
                ▼
 ┌──────────────────────────┐
-│        🐘 SQL            │
-│  Structured data access: │
-│  joins, normalization,   │
-│  Access & SQLite models  │
+│    🐘 SQL (Access)       │
 └──────────────┬───────────┘
                │
                ▼
 ┌──────────────────────────┐
-│        ⚙️ VBA            │
-│  Automation inside the   │
-│  perimeter: macros, DAO  │
-│  ADO, Office workflows   │
+│    🐘 SQL (SQLite)       │
+└──────────────┬───────────┘
+               │
+               ▼
+┌──────────────────────────┐
+│   ⚙️ VBA (Excel)         │
+└──────────────┬───────────┘
+               │
+               ▼
+┌──────────────────────────┐
+│   ⚙️ VBA (Access)        │
 └──────────────┬───────────┘
                │
                ▼
 ┌──────────────────────────┐
 │       🐍 Python          │
-│  Modern analytics stack: │
-│  pandas, ML, ETL, APIs   │
 └──────────────┬───────────┘
                │
                ▼
 ┌──────────────────────────┐
 │       🌐 HTML5           │
-│  Web structure for Army  │
-│  dashboards and portals  │
 └──────────────┬───────────┘
                │
                ▼
 ┌──────────────────────────┐
 │       🎨 CSS3            │
-│  Responsive layouts, UI  │
-│  theming, DoD-style GUI │
 └──────────────┬───────────┘
                │
                ▼
 ┌──────────────────────────┐
 │       📊 Power BI        │
-│  Interactive dashboards, │
-│  DAX, secure publishing  │
+└──────────────┬───────────┘
+               │
+               ▼
+┌──────────────────────────┐
+│       📐 DAX             │
 └──────────────────────────┘
 ```
+
 
 
 ## 🪖 Alignment with Army Data Modernization
@@ -335,21 +445,17 @@ Learning modules draw from authoritative texts and field practice:
 
 
 
-
 ## 🪶 Author
 
 **[Terry D. Eppler](https://gravatar.com/terryepplerphd)**
 • Data Scientist • Developer • Data Modernization Architect
-📧 *[terryeppler@gmail.com](mailto:terryeppler@gmail.com)*  |
-GitHub: [@TerryEppler](https://github.com/TerryEppler)
+📧 *[terryeppler@gmail.com](mailto:terryeppler@gmail.com)*  |  GitHub: [@TerryEppler](https://github.com/TerryEppler)
 
-> **Disclaimer**: This is for analytical exploration, research, and education purposes.  
+> **Disclaimer**: This is for analytical exploration, research, and education purposes.
 > This is **not** an official government product; validate against authoritative sources before use.
 
-
-
+---
 
 ## 📝 License
 
 Halo-Kitty Adventures is published under the [MIT General Public License v3](https://github.com/is-leeroy-jenkins/Sake/blob/master/LICENSE.txt).
-
