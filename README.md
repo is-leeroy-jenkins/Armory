@@ -19,7 +19,7 @@
 - Each tutorial is written for analysts modernizing workflows.
 - Lessons progress linearly, introducing tools and logic at each level of the Army’s analytic maturity model.
 
----
+
 
 ## 🧩 Repository Structure
 
@@ -27,34 +27,34 @@
 Halo-Kitty-Adventures/
 │
 ├── 📂 Excel/
-│   ├── Excel_Formula_Cheat_Sheet.md
+│   ├── Excel_Formula.md
 │   └── Advanced_Analytics_Formulas.md
 │
 ├── 📂 SQL/
-│   ├── Access_SQL_Tutorial.md
-│   └── SQLite_Tutorial.md
+│   ├── sql-access.md
+│   └── sql-sqlite.md
 │
 ├── 📂 VBA/
-│   ├── Excel_VBA_Tutorial.md
-│   └── Access_VBA_Tutorial.md
+│   ├── vba-tutorial.md
+│   └── vba-access.md
 │
 ├── 📂 Python/
-│   ├── Python_Programming_Tutorial.md
-│   └── Python_VirtualEnv_Guide.md
+│   ├── python.md
 │
 ├── 📂 HTML5/
-│   ├── HTML5_Element_Guide.ipynb
-│   └── HTML5_Examples.ipynb
+│   ├── html-tutorial.ipynb
 │
 ├── 📂 CSS3_/
-│   ├── CSS3_Elements_and_Attributes.ipynb
-│   └── CSS3_Examples_and_Layouts.ipynb
+│   ├── css-tutorial.ipynb
+│
+├── 📂 Power BI_/
+│   ├── pbi-tutorial.ipynb
 │
 └── README.md
 
 ```
 
----
+
 
 ## 🎯 Learning Objectives
 |        Domain | Goal                                                                       | Outcome                                                   |
@@ -208,7 +208,7 @@ Halo-Kitty-Adventures/
 * `CSS3_Examples_and_Layouts.ipynb` — Real-world styling exercises
 
 
-# 📊 Power BI — *Modern Visual Analytics for the Army*
+# 📊 Power BI — *Modern Visual Analytics*
 
 <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Halo-Kitty-Adventures/blob/main/python/notebooks/pbi.ipynb" target="_parent">
 <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
@@ -231,7 +231,7 @@ Halo-Kitty-Adventures/
 * `PowerBI_DAX_Workshop.ipynb` — DAX patterns and readiness‑focused formulas
 * `PowerBI_Dashboard_Examples.ipynb` — Example Army execution, readiness, and personnel dashboards
 
-## Army Example
+## Example
 
 > Create an end‑to‑end execution dashboard that connects Access/SQL/Python outputs, applies DAX time‑intelligence, and publishes to a secure Army workspace for operational leaders.
 
@@ -310,5 +310,5 @@ GitHub: [@TerryEppler](https://github.com/TerryEppler)
 
 ## 📝 License
 
-Halo Kitty Adventures is published under the [MIT General Public License v3](https://github.com/is-leeroy-jenkins/Sake/blob/master/LICENSE.txt).
+Halo-Kitty Adventures is published under the [MIT General Public License v3](https://github.com/is-leeroy-jenkins/Sake/blob/master/LICENSE.txt).
 
