@@ -42,21 +42,31 @@ Halo-Kitty-Adventures/
 │   ├── Python_Programming_Tutorial.md
 │   └── Python_VirtualEnv_Guide.md
 │
+├── 📂 HTML5/
+│   ├── HTML5_Element_Guide.ipynb
+│   └── HTML5_Examples.ipynb
+│
+├── 📂 CSS3_/
+│   ├── CSS3_Elements_and_Attributes.ipynb
+│   └── CSS3_Examples_and_Layouts.ipynb
+│
 └── README.md
+
 ```
 
 ---
 
 ## 🎯 Learning Objectives
+|        Domain | Goal                                                                       | Outcome                                                   |
+| ------------: | -------------------------------------------------------------------------- | --------------------------------------------------------- |
+|  **🧮 Excel** | Teach analytical reasoning through structured formulas and dynamic arrays. | Accurate, repeatable spreadsheet analytics.               |
+|    **🐘 SQL** | Develop mastery in querying and normalizing structured data.               | Clean, standardized datasets for enterprise use.          |
+|    **⚙️ VBA** | Enable automation and interoperability across MS Office applications.      | Time savings and reduced data errors.                     |
+| **🐍 Python** | Build modern analytics and AI pipelines.                                   | Automated RAG, ETL, and ML capabilities.                  |
+|  **🌐 HTML5** | Introduce web structure for Army analytics dashboards.                     | Standardized, accessible web-based analytics interfaces.  |
+|   **🎨 CSS3** | Teach styling and responsive design principles.                            | Visually coherent, device-agnostic Army web applications. |
 
-|                       Domain | Goal                                                                              | Outcome                                                                      |
-| ---------------------------: |-----------------------------------------------------------------------------------| ---------------------------------------------------------------------------- |
-|        **🧮 Excel Formulas** | Build analytic foundations for non-coders using dynamic formulas and array logic. | Reduce manual processing and establish reproducible, auditable spreadsheets. |
-| **🐘 SQL (Access / SQLite)** | Query, normalize, and aggregate structured data across systems.                   | Enable clean data pipelines for modern analytics environments.               |
-|  **⚙️ VBA (Excel / Access)** | Automate repetitive processes and integrate Office apps.                          | Streamline workflows, reporting, and cross-application interoperability.     |
-|                **🐍 Python** | Transition analysts into scripting, automation, and machine learning pipelines.   | Empower Army teams with scalable, AI-ready analytics capabilities.           |
 
----
 
 ## 🧮 Excel Formulas — *“The Foundation”*
 
@@ -81,7 +91,7 @@ Halo-Kitty-Adventures/
 
 > Automate daily readiness metrics using dynamic array formulas that update automatically as new personnel data arrives.
 
----
+
 
 ## 🧾 SQL — *“The Language of Data”*
 <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Halo-Kitty-Adventures/blob/main/sql/notebooks/access.ipynb" target="_parent">
@@ -103,7 +113,7 @@ Halo-Kitty-Adventures/
 
 > Create SQL joins between GFEBS obligation records and Power BI reporting datasets to reconcile funding execution in real time.
 
----
+
 
 ## ⚙️ VBA — *“Classic Automation”*
 <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Halo-Kitty-Adventures/blob/main/python/notebooks/vba.ipynb" target="_parent">
@@ -126,7 +136,7 @@ Halo-Kitty-Adventures/
 
 > Automatically generate Excel readiness dashboards from Access data, email them via Outlook, and archive backups with one button click.
 
----
+
 
 ## 🐍 Python — *“Advanced Analytics”*
 <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Halo-Kitty-Adventures/blob/main/python/notebooks/python.ipynb" target="_parent">
@@ -149,7 +159,58 @@ Halo-Kitty-Adventures/
 
 > Use Python ETL scripts to consolidate O&M execution data, generate predictive models, and deploy dashboards supporting OUSD(C) reporting.
 
----
+# 🌐 HTML5 — *Web Foundations for Analytics*
+
+<a href="https://colab.research.google.com/github/is-leeroy-jenkins/Halo-Kitty-Adventures/blob/main/python/notebooks/python.ipynb" target="_parent">
+<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+
+
+> Teach structure, semantics, and accessibility for data dashboards and Army web analytics systems.
+
+## Core Topics
+
+* HTML document structure and metadata
+* Phrasing, flow, and grouping elements
+* Forms, tables, and input controls
+* Multimedia (audio/video) embedding
+* Semantic layout (`header`, `nav`, `article`, `section`, `footer`)
+
+## Notebook Examples
+
+* `HTML5_Element_Guide.ipynb` — Organized by element group (metadata, form, text, media)
+* `HTML5_Examples.ipynb` — Practical snippets and Army-themed dashboards
+
+## Example
+
+> Build a responsive command dashboard prototype with HTML5 elements to display live readiness metrics and operational KPIs.
+
+
+
+# 🎨 CSS3 — *Designing with Purpose*
+
+<a href="https://colab.research.google.com/github/is-leeroy-jenkins/Halo-Kitty-Adventures/blob/main/python/notebooks/python.ipynb" target="_parent">
+<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+
+
+> Master layout and design for analytics dashboards and knowledge portals.
+
+## Core Topics
+
+* Selectors and pseudo-classes
+* The box model and positioning
+* Flexbox and Grid layout systems
+* Typography and color schemes
+* Animations, transitions, media queries, and dark mode styling
+
+## Notebook Examples
+
+* `CSS3_Elements_and_Attributes.ipynb` — Attributes table, values, and examples
+* `CSS3_Examples_and_Layouts.ipynb` — Real-world styling exercises
+
+## Example
+
+> Design a dark-mode WPF-style data portal in CSS3 to display mission-critical analytics with responsive mobile compatibility.
+
 
 ## 🧠 Integrated Learning Framework
 
@@ -161,7 +222,7 @@ Halo-Kitty-Adventures/
 | **Modeling**    | Forecast & Solver    | Query Modeling     | Regression Macros | `scikit-learn`, `torch` |
 | **Deployment**  | Shared Workbooks     | Access Forms       | Add-Ins           | Flask / FastAPI APIs    |
 
----
+
 
 ## 🧬 Recommended Learning Sequence
 
@@ -177,7 +238,7 @@ START → Excel Formulas
         Cross-Domain Capstone: Integrating All Four Layers
 ```
 
----
+
 
 ## 🪖 Alignment with Army Data Modernization
 
@@ -188,7 +249,7 @@ START → Excel Formulas
 | **Access → Python Migration** | Bridges legacy Office automation to modern data science environments.             |
 | **DoD AI/ML Modernization**   | Establishes standardized, model-ready data processes.                             |
 
----
+
 
 ## 🧾 Reference Materials
 
@@ -199,7 +260,7 @@ Learning modules draw from authoritative texts and field practice:
 * *Machine Learning with PyTorch and Scikit-Learn* — Sebastian Raschka et al.
 * *Pro WPF 4.5 in C#* — Matthew MacDonald
 
----
+
 
 ## 🧰 Prerequisites
 
@@ -209,7 +270,7 @@ Learning modules draw from authoritative texts and field practice:
 * Optional: Visual Studio Code, GitHub Desktop, LM Studio (for RAG integration)
 
 
----
+
 
 ## 🪶 Author
 
@@ -221,7 +282,7 @@ GitHub: [@TerryEppler](https://github.com/TerryEppler)
 > **Disclaimer**: This is for analytical exploration, research, and education purposes.  
 > This is **not** an official government product; validate against authoritative sources before use.
 
----
+
 
 
 ## 📝 License
