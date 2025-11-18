@@ -28,9 +28,6 @@
 
 
 ## 📑 Table of Contents
-- [Overview](#-overview)
-- [Repository Structure](#-repository-structure)
-- [Learning Objectives](#-learning-objectives)
 - [Excel Formulas](#-excel-formulas--the-foundation)
 - [SQL](#-sql)
   - [SQL (Access)](#-sql-access--desktop-relational-data-management)
@@ -43,13 +40,6 @@
 - [CSS3](#-css3--designing-with-purpose)
 - [Power BI](#-power-bi--modern-visual-analytics)
 - [DAX](#-dax--advanced-calculation-logic)
-- [Integrated Learning Framework](#-integrated-learning-framework)
-- [Combined Learning Progression Diagram](#-combined-learning-progression-diagram)
-- [Reference Materials](#-reference-materials)
-- [Prerequisites](#-prerequisites)
-- [Author](#-author)
-- [License](#-license)
-
 
 
 
@@ -133,7 +123,6 @@ Halo-Kitty-Adventures/
 
 
 ## 🧾 SQL (Access) — *Desktop Relational Data Management*
-' '
 
 <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Halo-Kitty-Adventures/blob/main/sql/notebooks/sql-access.ipynb" target="_parent">
 <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
