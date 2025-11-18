@@ -16,8 +16,8 @@
 
 ## 📘 Overview
 
-Each tutorial is written for analysts modernizing workflows under the **Army Data Plan (ADP)** and **DoD AI/ML modernization** strategy.
-Lessons progress linearly, introducing tools and logic at each level of the Army’s analytic maturity model.
+- Each tutorial is written for analysts modernizing workflows.
+- Lessons progress linearly, introducing tools and logic at each level of the Army’s analytic maturity model.
 
 ---
 
@@ -47,13 +47,13 @@ Halo-Kitty-Adventures/
 
 ---
 
-## 🎯 Mission Objectives
+## 🎯 Learning Objectives
 
 |                       Domain | Goal                                                                              | Outcome                                                                      |
-| ---------------------------: | --------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| ---------------------------: |-----------------------------------------------------------------------------------| ---------------------------------------------------------------------------- |
 |        **🧮 Excel Formulas** | Build analytic foundations for non-coders using dynamic formulas and array logic. | Reduce manual processing and establish reproducible, auditable spreadsheets. |
 | **🐘 SQL (Access / SQLite)** | Query, normalize, and aggregate structured data across systems.                   | Enable clean data pipelines for modern analytics environments.               |
-|  **⚙️ VBA (Excel / Access)** | Automate repetitive Army business processes and integrate Office apps.            | Streamline workflows, reporting, and cross-application interoperability.     |
+|  **⚙️ VBA (Excel / Access)** | Automate repetitive processes and integrate Office apps.                          | Streamline workflows, reporting, and cross-application interoperability.     |
 |                **🐍 Python** | Transition analysts into scripting, automation, and machine learning pipelines.   | Empower Army teams with scalable, AI-ready analytics capabilities.           |
 
 ---
