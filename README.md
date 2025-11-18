@@ -3,9 +3,6 @@
 ![](https://github.com/is-leeroy-jenkins/Halo-Kitty-Adventures/blob/main/resources/images/Project.png)
 
 <div>
-  <p>
-    •  <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Halo-Kitty-Adventures/blob/main/excel/notebooks/dax.ipynb"> DAX </a> •  <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Halo-Kitty-Adventures/blob/main/sql/notebooks/sql-access.ipynb"> SQL-Access </a> • <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Halo-Kitty-Adventures/blob/main/excel/notebooks/formulas.ipynb"> Excel-Formulas </a> •  <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Halo-Kitty-Adventures/blob/main/sql/notebooks/sql-sqlite.ipynb"> SQLite </a> • <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Halo-Kitty-Adventures/blob/main/vba/notebook/vba-access.ipynb"> VBA-Access </a>  • <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Halo-Kitty-Adventures/blob/main/python/notebooks/python.ipynb"> Python </a> • <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Halo-Kitty-Adventures/blob/main/html/html-tutorial.ipynb"> HTML5 </a>  •  <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Halo-Kitty-Adventures/blob/main/vba/notebook/vba-tutorial.ipynb"> VBA-Excel </a>  •  <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Halo-Kitty-Adventures/blob/main/css/css-tutorial.ipynb"> CSS3 </a> • <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Halo-Kitty-Adventures/blob/main/python/notebooks/pbi.ipynb"> Power-BI </a>
-  </p>
 <div>
 <h2> Data Analytics Integration & Modernization </h2>
 </div>
@@ -14,10 +11,10 @@
   </p>
 </div>
 
-___
 
 
-### 📑 Table of Contents
+
+## 📑 Table of Contents
 - [Excel Formulas](#-excel-formulas--the-foundation)
 - [SQL](#-sql)
   - [SQL (Access)](#-sql-access--desktop-relational-data-management)
@@ -33,14 +30,14 @@ ___
 
 
 
-### 📘 Overview
+## 📘 Overview
 
 * Each tutorial is written for analysts modernizing workflows.
 * Lessons progress linearly, introducing tools and logic at each level of the analytic maturity model.
 
 
 
-### 🧩 Repository Structure
+## 🧩 Repository Structure
 
 ```
 Halo-Kitty-Adventures/
@@ -74,7 +71,7 @@ Halo-Kitty-Adventures/
 
 
 
-###  🎯 Learning Objectives
+##  🎯 Learning Objectives
 
 |              Domain | Goal                                                               | Outcome                                                |
 | ------------------: | ------------------------------------------------------------------ | ------------------------------------------------------ |
@@ -89,7 +86,7 @@ Halo-Kitty-Adventures/
 
 
 
-###  🧮 Excel Formulas — *"The Foundation"*
+##  🧮 Excel Formulas — *"The Foundation"*
 
 <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Halo-Kitty-Adventures/blob/main/excel/notebooks/formulas.ipynb" target="_parent">
 <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
@@ -112,7 +109,7 @@ Halo-Kitty-Adventures/
 > Automate daily readiness metrics using dynamic array formulas that update automatically as new data arrives.
 
 
-###  🧾 SQL (Access) — *Desktop Relational Data Management*
+##  🧾 SQL (Access) — *Desktop Relational Data Management*
 
 <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Halo-Kitty-Adventures/blob/main/sql/notebooks/sql-access.ipynb" target="_parent">
 <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
@@ -134,7 +131,7 @@ Halo-Kitty-Adventures/
 
 
 
-###  🧾 SQL (SQLite) — *Portable, Modern Data Engine*
+##  🧾 SQL (SQLite) — *Portable, Modern Data Engine*
 
 <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Halo-Kitty-Adventures/blob/main/sql/notebooks/sql-sqlite.ipynb" target="_parent">
 <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
@@ -156,7 +153,7 @@ Halo-Kitty-Adventures/
 
 
 
-###  ⚙️ VBA (Excel) — *Excel Macro Automation*
+##  ⚙️ VBA (Excel) — *Excel Macro Automation*
 
 <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Halo-Kitty-Adventures/blob/main/vba/notebook/vba-tutorial.ipynb" target="_parent">
 <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
@@ -179,7 +176,7 @@ Halo-Kitty-Adventures/
 
 
 
-###  ⚙️ VBA (Access) — *Database Automation*
+##  ⚙️ VBA (Access) — *Database Automation*
 
 <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Halo-Kitty-Adventures/blob/main/vba/notebook/vba-access.ipynb" target="_parent">
 <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
@@ -202,7 +199,7 @@ Halo-Kitty-Adventures/
 
 
 
-###  🐍 Python — *"Advanced Analytics"*
+##  🐍 Python — *"Advanced Analytics"*
 
 <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Halo-Kitty-Adventures/blob/main/python/notebooks/python.ipynb" target="_parent">
 <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
@@ -331,7 +328,7 @@ Halo-Kitty-Adventures/
 
 
 
-###  🧠 Integrated Learning Framework
+##  🧠 Integrated Learning Framework
 
 | Layer             | Excel    | SQL (Access)  | SQL (SQLite)  | VBA (Excel)      | VBA (Access)       | Python              | HTML5           | CSS3            |
 | :---------------- | :------- | :------------ | :------------ | :--------------- | :----------------- | :------------------ | :-------------- | :-------------- |
@@ -343,7 +340,7 @@ Halo-Kitty-Adventures/
 
 
 
-###  📈 Combined Learning Progression Diagram
+##  📈 Combined Learning Progression Diagram
 
 ```
 ┌──────────────────────────┐
@@ -398,7 +395,7 @@ Halo-Kitty-Adventures/
 
 
 
-###  🪖 Alignment with Army Data Modernization
+##  🪖 Alignment with Army Data Modernization
 
 | Initiative                    | Relevance                                                                         |
 | ----------------------------- | --------------------------------------------------------------------------------- |
@@ -409,7 +406,7 @@ Halo-Kitty-Adventures/
 
 
 
-### 🧾 Reference Materials
+## 🧾 Reference Materials
 
 Learning modules draw from authoritative texts and field practice:
 
@@ -420,7 +417,7 @@ Learning modules draw from authoritative texts and field practice:
 
 
 
-###  🧰 Prerequisites
+##  🧰 Prerequisites
 
 * **Microsoft 365** (Excel & Access)
 * **Python 3.10+**
@@ -429,7 +426,7 @@ Learning modules draw from authoritative texts and field practice:
 
 
 
-###  🪶 Author
+##  🪶 Author
 
 **[Terry D. Eppler](https://gravatar.com/terryepplerphd)**
 • Data Scientist • Developer • Data Modernization Architect
@@ -440,6 +437,6 @@ Learning modules draw from authoritative texts and field practice:
 
 
 
-###  📝 License
+##  📝 License
 
 Halo-Kitty Adventures is published under the [MIT General Public License v3](https://github.com/is-leeroy-jenkins/Sake/blob/master/LICENSE.txt).
