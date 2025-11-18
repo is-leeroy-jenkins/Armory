@@ -87,12 +87,10 @@ Halo-Kitty-Adventures/
 
 
 ##  🧮 Excel Formulas — *"The Foundation"*
-
-- Every data workflow begins in Excel — transforming raw numbers into insight.
-- Google Colab linked below
-
 <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Halo-Kitty-Adventures/blob/main/excel/notebooks/formulas.ipynb" target="_parent">
 <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+
+- Every data workflow begins in Excel — transforming raw numbers into insight.
 
 
 **Core Topics**
@@ -112,15 +110,11 @@ Halo-Kitty-Adventures/
 
 ##  🧾 SQL (Access) — *Desktop Relational Data Management*
 
-- Automate daily readiness metrics using dynamic array formulas that update automatically as new data arrives.
-- Google Colab linked below
-
-
-
 <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Halo-Kitty-Adventures/blob/main/sql/notebooks/sql-access.ipynb" target="_parent">
 <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
-> Query, join, and aggregate data in Microsoft Access for rapid prototyping and legacy workflow integration.
+- Automate daily readiness metrics using dynamic array formulas that update automatically as new data arrives.
+- Query, join, and aggregate data in Microsoft Access for rapid prototyping and legacy workflow integration.
 
 **Core Topics**
 
@@ -131,21 +125,16 @@ Halo-Kitty-Adventures/
 * Aggregation, grouping, and summary statistics
 * Access SQL syntax quirks and best practices
 
-**Example:**
-
-> Join personnel and operational tables using parameter prompts, creating dynamic Access queries for ad hoc reporting.
-
 
 
 ##  🧾 SQL (SQLite) — *Portable, Modern Data Engine*
 
-- Use SQLite to store, manage, and query datasets in a single-file, portable, SQL-compliant engine for analytics pipelines and app development.
-- Google Colab linked below
-
-
 <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Halo-Kitty-Adventures/blob/main/sql/notebooks/sql-sqlite.ipynb" target="_parent">
 <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
+
+- Use SQLite to store, manage, and query datasets in a single-file, portable, SQL-compliant engine for analytics pipelines and app development.
+- Export Access data to SQLite, then run complex analytics queries in Python or BI tools without needing Access or SQL Server.
 
 
 **Core Topics**
@@ -157,20 +146,16 @@ Halo-Kitty-Adventures/
 * Data migration from Access to SQLite
 * Performance and scalability for large datasets
 
-**Example:**
-
-> Export Access data to SQLite, then run complex analytics queries in Python or BI tools without needing Access or SQL Server.
-
 
 
 ##  ⚙️ VBA (Excel) — *Excel Macro Automation*
 
-- Automate repetitive tasks, reporting, and analysis in Microsoft Excel using VBA.
-- Google Colab linked below
-
-
 <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Halo-Kitty-Adventures/blob/main/vba/notebook/vba-tutorial.ipynb" target="_parent">
 <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+
+
+- Automate repetitive tasks, reporting, and analysis in Microsoft Excel using VBA.
+- Automatically generate, format, and distribute Excel-based dashboards on a scheduled basis, emailing results to stakeholders with a single button click.
 
 
 **Core Topics**
@@ -183,20 +168,16 @@ Halo-Kitty-Adventures/
 * Error handling and debugging tools in Excel
 * Leveraging named ranges and structured references
 
-**Example:**
-
-> Automatically generate, format, and distribute Excel-based dashboards on a scheduled basis, emailing results to stakeholders with a single button click.
-
 
 
 ##  ⚙️ VBA (Access) — *Database Automation*
 
-- Use VBA in Microsoft Access to automate database operations, form management, and advanced data integration.
-- Google Colab linked below
-
-
 <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Halo-Kitty-Adventures/blob/main/vba/notebook/vba-access.ipynb" target="_parent">
 <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+
+
+- Use VBA in Microsoft Access to automate database operations, form management, and advanced data integration.
+- Build an Access tool that imports operational data, transforms and validates records, and then exports the cleaned dataset for analysis or reporting.
 
 
 **Core Topics**
@@ -209,20 +190,16 @@ Halo-Kitty-Adventures/
 * Linking Access to other Office applications
 * Advanced query and parameterization workflows
 
-**Example:**
-
-> Build an Access tool that imports operational data, transforms and validates records, and then exports the cleaned dataset for analysis or reporting.
-
 
 
 ##  🐍 Python — *"Advanced Analytics"*
 
-- Transition into enterprise-grade analytics and machine learning using modern open-source tooling.
-- Google Colab linked below
-
 <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Halo-Kitty-Adventures/blob/main/python/notebooks/python.ipynb" target="_parent">
 <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
+
+- Transition into enterprise-grade analytics and machine learning using modern open-source tooling.
+- Use Python ETL scripts to consolidate execution data, generate predictive models, and deploy dashboards.
 
 
 **Core Topics**
@@ -235,20 +212,16 @@ Halo-Kitty-Adventures/
 * Natural Language Processing & RAG frameworks
 * API and automation scripting
 
-**Example:**
-
-> Use Python ETL scripts to consolidate execution data, generate predictive models, and deploy dashboards.
-
 
 
 ## 🌐 HTML5 — *Web Foundations for Analytics*
 
-- Teach structure, semantics, and accessibility for data dashboards and web analytics systems.
-- Google Colab linked below
-
 <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Halo-Kitty-Adventures/blob/main/html/html-tutorial.ipynb" target="_parent">
 <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
+
+- Teach structure, semantics, and accessibility for data dashboards and web analytics systems.
+- Build a responsive dashboard prototype with HTML5 elements to display live metrics and KPIs.
 
 ###  Core Topics
 
@@ -263,21 +236,14 @@ Halo-Kitty-Adventures/
 * `HTML5_Element_Guide.ipynb` — Organized by element group (metadata, form, text, media)
 * `HTML5_Examples.ipynb` — Practical snippets and analytics-themed dashboards
 
-###  Example
-
-> Build a responsive dashboard prototype with HTML5 elements to display live metrics and KPIs.
-
 
 
 ## 🎨 CSS3 — *Designing with Purpose*
 
-- Master layout and design for analytics dashboards and knowledge portals.
-- Google Colab linked below
-
 <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Halo-Kitty-Adventures/blob/main/css/css-tutorial.ipynb" target="_parent">
 <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
-
+- Master layout and design for analytics dashboards and knowledge portals.
 
 ###  Core Topics
 
@@ -294,14 +260,15 @@ Halo-Kitty-Adventures/
 
 
 
-## 📊 Power BI — *Modern Visual Analytics*
 
-- Learn to build interactive dashboards, integrate multi‑source datasets, and publish secure analytics.
-- Google Colab linked below
+## 📊 Power BI — *Modern Visual Analytics*
 
 <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Halo-Kitty-Adventures/blob/main/python/notebooks/pbi.ipynb" target="_parent">
 <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
+
+- Learn to build interactive dashboards, integrate multi‑source datasets, and publish secure analytics.
+- Create an end‑to‑end execution dashboard that connects Access/SQL/Python outputs, applies DAX time‑intelligence, and publishes to a secure workspace for decision makers.
 
 
 ###  Core Topics
@@ -314,27 +281,24 @@ Halo-Kitty-Adventures/
 * Power Query (M language) for data cleaning and transformation
 * Publishing to Power BI Service and securing workspaces
 
+
+
 ### Notebooks
 
 * `PowerBI_Data_Modeling.ipynb` — Demonstrates shaping data for clean relationships
 * `PowerBI_DAX_Workshop.ipynb` — DAX patterns and analytics‑focused formulas
 * `PowerBI_Dashboard_Examples.ipynb` — Example execution, readiness, and personnel dashboards
 
-###  Example
-
-> Create an end‑to‑end execution dashboard that connects Access/SQL/Python outputs, applies DAX time‑intelligence, and publishes to a secure workspace for decision makers.
-
 
 
 ## 📐 DAX — *Advanced Calculation Logic*
 
-- via Google Colab:
-
 <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Halo-Kitty-Adventures/blob/main/excel/notebooks/dax.ipynb" target="_parent">
 <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
-> Add advanced calculation logic used across Power BI, Analysis Services, and modern dashboarding.
 
+- Add advanced calculation logic used across Power BI, Analysis Services, and modern dashboarding.
+- Build FY-based obligation and disbursement measures using DAX time-intelligence patterns to support operational reporting and decision-making.
 ### Core Topics
 
 * Row context vs. filter context
@@ -344,6 +308,8 @@ Halo-Kitty-Adventures/
 * Time intelligence (`DATEADD`, `TOTALYTD`, `SAMEPERIODLASTYEAR`)
 * Measures vs. calculated columns
 * Variables (`VAR`) and performance optimization
+* 
+
 
 ### Notebooks
 
@@ -351,9 +317,6 @@ Halo-Kitty-Adventures/
 * `DAX_Time_Intelligence.ipynb` — Fiscal year modeling, rolling periods, readiness metrics
 * `DAX_Advanced_Patterns.ipynb` — Budget execution KPIs, cumulative totals, operational ratios
 
-### Example
-
-> Build FY-based obligation and disbursement measures using DAX time-intelligence patterns to support operational reporting and decision-making.
 
 
 
