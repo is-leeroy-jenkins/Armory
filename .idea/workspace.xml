@@ -6,11 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ab0cd147-3770-4df1-bd3b-f24c8915e59e" name="Changes" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/notebooks/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/css/notebooks/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excel/notebooks/dax/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/excel/notebooks/dax/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excel/notebooks/formulas/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/excel/notebooks/formulas/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/notebooks/pbi/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/python/notebooks/pbi/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/notebooks/py/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/python/notebooks/py/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -144,7 +139,7 @@
       <updated>1763495286247</updated>
       <workItem from="1763495290791" duration="1529000" />
       <workItem from="1763512642915" duration="896000" />
-      <workItem from="1763556107125" duration="11755000" />
+      <workItem from="1763556107125" duration="12271000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -250,7 +245,23 @@
       <option name="project" value="LOCAL" />
       <updated>1763570609269</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="update">
+      <option name="closed" value="true" />
+      <created>1763571747123</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1763571747123</updated>
+    </task>
+    <task id="LOCAL-00015" summary="update">
+      <option name="closed" value="true" />
+      <created>1763571972934</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1763571972934</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,6 +272,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Halo_Kitty_Adventures$Halo_Kitty_Adventures.coverage" NAME="Halo-Kitty-Adventures Coverage Results" MODIFIED="1763561529860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Halo_Kitty_Adventures$Halo_Kitty_Adventures.coverage" NAME="Halo-Kitty-Adventures Coverage Results" MODIFIED="1763571980703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
