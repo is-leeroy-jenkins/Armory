@@ -1,436 +1,320 @@
-###### _
+# 🐼 **Pandas Tutorial — A Practical Guide for Data Analysis**
 
-![](https://github.com/is-leeroy-jenkins/Halo-Kitty-Adventures/blob/main/resources/images/Project.png)
+Pandas is the foundational Python library for data analysis. It provides fast, flexible, and expressive data structures—`Series` and `DataFrame`—to help you clean, explore, transform, and analyze structured datasets. This tutorial offers a clear, example-driven walkthrough of the most essential concepts you'll use every day as a data scientist, analyst, or engineer.
 
+---
 
-<div>
-<div>
-<h2> Data Analytics Integration & Modernization </h2>
-</div>
-  <p>
-    An educational repository supporting the Federal Data Analytics Integration & Modernization initiatives. It consolidates four core learning domains — Excel, SQL, VBA, and Python — into a unified framework that builds technical fluency from tactical spreadsheet analytics to enterprise-scale data science
-  </p>
-</div>
+## 📦 **1. Importing Pandas & Understanding Core Data Structures**
 
-## 📑 Table of Contents
-- [Excel Formulas](#-excel-formulas--the-foundation)
-- [SQL](#-sql)
-  - [SQL (Access)](#-sql-access--desktop-relational-data-management)
-  - [SQL (SQLite)](#-sql-sqlite--portable-modern-data-engine)
-- [VBA](#-vba)
-  - [VBA (Excel)](#-vba-excel--excel-macro-automation)
-  - [VBA (Access)](#-vba-access--database-automation)
-- [Python](#-python--advanced-analytics)
-- [HTML5](#-html5--web-foundations-for-analytics)
-- [CSS3](#-css3--designing-with-purpose)
-- [Power BI](#-power-bi--modern-visual-analytics)
-- [DAX](#-dax--advanced-calculation-logic)
+Pandas offers two primary objects:
+**Series**, a 1-dimensional labeled array, and
+**DataFrame**, a 2-dimensional labeled table similar to Excel or SQL tables.
 
+* 🧩 Series = 1D labeled array (index + data).
+* 📑 DataFrame = 2D table (rows + columns).
+* 🧱 Column types can differ (int, float, string, objects).
+* 🔍 Index labels enable alignment and intuitive selection.
+* ⚙️ Pandas builds on NumPy.
 
+### **Code Example**
 
+```python
+import pandas as pd
 
+# Series
+s = pd.Series([10, 20, 30], index=['A', 'B', 'C'])
+print(s)
 
-
-## 📘 Overview
-
-* Each tutorial is written for analysts modernizing workflows.
-* Lessons progress linearly, introducing tools and logic at each level of the analytic maturity model.
-
-
-
-## 🧩 Repository Structure
-
-```
-Halo-Kitty-Adventures/
-│
-├── 📂 Excel/
-│   ├── Excel_Formula.md
-│   └── Advanced_Analytics_Formulas.md
-│
-├── 📂 SQL/
-│   ├── sql-access.md
-│   └── sql-sqlite.md
-│
-├── 📂 VBA/
-│   ├── vba-tutorial.md
-│   └── vba-access.md
-│
-├── 📂 Python/
-│   ├── python.md
-│
-├── 📂 HTML5/
-│   ├── html-tutorial.ipynb
-│
-├── 📂 CSS3_/
-│   ├── css-tutorial.ipynb
-│
-├── 📂 Power BI_/
-│   ├── pbi-tutorial.ipynb
-│
-└── README.md
+# DataFrame
+df = pd.DataFrame({
+    'Name': ['Alice', 'Bob', 'Chris'],
+    'Age': [25, 30, 22],
+    'Score': [88.5, 92.0, 79.5]
+})
+print(df)
 ```
 
+---
 
+## 📥 **2. Reading Data from Files**
 
-##  🎯 Learning Objectives
+Pandas supports numerous file types: CSV, Excel, JSON, SQL, Parquet, and more.
 
-|              Domain | Goal                                                               | Outcome                                                |
-| ------------------: | ------------------------------------------------------------------ | ------------------------------------------------------ |
-|        **🧮 Excel** | Teach analytical reasoning through structured formulas and arrays. | Accurate, repeatable spreadsheet analytics.            |
-| **🐘 SQL (Access)** | Rapid desktop queries, prototyping, legacy data management.        | Dynamic reports, parameterized queries, legacy bridge. |
-| **🐘 SQL (SQLite)** | Portable analytics engine, Python integration, scalable analytics. | Large data, pipeline-ready, app and BI integration.    |
-|  **⚙️ VBA (Excel)** | Automate Excel reporting, charting, and integration with Office.   | Faster reports, error-free automation, user macros.    |
-| **⚙️ VBA (Access)** | Automate database tasks, forms, data imports, reporting.           | Automated imports/exports, validated data pipelines.   |
-|       **🐍 Python** | Build modern analytics and AI pipelines.                           | Automated RAG, ETL, and ML capabilities.               |
-|        **🌐 HTML5** | Introduce web structure for dashboards and analytics sites.        | Structured, accessible web-based analytics.            |
-|         **🎨 CSS3** | Teach styling and responsive web design for analytics portals.     | Visually coherent, device-agnostic web applications.   |
+* 📄 Read CSV: `pd.read_csv()`.
+* 📊 Read Excel: `pd.read_excel()`.
+* 🗂️ Read SQL queries via connections.
+* ✍️ Auto-type detection with ability to override.
+* ⚠️ Use options (encoding, delim, header) for messy files.
 
+### **Code Example**
 
+```python
+import pandas as pd
 
-##  🧮 Excel Formulas — *"The Foundation"*
+# CSV
+df = pd.read_csv('employees.csv')
 
-<a href="https://colab.research.google.com/github/is-leeroy-jenkins/Halo-Kitty-Adventures/blob/main/excel/notebooks/formulas/excel-formulas.ipynb" target="_parent">
-<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+# Excel
+df2 = pd.read_excel('budget.xlsx')
 
-- Every data workflow begins in Excel — transforming raw numbers into insight.
+# JSON
+df3 = pd.read_json('data.json')
 
-
-**Core Topics**
-
-* Mathematical and logical operators
-* Text manipulation (`LEFT`, `MID`, `FIND`, `TEXTJOIN`)
-* Conditional logic (`IF`, `IFS`, `AND`, `OR`, `SWITCH`)
-* Lookup functions (`VLOOKUP`, `XLOOKUP`, `INDEX`, `MATCH`)
-* Dynamic arrays (`FILTER`, `SORT`, `UNIQUE`, `SEQUENCE`)
-* Date and time analysis (`EOMONTH`, `NETWORKDAYS`, `YEARFRAC`)
-* Financial/statistical formulas (`PMT`, `NPV`, `STDEV`, `FORECAST.LINEAR`)
-* Named ranges, structured tables, and data validation
-
-**Example:**
-
-
-
-##  🧾 SQL (Access) — *Desktop Relational Data Management*
-
-<a href="https://colab.research.google.com/github/is-leeroy-jenkins/Halo-Kitty-Adventures/blob/main/sql/notebooks/access/sql-access.ipynb" target="_parent">
-<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
-
-- Automate daily readiness metrics using dynamic array formulas that update automatically as new data arrives.
-- Query, join, and aggregate data in Microsoft Access for rapid prototyping and legacy workflow integration.
-
-**Core Topics**
-
-* SELECT query execution order
-* INNER, OUTER, and CROSS joins in Access
-* Crosstab, make-table, and append queries
-* Access parameter prompts and macros
-* Aggregation, grouping, and summary statistics
-* Access SQL syntax quirks and best practices
-
-
-
-##  🧾 SQL (SQLite) — *Portable, Modern Data Engine*
-
-<a href="https://colab.research.google.com/github/is-leeroy-jenkins/Halo-Kitty-Adventures/blob/main/sql/notebooks/sqlite/sql-sqlite.ipynb" target="_parent">
-<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
-
-
-- Use SQLite to store, manage, and query datasets in a single-file, portable, SQL-compliant engine for analytics pipelines and app development.
-- Export Access data to SQLite, then run complex analytics queries in Python or BI tools without needing Access or SQL Server.
-
-
-**Core Topics**
-
-* Creating and normalizing tables for analytics
-* Standard ANSI SQL features and constraints
-* Complex subqueries, views, triggers, and indices
-* Integration with Python and Power BI
-* Data migration from Access to SQLite
-* Performance and scalability for large datasets
-
-
-
-##  ⚙️ VBA (Excel) — *Excel Macro Automation*
-
-<a href="https://colab.research.google.com/github/is-leeroy-jenkins/Halo-Kitty-Adventures/blob/main/vba/notebook/excel/vba-tutorial.ipynb" target="_parent">
-<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
-
-
-- Automate repetitive tasks, reporting, and analysis in Microsoft Excel using VBA.
-- Automatically generate, format, and distribute Excel-based dashboards on a scheduled basis, emailing results to stakeholders with a single button click.
-
-
-**Core Topics**
-
-* Subroutines and functions
-* Event-driven macros (Workbook, Worksheet events)
-* Automating formulas, formatting, charting
-* Integrating Excel with Outlook for email workflows
-* UserForms for Excel data entry and control
-* Error handling and debugging tools in Excel
-* Leveraging named ranges and structured references
-
-
-
-##  ⚙️ VBA (Access) — *Database Automation*
-
-<a href="https://colab.research.google.com/github/is-leeroy-jenkins/Halo-Kitty-Adventures/blob/main/vba/notebook/access/vba-access.ipynb" target="_parent">
-<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
-
-
-- Use VBA in Microsoft Access to automate database operations, form management, and advanced data integration.
-- Build an Access tool that imports operational data, transforms and validates records, and then exports the cleaned dataset for analysis or reporting.
-
-
-**Core Topics**
-
-* Automating Access forms and reports
-* DAO and ADO for recordset manipulation
-* Importing/exporting data to Excel, text, or other databases
-* Batch updates and data validation
-* Triggering Access macros with events
-* Linking Access to other Office applications
-* Advanced query and parameterization workflows
-
-
-
-##  🐍 Python — *"Advanced Analytics"*
-
-<a href="https://colab.research.google.com/github/is-leeroy-jenkins/Halo-Kitty-Adventures/blob/main/python/notebooks/py/python.ipynb" target="_parent">
-<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
-
-
-- Transition into enterprise-grade analytics and machine learning using modern open-source tooling.
-- Use Python ETL scripts to consolidate execution data, generate predictive models, and deploy dashboards.
-
-
-**Core Topics**
-
-* Virtual environments (`venv`, `pip`)
-* File and database integration (`sqlite3`, `SQLAlchemy`)
-* Data wrangling (`pandas`, `numpy`)
-* Visualization (`matplotlib`, `seaborn`)
-* Machine learning (`scikit-learn`, `PyTorch`)
-* Natural Language Processing & RAG frameworks
-* API and automation scripting
-
-
-
-## 🌐 HTML5 — *Web Foundations for Analytics*
-
-<a href="https://colab.research.google.com/github/is-leeroy-jenkins/Halo-Kitty-Adventures/blob/main/html/html-tutorial.ipynb" target="_parent">
-<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
-
-
-- Teach structure, semantics, and accessibility for data dashboards and web analytics systems.
-- Build a responsive dashboard prototype with HTML5 elements to display live metrics and KPIs.
-
-###  Core Topics
-
-* HTML document structure and metadata
-* Phrasing, flow, and grouping elements
-* Forms, tables, and input controls
-* Multimedia (audio/video) embedding
-* Semantic layout (`header`, `nav`, `article`, `section`, `footer`)
-
-### Notebooks
-
-* `HTML5_Element_Guide.ipynb` — Organized by element group (metadata, form, text, media)
-* `HTML5_Examples.ipynb` — Practical snippets and analytics-themed dashboards
-
-
-
-## 🎨 CSS3 — *Designing with Purpose*
-
-<a href="https://colab.research.google.com/github/is-leeroy-jenkins/Halo-Kitty-Adventures/blob/main/css/css-tutorial.ipynb" target="_parent">
-<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
-
-- Master layout and design for analytics dashboards and knowledge portals.
-
-###  Core Topics
-
-* Selectors and pseudo-classes
-* The box model and positioning
-* Flexbox and Grid layout systems
-* Typography and color schemes
-* Animations, transitions, media queries, and dark mode styling
-
-### Notebooks
-
-* `CSS3_Elements_and_Attributes.ipynb` — Attributes table, values, and examples
-* `CSS3_Examples_and_Layouts.ipynb` — Real-world styling exercises
-
-
-
-
-## 📊 Power BI — *Modern Visual Analytics*
-
-<a href="https://colab.research.google.com/github/is-leeroy-jenkins/Halo-Kitty-Adventures/blob/main/python/notebooks/pbi.ipynb" target="_parent">
-<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
-
-
-- Learn to build interactive dashboards, integrate multi‑source datasets, and publish secure analytics.
-- Create an end‑to‑end execution dashboard that connects Access/SQL/Python outputs, applies DAX time‑intelligence, and publishes to a secure workspace for decision makers.
-
-
-###  Core Topics
-
-* Power BI Desktop interface and workflow
-* Connecting to Excel, CSV, Access, SQL Server, and web APIs
-* Data modeling with relationships and cardinality
-* DAX fundamentals (`CALCULATE`, `FILTER`, `SUMX`, `VAR`, time‑intelligence functions)
-* Building interactive visuals, drilldowns, and hierarchies
-* Power Query (M language) for data cleaning and transformation
-* Publishing to Power BI Service and securing workspaces
-
-
-
-### Notebooks
-
-* `PowerBI_Data_Modeling.ipynb` — Demonstrates shaping data for clean relationships
-* `PowerBI_DAX_Workshop.ipynb` — DAX patterns and analytics‑focused formulas
-* `PowerBI_Dashboard_Examples.ipynb` — Example execution, readiness, and personnel dashboards
-
-
-
-## 📐 DAX — *Advanced Calculation Logic*
-
-<a href="https://colab.research.google.com/github/is-leeroy-jenkins/Halo-Kitty-Adventures/blob/main/excel/notebooks/dax/dax.ipynb" target="_parent">
-<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
-
-
-- Add advanced calculation logic used across Power BI, Analysis Services, and modern dashboarding.
-- Build FY-based obligation and disbursement measures using DAX time-intelligence patterns to support operational reporting and decision-making.
-### Core Topics
-
-* Row context vs. filter context
-* Evaluation context transition
-* `CALCULATE` and filter modifiers
-* Iterators (`SUMX`, `AVERAGEX`, `FILTER`)
-* Time intelligence (`DATEADD`, `TOTALYTD`, `SAMEPERIODLASTYEAR`)
-* Measures vs. calculated columns
-* Variables (`VAR`) and performance optimization
-* 
-
-
-### Notebooks
-
-* `DAX_Fundamentals.ipynb` — Core concepts, context evaluation, and basic measures
-* `DAX_Time_Intelligence.ipynb` — Fiscal year modeling, rolling periods, readiness metrics
-* `DAX_Advanced_Patterns.ipynb` — Budget execution KPIs, cumulative totals, operational ratios
-
-
-
-
-##  🧠 Integrated Learning Framework
-
-| Layer             | Excel    | SQL (Access)  | SQL (SQLite)  | VBA (Excel)      | VBA (Access)       | Python              | HTML5           | CSS3            |
-| :---------------- | :------- | :------------ | :------------ | :--------------- | :----------------- | :------------------ | :-------------- | :-------------- |
-| **Data Access**   | Sheets   | Access tables | SQLite tables | Named ranges     | DAO/ADO Recordset  | `pandas`, `sqlite3` | Forms & Inputs  | Styled Tables   |
-| **Automation**    | Formulas | Macros        | Python/BI     | Macros & Events  | Form/Report Macros | Scripts, schedulers | Web Scripts     | Animations      |
-| **Analytics**     | Pivots   | Totals/Stats  | Aggregates    | Chart Macros     | Batch Processing   | AI Models           | Data Pages      | Visual Themes   |
-| **Visualization** | Charts   | Reports       | BI Tools      | Chart Automation | Report Exports     | Plotly, Seaborn     | Canvas, SVG     | Layout & Colors |
-| **Deployment**    | Books    | Access DB     | SQLite DB     | Add-ins          | Add-ins/Reports    | Flask, FastAPI      | HTML Dashboards | CSS UI Layer    |
-
-
-
-##  📈 Combined Learning Progression Diagram
-
-```
-┌──────────────────────────┐
-│        🧮 Excel          │
-└──────────────┬───────────┘
-               │
-               ▼
-┌──────────────────────────┐
-│    🐘 SQL (Access)       │
-└──────────────┬───────────┘
-               │
-               ▼
-┌──────────────────────────┐
-│    🐘 SQL (SQLite)       │
-└──────────────┬───────────┘
-               │
-               ▼
-┌──────────────────────────┐
-│   ⚙️ VBA (Excel)         │
-└──────────────┬───────────┘
-               │
-               ▼
-┌──────────────────────────┐
-│   ⚙️ VBA (Access)        │
-└──────────────┬───────────┘
-               │
-               ▼
-┌──────────────────────────┐
-│       🐍 Python          │
-└──────────────┬───────────┘
-               │
-               ▼
-┌──────────────────────────┐
-│       🌐 HTML5           │
-└──────────────┬───────────┘
-               │
-               ▼
-┌──────────────────────────┐
-│       🎨 CSS3            │
-└──────────────┬───────────┘
-               │
-               ▼
-┌──────────────────────────┐
-│       📊 Power BI        │
-└──────────────┬───────────┘
-               │
-               ▼
-┌──────────────────────────┐
-│       📐 DAX             │
-└──────────────────────────┘
+print(df.head())
 ```
 
+---
 
+## 🧭 **3. Selecting, Filtering & Indexing**
 
-##  🪖 Alignment with Army Data Modernization
+Selection in Pandas uses **labels**, **integer positions**, and **logical filters**.
 
-| Initiative                    | Relevance                                                                         |
-| ----------------------------- | --------------------------------------------------------------------------------- |
-| **Army Data Plan (ADP)**      | Builds baseline data fluency and code literacy for field and enterprise analysts. |
-| **Army Vantage / ADE**        | Supports self-service data integration for operational dashboards.                |
-| **Access → Python Migration** | Bridges legacy Office automation to modern data science environments.             |
-| **DoD AI/ML Modernization**   | Establishes standardized, model-ready data processes.                             |
+* 🎯 `.loc[]` = label-based selection.
+* 🔢 `.iloc[]` = position-based selection.
+* 🔎 Boolean filters let you query rows.
+* 🪓 Column selection via attribute or key.
+* 🎣 Chaining operations is powerful but must be used carefully.
 
+### **Code Example**
 
+```python
+# Column
+df['Age']
 
-## 🧾 Reference Materials
+# Multiple columns
+df[['Name', 'Score']]
 
-Learning modules draw from authoritative texts and field practice:
+# Row by label
+df.loc[0]
 
-* *Excel 2019 Power Programming with VBA* — Michael Alexander & Dick Kusleika
-* *Introduction to Machine Learning with Python* — Andreas Müller & Sarah Guido
-* *Machine Learning with PyTorch and Scikit-Learn* — Sebastian Raschka et al.
-* *Pro WPF 4.5 in C#* — Matthew MacDonald
+# Row by position
+df.iloc[2]
 
+# Filtering
+adults = df[df['Age'] >= 25]
+print(adults)
+```
 
+---
 
-##  🧰 Prerequisites
+## 🧹 **4. Cleaning & Preparing Data**
 
-* **Microsoft 365** (Excel & Access)
-* **Python 3.10+**
-* **SQLite / DB Browser for SQLite**
-* Optional: Visual Studio Code, GitHub Desktop, LM Studio (for RAG integration)
+Real-world datasets are noisy. Pandas has extensive utilities for cleaning.
 
+* 🔄 Handle missing values with `.fillna()` or `.dropna()`.
+* 🧽 Transform text: `.str.lower()`, `.str.replace()`.
+* 🔢 Convert types with `.astype()`.
+* 🧮 Handle duplicates with `.duplicated()` and `.drop_duplicates()`.
+* 🧱 Normalize values with `.apply()` or vectorized operations.
 
+### **Code Example**
 
-##  🪶 Author
+```python
+# Missing values
+df['Score'] = df['Score'].fillna(df['Score'].mean())
 
-**[Terry D. Eppler](https://gravatar.com/terryepplerphd)**
-• Data Scientist • Developer • Data Modernization Architect
-📧 *[terryeppler@gmail.com](mailto:terryeppler@gmail.com)*  |  GitHub: [@TerryEppler](https://github.com/TerryEppler)
+# Drop rows with any NaN values
+clean_df = df.dropna()
 
-> **Disclaimer**: This is for analytical exploration, research, and education purposes.
-> This is **not** an official government product; validate against authoritative sources before use.
+# Convert type
+df['Age'] = df['Age'].astype(int)
 
+# Remove duplicates
+df = df.drop_duplicates()
 
+# String cleaning
+df['Name'] = df['Name'].str.strip().str.title()
+```
 
-##  📝 License
+---
 
-Halo-Kitty Adventures is published under the [MIT General Public License v3](https://github.com/is-leeroy-jenkins/Sake/blob/master/LICENSE.txt).
+## 🔧 **5. Adding, Updating & Removing Columns**
+
+Pandas makes column manipulation intuitive and consistent.
+
+* ➕ Add new derived columns.
+* 🔄 Update columns with vectorized operations.
+* ➖ Drop columns using `axis=1`.
+* 🧮 Computed columns support arithmetic and conditions.
+* 🎛️ Use `.assign()` for method-chaining pipelines.
+
+### **Code Example**
+
+```python
+# Add new column
+df['Score_Adj'] = df['Score'] * 1.05
+
+# Conditional column
+df['Status'] = df['Score'].apply(lambda x: 'Pass' if x >= 80 else 'Fail')
+
+# Drop column
+df = df.drop('Age', axis=1)
+
+# Assign method
+df = df.assign(Rank=lambda d: d['Score'].rank(ascending=False))
+```
+
+---
+
+## 🔢 **6. Sorting & Ranking**
+
+Sorting and ranking help with ordering and priority scoring.
+
+* ⬇️ `.sort_values()` sorts by column(s).
+* 🔢 `.sort_index()` sorts by row index.
+* 🥇 `.rank()` provides ranking metrics.
+* ⬆️ Multi-column sorts support ascending/descending mix.
+* 🏷️ Stable sorting ensures predictable ordering.
+
+### **Code Example**
+
+```python
+# Sort by score ascending
+df_sorted = df.sort_values('Score')
+
+# Sort by two columns
+df_sorted2 = df.sort_values(['Status', 'Score'], ascending=[True, False])
+
+# Ranking
+df['Rank'] = df['Score'].rank(ascending=False)
+```
+
+---
+
+## 🧮 **7. Grouping, Aggregations & Summaries**
+
+Grouping enables SQL-style analysis over categories.
+
+* 📚 `.groupby()` creates grouped objects.
+* 🧾 Aggregate with `sum`, `mean`, `count`, etc.
+* 🛠️ Use `.agg()` for multiple operations.
+* 🧱 Multi-index results preserve grouping layers.
+* 📈 Ideal for pivot-style summaries.
+
+### **Code Example**
+
+```python
+# Group by status
+grouped = df.groupby('Status').agg({
+    'Score': ['mean', 'max', 'min', 'count']
+})
+
+print(grouped)
+```
+
+---
+
+## 🔄 **8. Merging, Joining & Concatenating**
+
+Combine datasets easily using SQL-style joins & operations.
+
+* 🔗 `merge()` behaves like SQL JOIN (inner, outer, left, right).
+* 🧱 `concat()` stacks DataFrames vertically or horizontally.
+* 🧬 Join on columns or indices.
+* 🔄 Mismatched keys produce NaN for missing values.
+* 🗂️ Ideal for multi-file ingestion.
+
+### **Code Example**
+
+```python
+# Merge on key
+merged = pd.merge(df, df2, on='Name', how='inner')
+
+# Vertical stack
+stacked = pd.concat([df, df], axis=0)
+
+# Horizontal combine
+wide = pd.concat([df, df2], axis=1)
+```
+
+---
+
+## 📊 **9. Pivot Tables & Reshaping**
+
+Pivot tables mirror Excel's summarization capabilities.
+
+* 🔁 `pivot()` reshapes columns into a matrix.
+* 📘 `pivot_table()` supports aggregation.
+* 🔽 `melt()` unpivots wide → long.
+* 🪢 `stack()` and `unstack()` manage multi-indexes.
+* 🧬 Useful for time series, categorical summaries, reporting.
+
+### **Code Example**
+
+```python
+# Pivot table (Excel-style)
+pivot = df.pivot_table(
+    values='Score',
+    index='Status',
+    aggfunc='mean'
+)
+
+# Melt example
+long = pd.melt(df, id_vars='Name', var_name='Metric', value_name='Value')
+
+print(long)
+```
+
+---
+
+## 📈 **10. Time Series Handling**
+
+Pandas provides industry-standard tools for time series.
+
+* 🕒 Convert strings to datetime via `pd.to_datetime()`.
+* 🗓️ Set datetime index for powerful slicing.
+* ➕ Resample up/down with `.resample()`.
+* 🧮 Rolling windows: `.rolling()`.
+* 📉 Shift data with `.shift()`.
+
+### **Code Example**
+
+```python
+# Parse date
+df['Date'] = pd.to_datetime(df['Date'])
+
+# Set index
+df = df.set_index('Date')
+
+# Resample monthly
+monthly_avg = df['Score'].resample('M').mean()
+
+# Rolling mean
+df['Rolling_7'] = df['Score'].rolling(7).mean()
+```
+
+---
+
+## 📤 **11. Exporting Data**
+
+Save cleaned and transformed data to various formats.
+
+* 💾 Save CSV: `df.to_csv()`.
+* 📘 Save Excel: `df.to_excel()`.
+* 🪢 Save JSON or Parquet for pipelines.
+* 🌐 Store to databases with `.to_sql()`.
+* ⚙️ Include index control and encoding options.
+
+### **Code Example**
+
+```python
+# Export to CSV
+df.to_csv('cleaned.csv', index=False)
+
+# Export to Excel
+df.to_excel('report.xlsx', index=False)
+
+# JSON
+df.to_json('out.json', orient='records')
+```
+
+---
+
+If you'd like, I can also produce:
+
+✅ A **Jupyter-ready .ipynb JSON notebook**
+✅ A **GitHub-ready README.md**
+✅ Versions with expanded sections or more examples
+✅ A "Pandas Cookbook" with 50+ advanced recipes
+
+Just tell me what you want next, Bro.
