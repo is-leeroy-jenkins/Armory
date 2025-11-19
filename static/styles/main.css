@@ -29,7 +29,7 @@ body.dark-mode
 	--text-color       : #F6F4F4;
 	--primary-color    : #005288;
 	--secondary-color  : #FFCC01;
-	--gradient-primary : linear-gradient(90deg, #FFCC01 40%, #0078D4 100%);
+	--gradient-primary : linear-gradient(90deg, #AB8702 40%, #0078D4 100%);
 	--btn-bg-hover     : var(--gradient-primary);
 	--btn-border-color : var(--primary-color);
 }
@@ -151,7 +151,7 @@ body.dark-mode .navbar-brand,
 body.dark-mode .navbar .nav-link
 {
 	color            : #FCFCFC !important; /* Light text color for visibility */
-	background-color : #221F20 !important;
+	background-color : #2F2C2D !important;
 }
 
 body.dark-mode footer
@@ -200,7 +200,7 @@ body.dark-mode .navbar .nav-link:focus
 {
 	width           : 340px;
 	height          : 340px;
-	background      : #D5D5D7;
+	background      : #221F20;
 	display         : flex;
 	align-items     : center;
 	justify-content : center;
