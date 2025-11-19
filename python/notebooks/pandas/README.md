@@ -265,7 +265,7 @@ Halo-Kitty-Adventures/
 
 ## 📊 Power BI — *Modern Visual Analytics*
 
-<a href="https://colab.research.google.com/github/is-leeroy-jenkins/Halo-Kitty-Adventures/blob/main/python/notebooks/pbi/pbi.ipynb" target="_parent">
+<a href="https://colab.research.google.com/github/is-leeroy-jenkins/Halo-Kitty-Adventures/blob/main/python/notebooks/pbi.ipynb" target="_parent">
 <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 

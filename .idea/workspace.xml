@@ -4,26 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab0cd147-3770-4df1-bd3b-f24c8915e59e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Halo-Kitty-Adventures.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Halo-Kitty-Adventures.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="ab0cd147-3770-4df1-bd3b-f24c8915e59e" name="Changes" comment="update">
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/notebooks/pandas/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excel/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excel/notebooks/dax.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excel/notebooks/excel-formulas.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/html-tutorial.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/notebooks/pbi.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/notebooks/python.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/notebooks/sql-access.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/notebooks/sql-sqlite.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/boilerplate/cls/AccessData.cls" beforeDir="false" afterPath="$PROJECT_DIR$/vba/boilerplate/cls/AccessData.cls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/notebook/vba-access.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/notebook/vba-tutorial.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/css/notebooks/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/css-tutorial.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/css/notebooks/css-tutorial.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,22 +55,23 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/terry/source/repos/Halo-Kitty-Adventures/vba/excel&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/terry/source/repos/Halo-Kitty-Adventures/python/notebooks/pandas",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings is-module-sdk="true" working-directory="$PROJECT_DIR$/../Boo">
@@ -94,7 +82,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\terry\source\repos\Halo-Kitty-Adventures\python\notebooks\pandas" />
       <recent name="C:\Users\terry\source\repos\Halo-Kitty-Adventures\vba\excel" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\terry\source\repos\Halo-Kitty-Adventures\css\notebooks" />
     </key>
   </component>
   <component name="RunManager">
@@ -139,11 +131,24 @@
       <updated>1763495286247</updated>
       <workItem from="1763495290791" duration="1529000" />
       <workItem from="1763512642915" duration="896000" />
-      <workItem from="1763556107125" duration="562000" />
+      <workItem from="1763556107125" duration="1581000" />
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <option name="closed" value="true" />
+      <created>1763556736991</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1763556736991</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
 </project>
