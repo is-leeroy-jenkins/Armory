@@ -29,7 +29,7 @@ body.dark-mode
 	--text-color       : #F6F4F4;
 	--primary-color    : #005288;
 	--secondary-color  : #FFCC01;
-	--gradient-primary : linear-gradient(90deg, #BFB8A6 40%, #0078D4 100%);
+	--gradient-primary : linear-gradient(90deg, #565557 40%, #0078D4 100%);
 	--btn-bg-hover     : var(--gradient-primary);
 	--btn-border-color : var(--primary-color);
 }
@@ -151,12 +151,12 @@ body.dark-mode .navbar-brand,
 body.dark-mode .navbar .nav-link
 {
 	color            : #FCFCFC !important; /* Light text color for visibility */
-	background-color : #4B4B4B !important;
+	background-color : #221F20 !important;
 }
 
 body.dark-mode footer
 {
-	background-color : #141414 !important;
+	background-color : #221F20  !important;
 	color            : #F7F7F7 !important;
 }
 
@@ -200,7 +200,7 @@ body.dark-mode .navbar .nav-link:focus
 {
 	width           : 340px;
 	height          : 340px;
-	background      : #4B4B4B;
+	background      : #D5D5D7;
 	display         : flex;
 	align-items     : center;
 	justify-content : center;
@@ -251,7 +251,7 @@ body.dark-mode .navbar .nav-link:focus
 	overflow      : hidden;
 	border-radius : 12px 12px 0 0;
 	position      : relative;
-	background    : #141414;
+	background    : #221F20;
 }
 
 .img-box img
@@ -325,13 +325,13 @@ body.dark-mode .navbar .nav-link:focus
 
 body.dark-mode .skill-icon-box
 {
-	background : linear-gradient(90deg, #4B4B4B 60%, #0078D4 100%);
+	background : linear-gradient(90deg, #221F20 60%, #0078D4 100%);
 	color      : #C5C4C4;
 }
 
 .skill-icon-box:hover, .skill-icon-box:focus
 {
-	background : linear-gradient(90deg, #4B4B4B, #0078D4);
+	background : linear-gradient(90deg, #221F20, #0078D4);
 	color      : #0078D4;
 	transform  : scale(1.08) rotate(-2deg);
 }
@@ -377,7 +377,7 @@ body.dark-mode .skill-icon-box
 
 body.dark-mode .edu-cert-content .card
 {
-	background : #4B4B4B;
+	background : #221F20;
 	color      : #F7F7F7;
 }
 
@@ -406,7 +406,7 @@ body.dark-mode .edu-cert-content .card
 	min-height : 140px;
 	max-height : 170px;
 	overflow   : hidden;
-	background : #4B4B4B;
+	background : #221F20;
 }
 
 .blog-card .img-box img
@@ -452,6 +452,6 @@ body.dark-mode .edu-cert-content .card
 
 body.dark-mode .contact-section form
 {
-	background : #4B4B4B;
+	background : #221F20;
 	color      : var(--text-color);
 }
