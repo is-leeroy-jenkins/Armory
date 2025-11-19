@@ -15,9 +15,9 @@ body, html
 	/* Light mode colors */
 	--bg-color         : #D0CECE;
 	--text-color       : #000000;
-	--primary-color    : #005288;
+	--primary-color    : #0078D4;
 	--secondary-color  : #FFCC01;
-	--gradient-primary : linear-gradient(90deg, #FFCC01 40%, #005288 100%);
+	--gradient-primary : linear-gradient(90deg, #FFCC01 40%, #0078D4 100%);
 	--btn-bg-hover     : var(--gradient-primary);
 	--btn-border-color : var(--primary-color);
 }
@@ -25,9 +25,9 @@ body, html
 /* Dark mode variables */
 body.dark-mode
 {
-	--bg-color         : #221F20;
+	--bg-color         : #141414;
 	--text-color       : #F6F4F4;
-	--primary-color    : #005288;
+	--primary-color    : #0078D4;
 	--secondary-color  : #FFCC01;
 	--gradient-primary : linear-gradient(90deg, #AB8702 40%, #0078D4 100%);
 	--btn-bg-hover     : var(--gradient-primary);
@@ -59,7 +59,7 @@ a:hover
 {
 	position        : absolute;
 	inset           : 0;
-	background      : linear-gradient( rgba(246, 243, 243, 0.7), rgb(0, 0, 0)), url('../images/visualization.gif') no-repeat center center;
+	background      : linear-gradient( rgba(40, 40, 40, 0.7), rgb(0, 0, 0)), url('../images/visualization.gif') no-repeat center center;
 	background-size : cover;
 	z-index         : 1;
 }
@@ -96,7 +96,7 @@ a:hover
 	font-weight    : 600;
 	border-radius  : 9999px;
 	text-transform : uppercase;
-	box-shadow     : 0 6px 20px rgba(140, 182, 252, 0.8);
+	box-shadow     : 0 6px 20px rgba(0, 120, 252, 0.8);
 	transition     : background 0.4s, color 0.3s;
 	z-index        : 1;
 	border         : none;
@@ -123,7 +123,7 @@ a:hover
 {
 	background : var(--gradient-primary);
 	color      : #FFF;
-	box-shadow : 0 12px 36px rgba(145, 186, 250, 0.8);
+	box-shadow : 0 12px 36px rgba(0, 120, 252, 0.8);
 	outline    : none;
 	cursor     : pointer;
 }
@@ -151,12 +151,12 @@ body.dark-mode .navbar-brand,
 body.dark-mode .navbar .nav-link
 {
 	color            : #FCFCFC !important; /* Light text color for visibility */
-	background-color : #2F2C2D !important;
+	background-color : #2D2D2D !important;
 }
 
 body.dark-mode footer
 {
-	background-color : #221F20  !important;
+	background-color : #141414  !important;
 	color            : #F7F7F7 !important;
 }
 
@@ -200,7 +200,7 @@ body.dark-mode .navbar .nav-link:focus
 {
 	width           : 340px;
 	height          : 340px;
-	background      : #221F20;
+	background      : #2D2D2D;
 	display         : flex;
 	align-items     : center;
 	justify-content : center;
@@ -251,7 +251,7 @@ body.dark-mode .navbar .nav-link:focus
 	overflow      : hidden;
 	border-radius : 12px 12px 0 0;
 	position      : relative;
-	background    : #221F20;
+	background    : #2D2D2D0;
 }
 
 .img-box img
@@ -325,13 +325,13 @@ body.dark-mode .navbar .nav-link:focus
 
 body.dark-mode .skill-icon-box
 {
-	background : linear-gradient(90deg, #221F20 60%, #0078D4 100%);
+	background : linear-gradient(90deg, #141414 60%, #0078D4 100%);
 	color      : #C5C4C4;
 }
 
 .skill-icon-box:hover, .skill-icon-box:focus
 {
-	background : linear-gradient(90deg, #221F20, #0078D4);
+	background : linear-gradient(90deg, #141414, #0078D4);
 	color      : #0078D4;
 	transform  : scale(1.08) rotate(-2deg);
 }
@@ -377,7 +377,7 @@ body.dark-mode .skill-icon-box
 
 body.dark-mode .edu-cert-content .card
 {
-	background : #221F20;
+	background : #2D2D2D;
 	color      : #F7F7F7;
 }
 
@@ -406,7 +406,7 @@ body.dark-mode .edu-cert-content .card
 	min-height : 140px;
 	max-height : 170px;
 	overflow   : hidden;
-	background : #221F20;
+	background : #2D2D2D;
 }
 
 .blog-card .img-box img
@@ -452,6 +452,6 @@ body.dark-mode .edu-cert-content .card
 
 body.dark-mode .contact-section form
 {
-	background : #221F20;
+	background : #2D2D2D;
 	color      : var(--text-color);
 }
