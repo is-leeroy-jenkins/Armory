@@ -17,7 +17,7 @@ body, html
 	--text-color       : #000000;
 	--primary-color    : #005288;
 	--secondary-color  : #FFCC01;
-	--gradient-primary : linear-gradient(90deg, #BFB8A6 40%, #005288 100%);
+	--gradient-primary : linear-gradient(90deg, #FFCC01 40%, #005288 100%);
 	--btn-bg-hover     : var(--gradient-primary);
 	--btn-border-color : var(--primary-color);
 }
@@ -29,7 +29,7 @@ body.dark-mode
 	--text-color       : #F6F4F4;
 	--primary-color    : #005288;
 	--secondary-color  : #FFCC01;
-	--gradient-primary : linear-gradient(90deg, #565557 40%, #0078D4 100%);
+	--gradient-primary : linear-gradient(90deg, #FFCC01 40%, #0078D4 100%);
 	--btn-bg-hover     : var(--gradient-primary);
 	--btn-border-color : var(--primary-color);
 }
