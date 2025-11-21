@@ -27,16 +27,16 @@ body.dark-mode
 {
 	--bg-color         : #141414;
 	--text-color       : #F6F4F4;
-	--primary-color    : #0078D4;
-	--secondary-color  : #FFCC01;
-	--gradient-primary : linear-gradient(90deg, #AB8702 40%, #0078D4 100%);
+	--primary-color    : #FFCC01;
+	--secondary-color  : #0078D4;
+	--gradient-primary : linear-gradient(90deg, #0078D4 40%, #FFCC01 100%);
 	--btn-bg-hover     : var(--gradient-primary);
 	--btn-border-color : var(--primary-color);
 }
 
 a
 {
-	color           : var(--primary-color);
+	color           : var(--secondary-color);
 	text-decoration : none;
 }
 
