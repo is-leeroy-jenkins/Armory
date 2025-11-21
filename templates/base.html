@@ -3,19 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{{ page_title }} | US Army</title>
+    <title>{{ page_title }} | Armory </title>
     <meta
       name="description"
       content="A toolkit for data analytics integration"/>
     <meta
       property="og:title"
-      content="Arsenal | Data Analyst Toolkit"/>
+      content="Armory | Analytics Toolkit"/>
     <meta
       property="og:description"
       content="A toolkit for data analytics learning and integration"/>
     <meta
       property="og:image"
-      content="{{ url_for('static', filename='images/og-image.jpg') }}" />
+      content="{{ url_for('static', filename='images/eppler-logo.png') }}" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://gravatar.com/terryepplerphd" />
 
@@ -39,7 +39,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top">
       <div class="container">
-        <a class="navbar-brand fw-bold" href="{{ url_for('home') }}">Arsenal</a>
+        <a class="navbar-brand fw-bold" href="{{ url_for('home') }}">Armory</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -72,7 +72,7 @@
               <a
                 class="nav-link"
                 href="#education"
-                onclick="showSection('education')">Tab 1 </a>
+                onclick="showSection('education')">Resources</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="{{ url_for('blogs') }}">Blogs</a>
