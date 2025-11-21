@@ -92,7 +92,7 @@ def blog(slug):
             meta = yaml.safe_load(front_matter)
         else:
             meta, md_body = {}, content
-        html_body = markdown.markdown(md_body, extensions=["fenced_code", "codehilite"])
+        html_body = markdown.markdown(md_body, extensions=['fenced_code', 'codehilite'])
     return render_template('blog_detail.html', post=meta, body=html_body, page_title=meta.get('title', 'Blog'))
 
 @app.route('/contact', methods=['POST'])
@@ -107,7 +107,7 @@ def contact():
         return redirect(url_for('home', _anchor='contact'))
 
     # Prepare email content
-    email_message = EmailMessage()
+    email_message = EmailMessage( )
     email_message['Subject'] = f'Portfolio Contact from {name}'
     email_message['From'] = os.environ.get('EMAIL_ADDRESS')  # Your email address
     email_message['To'] = os.environ.get('RECEIVER_EMAIL')  # Destination (your) email
@@ -137,7 +137,7 @@ def contact():
             server.send_message(email_message)
         flash('Your message has been sent successfully!', 'success')
     except Exception as e:
-        print(f"Email send failed: {e}")
+        print(f'Email send failed: {e}')
         flash('Failed to send your message. Please try again later.', 'danger')
 
     return redirect(url_for('home', _anchor='contact'))
@@ -145,7 +145,7 @@ def contact():
 # 404 handler
 @app.errorhandler(404)
 def page_not_found(e):
-    return render_template('404.html', page_title="Page Not Found"), 404
+    return render_template('404.html', page_title='Page Not Found'), 404
 
 if __name__ == '__main__':
     app.run(debug=True)
