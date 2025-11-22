@@ -1,4 +1,4 @@
-###### _
+###### armory
 
 ![](https://github.com/is-leeroy-jenkins/Halo-Kitty-Adventures/blob/main/resources/images/Project.png)
 
