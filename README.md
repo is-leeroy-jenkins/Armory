@@ -13,21 +13,22 @@
 </div>
 
 ## 📑 Table of Contents
-- [Excel Formulas](#-excel-formulas--the-foundation)
-- [SQL](#-sql)
-  - [SQL (Access)](#-sql-access--desktop-relational-data-management)
-  - [SQL (SQLite)](#-sql-sqlite--portable-modern-data-engine)
-- [VBA](#-vba)
-  - [VBA (Excel)](#-vba-excel--excel-macro-automation)
-  - [VBA (Access)](#-vba-access--database-automation)
-- [Python](#-python--advanced-analytics)
-- [HTML5](#-html5--web-foundations-for-analytics)
-- [CSS3](#-css3--designing-with-purpose)
-- [Power BI](#-power-bi--modern-visual-analytics)
-- [DAX](#-dax--advanced-calculation-logic)
-- [Numpy](#-numpy--numerical-computing-foundations)
-- [Matplotlib](#-matplotlib--data-visualization-for-analysts)
-- [SQL Server](#-sql-server--enterprise-grade-data-management)
+- [Excel Formulas](https://github.com/is-leeroy-jenkins/Armory?tab=readme-ov-file#-excel-formulas--the-foundation)
+- [SQL](https://github.com/is-leeroy-jenkins/Armory?tab=readme-ov-file#-sql-access--desktop-relational-data-management)
+  - [SQL (Access)](https://github.com/is-leeroy-jenkins/Armory?tab=readme-ov-file#-sql-access--desktop-relational-data-management)
+  - [SQL (SQLite)](https://github.com/is-leeroy-jenkins/Armory?tab=readme-ov-file#-sql-sqlite--portable-modern-data-engine)
+- [VBA](https://github.com/is-leeroy-jenkins/Armory?tab=readme-ov-file#%EF%B8%8F-vba-excel--excel-macro-automation)
+  - [VBA (Excel)](https://github.com/is-leeroy-jenkins/Armory?tab=readme-ov-file#%EF%B8%8F-vba-excel--excel-macro-automation)
+  - [VBA (Access)](https://github.com/is-leeroy-jenkins/Armory?tab=readme-ov-file#%EF%B8%8F-vba-access--database-automation)
+- [Python](https://github.com/is-leeroy-jenkins/Armory?tab=readme-ov-file#-python--advanced-analytics)
+- [HTML5](https://github.com/is-leeroy-jenkins/Armory?tab=readme-ov-file#-html5--web-foundations-for-analytics)
+- [CSS3](https://github.com/is-leeroy-jenkins/Armory?tab=readme-ov-file#-css3--designing-with-purpose)
+- [Power BI](https://github.com/is-leeroy-jenkins/Armory?tab=readme-ov-file#-power-bi--modern-visual-analytics)
+- [DAX](https://github.com/is-leeroy-jenkins/Armory?tab=readme-ov-file#-dax--advanced-calculation-logic)
+- [Numpy](https://github.com/is-leeroy-jenkins/Armory?tab=readme-ov-file#-numpy--numerical-computing-foundations)
+- [Matplotlib](https://github.com/is-leeroy-jenkins/Armory?tab=readme-ov-file#-matplotlib--data-visualization-for-analysts)
+- [SQL Server](https://github.com/is-leeroy-jenkins/Armory?tab=readme-ov-file#-sql-server--enterprise-grade-data-management)
+- [JavaScript](https://github.com/is-leeroy-jenkins/Armory?tab=readme-ov-file#-javascript--web-interactivity--scripting)
 
 
 
