@@ -507,4 +507,4 @@ Learning modules draw from authoritative texts and field practice:
 
 ##  📝 License
 
-Halo-Kitty Adventures is published under the [MIT General Public License v3](https://github.com/is-leeroy-jenkins/Sake/blob/master/LICENSE.txt).
+Armory is published under the [MIT General Public License v3](https://github.com/is-leeroy-jenkins/Sake/blob/master/LICENSE.txt).
