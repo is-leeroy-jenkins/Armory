@@ -116,7 +116,7 @@ Halo-Kitty-Adventures/
 
 ##  🧾 SQL (Access) — *Desktop Relational Data Management*
 
-<a href="https://colab.research.google.com/github/is-leeroy-jenkins/Armorys/blob/main/sql/notebooks/access/sql-access.ipynb" target="_parent">
+<a href="https://colab.research.google.com/github/is-leeroy-jenkins/Armory/blob/main/sql/notebooks/access/sql-access.ipynb" target="_parent">
 <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 - Automate daily readiness metrics using dynamic array formulas that update automatically as new data arrives.
@@ -298,7 +298,7 @@ Halo-Kitty-Adventures/
 
 ## 📐 DAX — *Advanced Calculation Logic*
 
-<a href="https://colab.research.google.com/github/is-leeroy-jenkins/Halo-Kitty-Adventures/blob/main/excel/notebooks/dax/dax.ipynb" target="_parent">
+<a href="https://colab.research.google.com/github/is-leeroy-jenkins/Armory/blob/main/excel/notebooks/dax/dax.ipynb" target="_parent">
 <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 

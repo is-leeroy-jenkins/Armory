@@ -1,0 +1,419 @@
+VERSION 1.0 CLASS
+BEGIN
+  MultiUse = -1  'True
+END
+Attribute VB_Name = "Form_TimeDialog"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+Option Compare Database
+Option Explicit
+
+
+
+
+Public Args As AccountArgs
+Private m_StartDate As String
+Private m_EndDate As String
+Private m_FundName As String
+Private m_BocName As String
+Private pAnd As String
+Private m_Error As String
+
+
+
+
+
+'----------------------------------------------------------------------------------
+'   Type:        Event Sub-Procedure
+'   Name:        Form_Load
+'   Parameters:  Void
+'   Retval:      Void
+'   Purpose:
+'---------------------------------------------------------------------------------
+Private Sub Form_Open(Cancel As Integer)
+End Sub
+
+
+'----------------------------------------------------------------------------------
+'   Type:        Event Sub-Procedure
+'   Name:        Form_Load
+'   Parameters:  Void
+'   Retval:      Void
+'   Purpose:
+'---------------------------------------------------------------------------------
+Private Sub Form_Load()
+    On Error GoTo ErrorHandler
+    If Args Is Nothing Then
+        Set Args = New AccountArgs
+    End If
+    SetComboBoxColors
+    pAnd = " AND "
+    ClearComboBoxValues
+    Me.FundNameComboBox.RowSource = "SELECT DISTINCT Allocations.FundName FROM Allocations;"
+    Me.BocNameComboBox.RowSource = "SELECT DISTINCT Allocations.BocName FROM Allocations;"
+    Me.StartDateTextBox.Value = #10/1/2021#
+    Me.EndDateTextBox.Value = Date
+ErrorHandler:
+    ProcessError Name:="TimeDialog", _
+        Member:="Form_Load()"
+    Exit Sub
+End Sub
+
+
+'----------------------------------------------------------------------------------
+'   Type:        Event Sub-Procedure
+'   Name:        BocNameComboBox_Change
+'   Parameters:  Void
+'   Retval:      Void
+'   Purpose:
+'---------------------------------------------------------------------------------
+Private Sub FundNameComboBox_Change()
+    On Error GoTo ErrorHandler:
+    If Args Is Nothing Then
+        Set Args = New AccountArgs
+    End If
+    Args.FundName = Me.FundNameComboBox.Value
+    Me.BocNameComboBox.RowSource = "SELECT DISTINCT Allocations.BocName" _
+        & " FROM Allocations WHERE" _
+        & " Allocations.FundName = '" & Me.FundNameComboBox.Value & "'"
+ErrorHandler:
+    ProcessError Name:="TimeDialogForm", _
+        Member:="FundNameComboBox_Change()"
+    Exit Sub
+End Sub
+
+
+'----------------------------------------------------------------------------------
+'   Type:        Sub-Procedure
+'   Name:        ProgramProjectNameComboBox_Change
+'   Parameters:  Void
+'   Retval:      Void
+'   Purpose:
+'---------------------------------------------------------------------------------
+Private Sub BocNameComboBox_Change()
+    On Error GoTo ErrorHandler:
+    If Args Is Nothing Then
+        Set Args = New AccountArgs
+    End If
+    Args.BocName = Me.BocNameComboBox.Value
+ErrorHandler:
+    ProcessError Name:="TimeDialogForm", _
+        Member:="BocNameComboBox_Change()"
+    Exit Sub
+End Sub
+
+
+'----------------------------------------------------------------------------------
+'   Type:        Event Sub-Procedure
+'   Name:        FiscalYearOptionGroup_AfterUpdate
+'   Parameters:  Void
+'   Retval:      Void
+'   Purpose:
+'---------------------------------------------------------------------------------
+Private Sub StartDateTextBox_AfterUpdate()
+    On Error GoTo ErrorHandler:
+    If Args Is Nothing Then
+        Set Args = New AccountArgs
+    End If
+    m_StartDate = vbNullString
+    m_StartDate = Me.StartDateTextBox.Text
+    Args.StartDate = Me.StartDateTextBox.Text
+ErrorHandler:
+    ProcessError Name:="TimeDialogForm", _
+        Member:="EndDateTextBox_AfterUpdate()"
+    Exit Sub
+End Sub
+
+
+'----------------------------------------------------------------------------------
+'   Type:        Event Sub-Procedure
+'   Name:        FiscalYearOptionGroup_AfterUpdate
+'   Parameters:  Void
+'   Retval:      Void
+'   Purpose:
+'---------------------------------------------------------------------------------
+Private Sub EndDateTextBox_Change()
+    On Error GoTo ErrorHandler:
+    If Args Is Nothing Then
+        Set Args = New AccountArgs
+    End If
+    m_EndDate = vbNullString
+    m_EndDate = Me.EndDateTextBox.Text
+    Args.EndDate = Me.EndDateTextBox.Text
+ErrorHandler:
+    ProcessError Name:="TimeDialogForm", _
+        Member:="EndDateTextBox_Change()"
+    ProcessError
+    Exit Sub
+End Sub
+
+
+
+'---------------------------------------------------------------------------------
+'   Type:
+'   Name:
+'   Parameters:  Void
+'   Retval:      Void
+'   Purpose:
+'---------------------------------------------------------------------------------
+Private Sub AcceptButton_Click()
+    On Error GoTo ErrorHandler
+    Me.Visible = Not Me.Visible
+ErrorHandler:
+    ProcessError Name:="TimeDialogForm", _
+        Member:="AcceptButton_Click()"
+    Exit Sub
+End Sub
+
+
+
+
+'----------------------------------------------------------------------------------
+'   Type:        Event Sub-Procedure
+'   Name:        RefreshButton_Click
+'   Parameters:  Void
+'   Purpose:
+'---------------------------------------------------------------------------------
+Private Sub RefreshButton_Click()
+    On Error GoTo ErrorHandler:
+    ClearComboBoxValues
+    ClearFilterValues
+    ClearTextBoxValues
+ErrorHandler:
+    ProcessError Name:="TimeDialogForm", _
+        Member:="RefreshButton_Click()"
+    Exit Sub
+End Sub
+
+
+
+'----------------------------------------------------------------------------------
+'   Type:        Event Sub-Procedure
+'   Name:        SetComboBoxColors
+'   Parameters:  Void
+'   Purpose:
+'---------------------------------------------------------------------------------
+Private Sub SetComboBoxColors()
+    On Error GoTo ErrorHandler:
+    Me!BocNameComboBox.ForeColor = RGB(255, 255, 255)
+    Me!BocNameComboBox.BackColor = RGB(33, 33, 33)
+    Me!BocNameComboBox.BorderColor = RGB(68, 114, 196)
+    Me!FundNameComboBox.ForeColor = RGB(255, 255, 255)
+    Me!FundNameComboBox.BackColor = RGB(33, 33, 33)
+    Me!FundNameComboBox.BorderColor = RGB(68, 114, 196)
+    Me!StartDateTextBox.ForeColor = RGB(255, 255, 255)
+    Me!StartDateTextBox.BackColor = RGB(33, 33, 33)
+    Me!StartDateTextBox.BorderColor = RGB(68, 114, 196)
+    Me!EndDateTextBox.ForeColor = RGB(255, 255, 255)
+    Me!EndDateTextBox.BackColor = RGB(33, 33, 33)
+    Me!EndDateTextBox.BorderColor = RGB(68, 114, 196)
+ErrorHandler:
+    ProcessError Name:="TimeDialogForm", _
+        Member:="SetComboBoxColors()"
+    Exit Sub
+End Sub
+
+
+
+
+'----------------------------------------------------------------------------------
+'   Type:        Sub-Procedure
+'   Name:        SetButtonVisibility
+'   Parameters:  Void
+'   Retval:      Void
+'   Purpose:
+'---------------------------------------------------------------------------------
+Private Sub SetButtonVisibility()
+    On Error GoTo ErrorHandler:
+    Me.ExitButton.SetFocus
+    Me.RefreshButton.Visible = Not Me.RefreshButton.Visible
+    Me.AcceptButton.Visible = Not Me.AcceptButton.Visible
+ErrorHandler:
+    ProcessError Name:="TimeDialogForm", _
+        Member:="SetButtonVisibility()"
+    Exit Sub
+End Sub
+
+
+
+
+'----------------------------------------------------------------------------------
+'   Type:        Sub-Procedure
+'   Name:        ClearComboBoxValues
+'   Parameters:  Void
+'   Retval:      Void
+'   Purpose:
+'---------------------------------------------------------------------------------
+Private Sub ClearComboBoxValues()
+    On Error GoTo ErrorHandler:
+    Me.BocNameComboBox.Value = vbNullString
+    Me.FundNameComboBox.Value = vbNullString
+ErrorHandler:
+    ProcessError Name:="TimeDialogForm", _
+        Member:="ClearComboBoxValues()"
+    Exit Sub
+End Sub
+
+
+
+'----------------------------------------------------------------------------------
+'   Type:        Event Sub-Procedure
+'   Name:        RefreshButton_Click
+'   Parameters:  Void
+'   Purpose:
+'---------------------------------------------------------------------------------
+Private Sub ClearTextBoxValues()
+    On Error GoTo ErrorHandler:
+    Me.StartDateTextBox.Value = vbNullString
+    Me.EndDateTextBox.Value = vbNullString
+ErrorHandler:
+    ProcessError Name:="TimeDialogForm", _
+        Member:="ClearTextBoxValues()"
+    Exit Sub
+End Sub
+
+
+
+'----------------------------------------------------------------------------------
+'   Type:        Sub-Procedure
+'   Name:        ClearFilterValues
+'   Parameters:  Void
+'   Retval:      Void
+'   Purpose:
+'---------------------------------------------------------------------------------
+Private Sub ClearFilterValues()
+    On Error GoTo ErrorHandler:
+    m_EndDate = vbNullString
+    m_StartDate = vbNullString
+    m_FundName = vbNullString
+    m_BocName = vbNullString
+ErrorHandler:
+    ProcessError Name:="TimeDialogForm", _
+        Member:="ClearFilterValues()"
+    Exit Sub
+End Sub
+
+
+
+'----------------------------------------------------------------------------------
+'   Type:        Event Sub-Procedure
+'   Name:        ExitButton_Click
+'   Parameters:  Void
+'   Retval:      Void
+'   Purpose:
+'---------------------------------------------------------------------------------
+Private Sub ExitButton_Click()
+    On Error GoTo ErrorHandler:
+    If Not Args Is Nothing Then
+        Set Args = Nothing
+    End If
+    DoCmd.Close ObjectType:=acForm, ObjectName:=Me.Name, Save:=acSaveNo
+ErrorHandler:
+    ProcessError Name:="TimeDialogForm", _
+        Member:="ExitButton_Click()"
+    Exit Sub
+End Sub
+
+
+
+
+'----------------------------------------------------------------------------------
+'   Type:        Event Sub-Procedure
+'   Name:        ExitButton_Click
+'   Parameters:  Void
+'   Retval:      Void
+'   Purpose:
+'---------------------------------------------------------------------------------
+Private Sub StartDateTextBox_Enter()
+    On Error GoTo ErrorHandler:
+    If Args Is Nothing Then
+        Set Args = New AccountArgs
+    End If
+    m_StartDate = vbNullString
+    Dim calendar As New Form_BudgetCalendar
+    DoCmd.OpenForm FormName:="BudgetCalendar", WindowMode:=acDialog, OpenArgs:=Me.StartDateTextBox
+    Set calendar = Forms("BudgetCalendar")
+    Me.StartDateTextBox.Value = calendar.txtCalendarDate
+    m_StartDate = Me.StartDateTextBox.Value
+    Args.StartDate = m_StartDate
+    DoCmd.Close ObjectType:=acForm, ObjectName:="BudgetCalendar", Save:=acSaveNo
+ErrorHandler:
+    ProcessError Name:="TimeDialogForm", _
+        Member:="StartDateTextBox_Enter()"
+    Exit Sub
+End Sub
+
+
+
+
+
+'----------------------------------------------------------------------------------
+'   Type:        Event Sub-Procedure
+'   Name:        ExitButton_Click
+'   Parameters:  Void
+'   Retval:      Void
+'   Purpose:
+'---------------------------------------------------------------------------------
+Private Sub EndDateTextBox_Enter()
+    On Error GoTo ErrorHandler:
+    If Args Is Nothing Then
+        Set Args = New AccountArgs
+    End If
+    Dim calendar As New Form_BudgetCalendar
+    DoCmd.OpenForm FormName:="BudgetCalendar", WindowMode:=acDialog, _
+        OpenArgs:=Me.EndDateTextBox
+    Set calendar = Forms("BudgetCalendar")
+    Me.EndDateTextBox.Value = calendar.txtCalendarDate
+    m_EndDate = Me.EndDateTextBox.Value
+    Args.EndDate = m_EndDate
+    DoCmd.Close ObjectType:=acForm, ObjectName:="BudgetCalendar", _
+        Save:=acSaveNo
+ErrorHandler:
+    ProcessError Name:="TimeDialogForm", _
+        Member:="EndDateTextBox_Enter()"
+    Exit Sub
+End Sub
+
+
+
+
+
+
+
+
+'----------------------------------------------------------------------------------
+'   Type:        Event Sub-Procedure
+'   Name:        Process
+'   Parameters:  Void
+'   Retval:      Void
+'   Purpose:
+'---------------------------------------------------------------------------------
+Private Sub ProcessError(Optional Name As String, Optional Member As String)
+    If Err.Number <> 0 And _
+        Not IsMissing(Name) And _
+        Not IsMissing(Member) Then
+            m_Error = "Source:      " & Err.Source _
+                & vbCrLf & "Number:     " & Err.Number _
+                & vbCrLf & "Issue:      " & Err.Description _
+                & vbCrLf & "Class:      " & Name _
+                & vbCrLf & "Member:     " & Member
+    End If
+    If Err.Number <> 0 And _
+        IsMissing(Name) And _
+        IsMissing(Member) Then
+            m_Error = "Source:      " & Err.Source _
+                & vbCrLf & "Number:     " & Err.Number _
+                & vbCrLf & "Issue:      " & Err.Description
+    End If
+    MessageFactory.ShowError (m_Error)
+    Err.Clear
+End Sub
+
+
+
+
+
+
+

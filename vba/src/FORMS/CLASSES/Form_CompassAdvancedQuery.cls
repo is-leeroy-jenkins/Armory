@@ -1,0 +1,143 @@
+Option Compare Database
+Option Explicit
+
+
+Private m_Error As String
+
+
+
+
+'---------------------------------------------------------------------------------
+'   Type:            Sub-Procedure
+'   Name:            SetButtonVisibility()
+'   Parameters:      Void
+'   Retval:          Void
+'   Purpose:
+'---------------------------------------------------------------------------------
+Private Sub SetButtonVisibility()
+    On Error GoTo ErrorHandler:
+    Me.BudgetDetailedSpendingButton.Visible = Not Me.BudgetDetailedSpendingButton.Visible
+    Me.CompassAdvancedQueryButton.Visible = Not Me.CompassAdvancedQueryButton.Visible
+    Me.CompassReprogrammingQueryButton.Visible = Not Me.CompassReprogrammingQueryButton.Visible
+    Me.CompassTravelQueryButton.Visible = Not Me.CompassTravelQueryButton.Visible
+    Me.PayrollAccrualsButton.Visible = Not Me.PayrollAccrualsButton.Visible
+    Me.BudgetStatusQueryButton.Visible = Not Me.BudgetStatusQueryButton.Visible
+ErrorHandler:
+    ProcessError Name:="CompassAdvancedQueryForm", _
+        Member:="SetButtonVisibility()"
+    Exit Sub
+End Sub
+
+
+
+'---------------------------------------------------------------------------------
+'   Type:            Sub-Procedure
+'   Name:            SetButtonVisibility()
+'   Parameters:      Void
+'   Retval:          Void
+'   Purpose:
+'---------------------------------------------------------------------------------
+Private Sub CalculatorButton_Click()
+    On Error GoTo ErrorHandler:
+    Calculator.Calculate
+ErrorHandler:
+    ProcessError Name:="CompassAdvancedQueryForm", _
+        Member:="SetButtonVisibility()"
+    Exit Sub
+End Sub
+
+
+'---------------------------------------------------------------------------------
+'   Type:            Sub-Procedure
+'   Name:            ExitButton_Click()
+'   Parameters:      Void
+'   Retval:          Void
+'   Purpose:
+'---------------------------------------------------------------------------------
+Private Sub ExitButton_Click()
+    On Error GoTo ErrorHandler:
+    DoCmd.Close ObjectType:=acForm, ObjectName:="CompassAdvancedQuery", _
+        Save:=acSaveNo
+    DoCmd.OpenForm FormName:="DataWarehouse", WindowMode:=acDialog
+ErrorHandler:
+    ProcessError Name:="CompassAdvancedQueryForm", _
+        Member:="ExitButton_Click()"
+    Exit Sub
+End Sub
+
+
+
+'---------------------------------------------------------------------------------
+'   Type:            Sub-Procedure
+'   Name:            Form_Load()
+'   Parameters:      Void
+'   Retval:          Void
+'   Purpose:
+'---------------------------------------------------------------------------------
+Private Sub Form_Load()
+    On Error GoTo ErrorHandler:
+    SetButtonVisibility
+ErrorHandler:
+    ProcessError Name:="CompassAdvancedQueryForm", _
+        Member:="Form_Load()"
+    Exit Sub
+End Sub
+
+
+
+'---------------------------------------------------------------------------------
+'   Type:            Sub-Procedure
+'   Name:            MenuButton_Click()
+'   Parameters:      Void
+'   Retval:          Void
+'   Purpose:
+'---------------------------------------------------------------------------------
+Private Sub MenuButton_Click()
+    On Error GoTo ErrorHandler:
+    SetButtonVisibility
+ErrorHandler:
+    ProcessError Name:="CompassAdvancedQueryForm", _
+        Member:="MenuButton_Click()"
+    Exit Sub
+End Sub
+
+
+
+
+
+
+
+
+
+
+
+'----------------------------------------------------------------------------------
+'   Type:        Event Sub-Procedure
+'   Name:        Process
+'   Parameters:  Void
+'   Retval:      Void
+'   Purpose:
+'---------------------------------------------------------------------------------
+Private Sub ProcessError(Optional Name As String, Optional Member As String)
+    If Err.Number <> 0 And _
+        Not IsMissing(Name) And _
+        Not IsMissing(Member) Then
+            m_Error = "Source:      " & Err.Source _
+                & vbCrLf & "Number:     " & Err.Number _
+                & vbCrLf & "Issue:      " & Err.Description _
+                & vbCrLf & "Class:      " & Name _
+                & vbCrLf & "Member:     " & Member
+    End If
+    If Err.Number <> 0 And _
+        IsMissing(Name) And _
+        IsMissing(Member) Then
+            m_Error = "Source:      " & Err.Source _
+                & vbCrLf & "Number:     " & Err.Number _
+                & vbCrLf & "Issue:      " & Err.Description
+    End If
+    MessageFactory.ShowError (m_Error)
+    Err.Clear
+End Sub
+
+
+
