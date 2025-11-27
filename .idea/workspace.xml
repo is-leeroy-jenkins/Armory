@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab0cd147-3770-4df1-bd3b-f24c8915e59e" name="Changes" comment="update" />
+    <list default="true" id="ab0cd147-3770-4df1-bd3b-f24c8915e59e" name="Changes" comment="update">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,7 +69,7 @@
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/terry/source/repos/Halo-Kitty-Adventures&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/terry/source/repos/Armory&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -144,6 +146,8 @@
       <workItem from="1763741479728" duration="48000" />
       <workItem from="1763741631651" duration="11648000" />
       <workItem from="1764070695521" duration="634000" />
+      <workItem from="1764281523838" duration="74000" />
+      <workItem from="1764281658678" duration="1762000" />
     </task>
     <task id="LOCAL-00021" summary="update">
       <option name="closed" value="true" />
