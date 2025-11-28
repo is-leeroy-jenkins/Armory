@@ -1,7 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Black">
-    <option name="sdkName" value="python ( Halo Kitty Adventures )" />
-  </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="python ( Halo Kitty Adventures )" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="conda ( armory )" project-jdk-type="Python SDK" />
 </project>
