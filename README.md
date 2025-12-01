@@ -165,7 +165,7 @@ Halo-Kitty-Adventures/
 
 ##  ⚙️ VBA (Excel) — *Excel Macro Automation*
 
-<a href="https://colab.research.google.com/github/is-leeroy-jenkins/Armory/blob/main/vba/notebook/excel/vba-tutorial.ipynb" target="_parent">
+<a href="https://colab.research.google.com/github/is-leeroy-jenkins/Armory/blob/main/vba/notebook/excel/vba-excel.ipynb" target="_parent">
 <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 
@@ -178,7 +178,7 @@ Halo-Kitty-Adventures/
 * Subroutines and functions
 * Event-driven macros (Workbook, Worksheet events)
 * Automating formulas, formatting, charting
-* Integrating Excel with Outlook for email workflows
+* Integrating Excel with Outlook for email w
 * UserForms for Excel data entry and control
 * Error handling and debugging tools in Excel
 * Leveraging named ranges and structured references
