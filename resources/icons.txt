@@ -182,5 +182,10 @@ Emoji	Meaning
 🚀 :rocket: — Model deployment
 
 🧱 :bricks: — Building blocks, modules
-
-🔍 :mag_right: — Model interpretability
+• Standard bullet
+🔹 Sub-point / Mild highlight
+🔸 Emphasis point / Mid importance
+⭐ Highlight / Notable
+✨ Sparkle / Bonus Feature
+➤ Strong bullet / Flow indicator
+🔍 :mag_right: — Model interpretability  
