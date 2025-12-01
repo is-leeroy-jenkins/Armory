@@ -48,15 +48,15 @@
 Halo-Kitty-Adventures/
 │
 ├── 📂 Excel/
-│   ├── Excel_Formula.md
-│   └── Advanced_Analytics_Formulas.md
+│   ├── Excel_Formulas.md
+│   └── Excel-DAX.md
 │
 ├── 📂 SQL/
 │   ├── sql-access.md
 │   └── sql-sqlite.md
 │
 ├── 📂 VBA/
-│   ├── vba-tutorial.md
+│   ├── vba-excell.md
 │   └── vba-access.md
 │
 ├── 📂 Python/
@@ -69,7 +69,7 @@ Halo-Kitty-Adventures/
 │   ├── css-tutorial.ipynb
 │
 ├── 📂 Power BI_/
-│   ├── pbi-tutorial.ipynb
+│   ├── python-pbi.ipynb
 
 ├── 📂 Numpy_/
 │   ├── numpy.ipynb
