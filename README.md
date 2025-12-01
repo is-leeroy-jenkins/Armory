@@ -70,6 +70,15 @@ Halo-Kitty-Adventures/
 │
 ├── 📂 Power BI_/
 │   ├── pbi-tutorial.ipynb
+
+├── 📂 Numpy_/
+│   ├── numpy.ipynb
+
+├── 📂 Pandas_/
+│   ├── pandas.ipynb
+
+├── 📂 Matplotlib_/
+│   ├── matplotlib.ipynb
 │
 └── README.md
 ```

@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28858240-b7fc-4211-8632-c970c4254ff3" name="Changes" comment="update;">
-      <change beforePath="$PROJECT_DIR$/python/notebooks/py/python.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python/notebooks/py/python.ipynb" afterDir="false" />
-    </list>
+    <list default="true" id="28858240-b7fc-4211-8632-c970c4254ff3" name="Changes" comment="update;" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -105,7 +103,7 @@
       <option name="presentableId" value="Default" />
       <updated>1764345261364</updated>
       <workItem from="1764345264131" duration="2479000" />
-      <workItem from="1764440358444" duration="342000" />
+      <workItem from="1764440358444" duration="413000" />
     </task>
     <task id="LOCAL-00001" summary="update;">
       <option name="closed" value="true" />
@@ -171,7 +169,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764440744480</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="update;">
+      <option name="closed" value="true" />
+      <created>1764440840105</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1764440840105</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
