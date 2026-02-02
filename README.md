@@ -39,8 +39,8 @@
 
 * Each tutorial is written for analysts modernizing workflows.
 * Lessons progress linearly, introducing tools and logic at each level of the analytic maturity model.
-
-
+___
+![](https://github.com/is-leeroy-jenkins/Armory/blob/main/resources/images/Armory.gif)
 
 ## 🧩 Repository Structure
 
