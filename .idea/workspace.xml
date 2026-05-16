@@ -5,21 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="145d3bc9-f9e1-42d8-8fc6-aa749a696475" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/ai/boo/images/boo_portfolio.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai/buddy/images/Buddy_Potfolio.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai/gipity/images/gipity_project.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai/guro/images/guro_project.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai/jeni/images/jeni_portfolio.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai/jimi/images/jimi_project.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/llm/boogr/images/Booger.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/llm/bro/images/bro_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ml/sake/images/sake_project.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ml/schedx/images/Project_ScheduleX.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ml/sige/images/SigeProject.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +46,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "last_opened_file_path": "C:/Users/terry/source/repos/Armory/ml/sake/images",
+    "last_opened_file_path": "C:/Users/terry/source/repos/Armory/ml/chonky/images",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -70,11 +57,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\terry\source\repos\Armory\ml\sake\images" />
-      <recent name="C:\Users\terry\source\repos\Armory\ml\schedx\images" />
-      <recent name="C:\Users\terry\source\repos\Armory\ml\sige\images" />
-      <recent name="C:\Users\terry\source\repos\Armory\ai\gipity\images" />
-      <recent name="C:\Users\terry\source\repos\Armory\ai\guro\images" />
+      <recent name="C:\Users\terry\source\repos\Armory\ml\chonky\images" />
+      <recent name="C:\Users\terry\source\repos\Armory\ml\cutey\images" />
+      <recent name="C:\Users\terry\source\repos\Armory\ml\foo\images" />
+      <recent name="C:\Users\terry\source\repos\Armory\ml\mappy\images" />
+      <recent name="C:\Users\terry\source\repos\Armory\ml\mathy\images" />
     </key>
   </component>
   <component name="RunManager" selected="Flask server.Armory">
@@ -136,7 +123,7 @@
       <workItem from="1778891735033" duration="739000" />
       <workItem from="1778894236687" duration="2177000" />
       <workItem from="1778911577793" duration="4624000" />
-      <workItem from="1778924954071" duration="5806000" />
+      <workItem from="1778924954071" duration="11372000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -162,7 +149,23 @@
       <option name="project" value="LOCAL" />
       <updated>1778916707802</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update">
+      <option name="closed" value="true" />
+      <created>1778931128293</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1778931128293</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update">
+      <option name="closed" value="true" />
+      <created>1778931431378</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1778931431378</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,6 +187,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Armory$Armory.coverage" NAME="Armory Coverage Results" MODIFIED="1778912597451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Armory$Armory.coverage" NAME="Armory Coverage Results" MODIFIED="1778932226615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

@@ -72,9 +72,19 @@
 	  <!---------------------->
 	  <!-- Filter Buttons ---->
 	  <!---------------------->
-    <div class="d-flex justify-content-center mb-4">
+  </div>
+  <div class="d-flex justify-content-center mb-4">
       <button class="btn btn-outline-primary me-2 filter-btn active" data-filter="all">
         All
+      </button>
+      <button class="btn btn-outline-primary me-2 filter-btn" data-filter="ml">
+        Machine & Deep Learning
+      </button>
+      <button class="btn btn-outline-primary me-2 filter-btn" data-filter="llm">
+        Large Language Models
+      </button>
+      <button class="btn btn-outline-primary me-2 filter-btn" data-filter="ai">
+        Generative AI
       </button>
       <button class="btn btn-outline-primary me-2 filter-btn" data-filter="python">
         Python
@@ -306,115 +316,326 @@
         </div>
    </div>
       <!-- Excel Project Card -->
-  <div class="col-sm-6 col-md-4 project-card" data-category="dax">
-    <div class="card project-box shadow position-relative h-100">
-      <div class="project-img img-box">
-        <!-- Add relevant image from /static/images/ here -->
-        <img src="{{ url_for('static', filename='images/excel-functions.png') }}" alt="Excel Formulas"
-             class="card-img-top"/>
-        <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
-          <h5 class="text-white">Excel Formulas</h5>
-          <p class="small text-white mb-2 px-2">
-            Excel formulas are user-created calculations starting with an equals sign used in data analysis
-          </p>
-          <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Armory/blob/main/excel/notebooks/formulas/excel-formulas.ipynb"
-             target="_blank" class="text-white">
-            <i class="fab fa-github fa-2x text-white"></i>
-            <p>Click here</p>
-          </a>
-        </div>
-      </div>
+	  <div class="col-sm-6 col-md-4 project-card" data-category="dax">
+	    <div class="card project-box shadow position-relative h-100">
+	      <div class="project-img img-box">
+	        <!-- Add relevant image from /static/images/ here -->
+	        <img src="{{ url_for('static', filename='images/excel-functions.png') }}" alt="Excel Formulas"
+	             class="card-img-top"/>
+	        <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
+	          <h5 class="text-white">Excel Formulas</h5>
+	          <p class="small text-white mb-2 px-2">
+	            Excel formulas are user-created calculations starting with an equals sign used in data analysis
+	          </p>
+	          <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Armory/blob/main/excel/notebooks/formulas/excel-formulas.ipynb"
+	             target="_blank" class="text-white">
+	            <i class="fab fa-github fa-2x text-white"></i>
+	            <p>Click here</p>
+	          </a>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+	  <!-- Access VBA Project Card -->
+	  <div class="col-sm-6 col-md-4 project-card" data-category="vba">
+	    <div class="card project-box shadow position-relative h-100">
+	      <div class="project-img img-box">
+	        <!-- Add relevant image from /static/images/ here -->
+	        <img src="{{ url_for('static', filename='images/vba-access.png') }}" alt="Access VBA"
+	             class="card-img-top"/>
+	        <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
+	          <h5 class="text-white">Access VBA</h5>
+	          <p class="small text-white mb-2 px-2">
+	            Visual Basic for Applications (VBA) is the programming language used to extend the
+	            functionality of Microsoft Access and other Microsoft Office applications.
+	          </p>
+	          <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Armory/blob/main/vba/notebook/access/vba-access.ipynb"
+	             target="_blank" class="text-white">
+	            <i class="fab fa-github fa-2x text-white"></i>
+	            <p>Click here</p>
+	          </a>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+	  <!-- Numpy Project Card -->
+	  <div class="col-sm-6 col-md-4 project-card" data-category="python">
+	    <div class="card project-box shadow position-relative h-100">
+	      <div class="project-img img-box">
+	        <!-- Add relevant image from /static/images/ here -->
+	        <img src="{{ url_for('static', filename='images/python-numpy.png') }}" alt="Numpy"
+	             class="card-img-top"/>
+	        <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
+	          <h5 class="text-white">Numpy</h5>
+	          <p class="small text-white mb-2 px-2">
+	            NumPy is an open-source Python library fundamental for scientific computing,
+	            providing a powerful N-dimensional array object (ndarray) and a wide collection of
+	            high-level mathematical functions for fast operations on these arrays.
+	          </p>
+	          <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Armory/blob/main/python/notebooks/numpy/numpy.ipynb"
+	             target="_blank" class="text-white">
+	            <i class="fab fa-github fa-2x text-white"></i>
+	            <p>Click here</p>
+	          </a>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+	  <!-- Matplot Project Card -->
+	  <div class="col-sm-6 col-md-4 project-card" data-category="python">
+	    <div class="card project-box shadow position-relative h-100">
+	      <div class="project-img img-box">
+	        <!-- Add relevant image from /static/images/ here -->
+	        <img src="{{ url_for('static', filename='images/python-matplot.png') }}" alt="Matplot"
+	             class="card-img-top"/>
+	        <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
+	          <h5 class="text-white">Matplot</h5>
+	          <p class="small text-white mb-2 px-2">
+	            Matplot is an open-source Python library fundamental for data visualization and analysis.
+	          </p>
+	          <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Armory/blob/main/python/notebooks/matplot/matplotlib.ipynb"
+	             target="_blank" class="text-white">
+	            <i class="fab fa-github fa-2x text-white"></i>
+	            <p>Click here</p>
+	          </a>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+	  <!-- SQL Server Project Card -->
+	  <div class="col-sm-6 col-md-4 project-card" data-category="sql">
+	    <div class="card project-box shadow position-relative h-100">
+	      <div class="project-img img-box">
+	        <!-- Add relevant image from /static/images/ here -->
+	        <img src="{{ url_for('static', filename='images/sql-mssql.png') }}" alt="SQL Server"
+	             class="card-img-top"/>
+	        <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
+	          <h5 class="text-white">SQL Server</h5>
+	          <p class="small text-white mb-2 px-2">
+	            SQL Server is a relational database management system (RDBMS) developed by Microsoft
+	            that stores and retrieves data for other applications using Transact-SQL (T-SQL).
+	          </p>
+	          <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Armory/blob/main/sql/notebooks/sqlserver/sql_server.ipynb"
+	             target="_blank" class="text-white">
+	            <i class="fab fa-github fa-2x text-white"></i>
+	            <p>Click here</p>
+	          </a>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+      <!-- Chonky Project Card -->
+	  <div class="col-sm-6 col-md-4 project-card" data-category="ml">
+	    <div class="card project-box shadow position-relative h-100">
+	      <div class="project-img img-box">
+	        <!-- Add relevant image from /static/images/ here -->
+	        <img src="{{ url_for('static', filename='ml/chonky/images/chonky_project.png') }}" alt="Chonky-Py"
+	             class="card-img-top"/>
+	        <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
+	          <h5 class="text-white">Chonky</h5>
+	          <p class="small text-white mb-2 px-2">
+	            A natural language processing application written in python and tailored for
+	            financial analysts, data scientists, and machine learning practitioners working
+	            with unstructured text.
+	          </p>
+	          <a href="https://github.com/is-leeroy-jenkins/Chonky#chonky-py"
+	             target="_blank" class="text-white">
+	            <i class="fab fa-github fa-2x text-white"></i>
+	            <p>Click here</p>
+	          </a>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+      <!-- Cutey Project Card -->
+	  <div class="col-sm-6 col-md-4 project-card" data-category="ml">
+	    <div class="card project-box shadow position-relative h-100">
+	      <div class="project-img img-box">
+	        <!-- Add relevant image from /static/images/ here -->
+	        <img src="{{ url_for('static', filename='ml/cutey/images/Cutey.png') }}"
+	             alt="Cutey-Py"
+	             class="card-img-top"/>
+	        <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
+	          <h5 class="text-white">Cutey</h5>
+	          <p class="small text-white mb-2 px-2">
+	            A machine-learning toolkit for federal financial management & accounting implemented
+	            in Python that integrates structured budget execution data—such as the SF-133 and
+	            agency-specific datasets to inform predictive models across multiple financial scenarios
+	          </p>
+	          <a href="https://github.com/is-leeroy-jenkins/Cutey#cutey"
+	             target="_blank" class="text-white">
+	            <i class="fab fa-github fa-2x text-white"></i>
+	            <p>Click here</p>
+	          </a>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+      <!-- Foo Project Card -->
+	  <div class="col-sm-6 col-md-4 project-card" data-category="ml">
+	    <div class="card project-box shadow position-relative h-100">
+	      <div class="project-img img-box">
+	        <!-- Add relevant image from /static/images/ here -->
+	        <img src="{{ url_for('static', filename='ml/foo/images/foo_project.png') }}"
+	             alt="Foo"
+	             class="card-img-top"/>
+	        <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
+	          <h5 class="text-white">Foo</h5>
+	          <p class="small text-white mb-2 px-2">
+	            A Modular Python Framework for Retrieval-Augmented Pipelines and Agentic Workflows.
+	            Foo is designed to give users explicit, hands-on control over how data is retrieved,
+	            loaded, extracted, queried, and explored from a variety of sources.
+	          </p>
+	          <a href="https://github.com/is-leeroy-jenkins/Foo#foo"
+	             target="_blank" class="text-white">
+	            <i class="fab fa-github fa-2x text-white"></i>
+	            <p>Click here</p>
+	          </a>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+      <!-- Mappy Project Card -->
+	  <div class="col-sm-6 col-md-4 project-card" data-category="ml">
+	    <div class="card project-box shadow position-relative h-100">
+	      <div class="project-img img-box">
+	        <!-- Add relevant image from /static/images/ here -->
+	        <img src="{{ url_for('static', filename='ml/mappy/images/mappy_portfolio.png') }}"
+	             alt="Mappy-Py"
+	             class="card-img-top"/>
+	        <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
+	          <h5 class="text-white">Mappy</h5>
+	          <p class="small text-white mb-2 px-2">
+	            A python application for geocoding, distance matrices, static mapping, time zone
+	            conversions with excel integration for use in agentic tooling & workflows.
+	          </p>
+	          <a href="https://github.com/is-leeroy-jenkins/Mappy#mappy"
+	             target="_blank" class="text-white">
+	            <i class="fab fa-github fa-2x text-white"></i>
+	            <p>Click here</p>
+	          </a>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+      <!-- Mathy Project Card -->
+	  <div class="col-sm-6 col-md-4 project-card" data-category="ml">
+	    <div class="card project-box shadow position-relative h-100">
+	      <div class="project-img img-box">
+	        <!-- Add relevant image from /static/images/ here -->
+	        <img src="{{ url_for('static', filename='ml/mathy/images/Mathy.png') }}"
+	             alt="Mathy-Py"
+	             class="card-img-top"/>
+	        <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
+	          <h5 class="text-white">Mathy</h5>
+	          <p class="small text-white mb-2 px-2">
+	            Machine-learning algorithms for pre-processing of tabular data designed for
+	            classification, regression, clustering and time-series models for ML workflows
+	            in federal finance.
+	          </p>
+	          <a href="https://github.com/is-leeroy-jenkins/Mathy#mathy-py"
+	             target="_blank" class="text-white">
+	            <i class="fab fa-github fa-2x text-white"></i>
+	            <p>Click here</p>
+	          </a>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+      <!-- Pogi Project Card -->
+	  <div class="col-sm-6 col-md-4 project-card" data-category="ml">
+	    <div class="card project-box shadow position-relative h-100">
+	      <div class="project-img img-box">
+	        <!-- Add relevant image from /static/images/ here -->
+	        <img src="{{ url_for('static', filename='ml/pogi/images/pogi_project.png') }}"
+	             alt="Pogi-Py"
+	             class="card-img-top"/>
+	        <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
+	          <h5 class="text-white">Pogi-Py</h5>
+	          <p class="small text-white mb-2 px-2">
+	            A Generative AI & Machine-Learning pipeline for forecasting federal balances at the
+	            Treasury Appropriation Fund Symbol (TAFS) level.
+	          </p>
+	          <a href="https://github.com/is-leeroy-jenkins/Pogi#pogi"  target="_blank"
+	             class="text-white">
+	            <i class="fab fa-github fa-2x text-white"></i>
+	            <p>Click here</p>
+	          </a>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+      <!-- Sake Project Card -->
+	  <div class="col-sm-6 col-md-4 project-card" data-category="ml">
+	    <div class="card project-box shadow position-relative h-100">
+	      <div class="project-img img-box">
+	        <!-- Add relevant image from /static/images/ here -->
+	        <img src="{{ url_for('static', filename='ml/sake/images/sake_project.png') }}"
+	             alt="Sake-Py"
+	             class="card-img-top"/>
+	        <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
+	          <h5 class="text-white">Sake</h5>
+	          <p class="small text-white mb-2 px-2">
+	            A modular machine learning framework for budget execution & data analysis written
+	            in Python and built with Scikit, XGBoost, PyTorch, and TensorFlow.
+	          </p>
+	          <a href="https://github.com/is-leeroy-jenkins/Sake#sake" target="_blank"
+	             class="text-white">
+	            <i class="fab fa-github fa-2x text-white"></i>
+	            <p>Click here</p>
+	          </a>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+      <!-- Schedule-X Project Card -->
+	  <div class="col-sm-6 col-md-4 project-card" data-category="ml">
+	    <div class="card project-box shadow position-relative h-100">
+	      <div class="project-img img-box">
+	        <!-- Add relevant image from /static/images/ here -->
+	        <img src="{{ url_for('static', filename='ml/schedx/images/Project_ScheduleX.png') }}"
+	             alt="Schedule-X"
+	             class="card-img-top"/>
+	        <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
+	          <h5 class="text-white">Schedule-X</h5>
+	          <p class="small text-white mb-2 px-2">
+	            A machine-learning pipeline for Combined Schedule (X) reporting and data analytics
+	            toolkit integrating generative-ai for federal financial management.
+	          </p>
+	          <a href="https://github.com/is-leeroy-jenkins/SchedX#schedule-x" target="_blank"
+	             class="text-white">
+	            <i class="fab fa-github fa-2x text-white"></i>
+	            <p>Click here</p>
+	          </a>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+      <!-- Sige Project Card -->
+	  <div class="col-sm-6 col-md-4 project-card" data-category="ml">
+	    <div class="card project-box shadow position-relative h-100">
+	      <div class="project-img img-box">
+	        <!-- Add relevant image from /static/images/ here -->
+	        <img src="{{ url_for('static', filename='ml/sige/images/SigeProject.png') }}"
+	             alt="Sige-Py"
+	             class="card-img-top"/>
+	        <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
+	          <h5 class="text-white">Sige-Py</h5>
+	          <p class="small text-white mb-2 px-2">
+	            Sige is a specialized machine learning and time series forecasting tool built for
+	            federal financial analysts, budget officers, and data scientists working with
+	            Treasury Account Symbols (TAS) and federal outlays.
+	          </p>
+	          <a href="https://github.com/is-leeroy-jenkins/Sige#sige" target="_blank"
+	             class="text-white">
+	            <i class="fab fa-github fa-2x text-white"></i>
+	            <p>Click here</p>
+	          </a>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
     </div>
-  </div>
-  <!-- Access VBA Project Card -->
-  <div class="col-sm-6 col-md-4 project-card" data-category="vba">
-    <div class="card project-box shadow position-relative h-100">
-      <div class="project-img img-box">
-        <!-- Add relevant image from /static/images/ here -->
-        <img src="{{ url_for('static', filename='images/vba-access.png') }}" alt="Access VBA"
-             class="card-img-top"/>
-        <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
-          <h5 class="text-white">Access VBA</h5>
-          <p class="small text-white mb-2 px-2">
-            Visual Basic for Applications (VBA) is the programming language used to extend the
-            functionality of Microsoft Access and other Microsoft Office applications.
-          </p>
-          <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Armory/blob/main/vba/notebook/access/vba-access.ipynb"
-             target="_blank" class="text-white">
-            <i class="fab fa-github fa-2x text-white"></i>
-            <p>Click here</p>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Numpy Project Card -->
-  <div class="col-sm-6 col-md-4 project-card" data-category="python">
-    <div class="card project-box shadow position-relative h-100">
-      <div class="project-img img-box">
-        <!-- Add relevant image from /static/images/ here -->
-        <img src="{{ url_for('static', filename='images/python-numpy.png') }}" alt="Numpy"
-             class="card-img-top"/>
-        <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
-          <h5 class="text-white">Numpy</h5>
-          <p class="small text-white mb-2 px-2">
-            NumPy is an open-source Python library fundamental for scientific computing,
-            providing a powerful N-dimensional array object (ndarray) and a wide collection of
-            high-level mathematical functions for fast operations on these arrays.
-          </p>
-          <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Armory/blob/main/python/notebooks/numpy/numpy.ipynb"
-             target="_blank" class="text-white">
-            <i class="fab fa-github fa-2x text-white"></i>
-            <p>Click here</p>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Matplot Project Card -->
-  <div class="col-sm-6 col-md-4 project-card" data-category="python">
-    <div class="card project-box shadow position-relative h-100">
-      <div class="project-img img-box">
-        <!-- Add relevant image from /static/images/ here -->
-        <img src="{{ url_for('static', filename='images/python-matplot.png') }}" alt="Matplot"
-             class="card-img-top"/>
-        <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
-          <h5 class="text-white">Matplot</h5>
-          <p class="small text-white mb-2 px-2">
-            Matplot is an open-source Python library fundamental for data visualization and analysis.
-          </p>
-          <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Armory/blob/main/python/notebooks/matplot/matplotlib.ipynb"
-             target="_blank" class="text-white">
-            <i class="fab fa-github fa-2x text-white"></i>
-            <p>Click here</p>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- SQL Server Project Card -->
-  <div class="col-sm-6 col-md-4 project-card" data-category="sql">
-    <div class="card project-box shadow position-relative h-100">
-      <div class="project-img img-box">
-        <!-- Add relevant image from /static/images/ here -->
-        <img src="{{ url_for('static', filename='images/sql-mssql.png') }}" alt="SQL Server"
-             class="card-img-top"/>
-        <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
-          <h5 class="text-white">SQL Server</h5>
-          <p class="small text-white mb-2 px-2">
-            SQL Server is a relational database management system (RDBMS) developed by Microsoft
-            that stores and retrieves data for other applications using Transact-SQL (T-SQL).
-          </p>
-          <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Armory/blob/main/sql/notebooks/sqlserver/sql_server.ipynb"
-             target="_blank" class="text-white">
-            <i class="fab fa-github fa-2x text-white"></i>
-            <p>Click here</p>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
 </section>
-
 
 {% endblock %}
