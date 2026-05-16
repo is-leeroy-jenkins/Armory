@@ -5,7 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="145d3bc9-f9e1-42d8-8fc6-aa749a696475" name="Changes" comment="update">
+      <change afterPath="$PROJECT_DIR$/ai/boo/images/boo_portfolio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ai/buddy/images/Buddy_Potfolio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ai/gipity/images/gipity_project.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ai/guro/images/guro_project.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ai/jeni/images/jeni_portfolio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ai/jimi/images/jimi_project.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/llm/boogr/images/Booger.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/llm/bro/images/bro_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ml/sake/images/sake_project.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ml/schedx/images/Project_ScheduleX.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ml/sige/images/SigeProject.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,21 +52,31 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Flask server.Armory.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Flask server.Armory.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "last_opened_file_path": "C:/Users/terry/source/repos/Armory/ml/sake/images",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\terry\source\repos\Armory\ml\sake\images" />
+      <recent name="C:\Users\terry\source\repos\Armory\ml\schedx\images" />
+      <recent name="C:\Users\terry\source\repos\Armory\ml\sige\images" />
+      <recent name="C:\Users\terry\source\repos\Armory\ai\gipity\images" />
+      <recent name="C:\Users\terry\source\repos\Armory\ai\guro\images" />
+    </key>
+  </component>
   <component name="RunManager" selected="Flask server.Armory">
     <configuration name="Armory" type="PythonConfigurationType" factoryName="Python">
       <module name="Armory" />
@@ -85,7 +109,7 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -111,7 +135,8 @@
       <updated>1778891732505</updated>
       <workItem from="1778891735033" duration="739000" />
       <workItem from="1778894236687" duration="2177000" />
-      <workItem from="1778911577793" duration="3488000" />
+      <workItem from="1778911577793" duration="4624000" />
+      <workItem from="1778924954071" duration="5806000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -129,11 +154,30 @@
       <option name="project" value="LOCAL" />
       <updated>1778914498082</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update">
+      <option name="closed" value="true" />
+      <created>1778916707802</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1778916707802</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update" />

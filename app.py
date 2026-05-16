@@ -1,6 +1,6 @@
 '''
 ******************************************************************************************
-  Assembly:                Name
+  Assembly:                Armory
   Filename:                app.py
   Author:                  Terry D. Eppler
   Created:                 05-31-2022
@@ -8,7 +8,7 @@
   Last Modified By:        Terry D. Eppler
   Last Modified On:        05-01-2025
 ******************************************************************************************
-<copyright file="guro.py" company="Terry D. Eppler">
+<copyright file="app.y.py" company="Terry D. Eppler">
 
 	     app.py
 	     Copyright ©  2022  Terry Eppler

@@ -45,7 +45,7 @@ ___
 ## 🧩 Repository Structure
 
 ```
-Halo-Kitty-Adventures/
+Armory/
 │
 ├── 📂 Excel/
 │   ├── Excel_Formulas.md

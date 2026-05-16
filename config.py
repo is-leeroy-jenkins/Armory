@@ -43,28 +43,43 @@
 '''
 import os
 
-# Constants
-MODELS = [ 'gpt-4o-mini', 'gpt-4o', 'gpt-4-turbo', 'gpt-3.5-turbo' ]
+# LARGE LANGUAGE MODELS URLS
 
-# Keys
-GEOAPIFY_API_KEY = os.getenv( 'GEOAPIFY_API_KEY' )
-GEMINI_API_KEY = os.getenv( 'GEMINI_API_KEY' )
-GROQ_API_KEY = os.getenv( 'GROQ_API_KEY' )
-GOOGLE_API_KEY = os.getenv( 'GOOGLE_API_KEY' )
-HUGGINGFACE_API_KEY = os.getenv( 'HUGGINGFACE_API_KEY' )
-IPINFO_API_KEY = os.getenv( 'IPINFO_API_KEY' )
-OPENAI_API_KEY = os.getenv( 'OPENAI_API_KEY' )
-PINECONE_API_KEY = os.getenv( 'PINECONE_API_KEY' )
-LANGSMITH_API_KEY = os.getenv( 'LANGSMITH_API_KEY' )
-LLAMAINDEX_API_KEY = os.getenv( 'LLAMAINDEX_API_KEY' )
-LLAMACLOUD_API_KEY = os.getenv( 'LLAMACLOUD_API_KEY' )
-MISTRAL_API_KEY = os.getenv( 'MISTRAL_API_KEY' )
-NASA_API_KEY = os.getenv( 'NASA_API_KEY' )
-NEWSAPI_API_KEY = os.getenv( 'NEWSAPI_API_KEY' )
-WEATHERAPI_API_KEY = os.getenv( 'WEATHERAPI_API_KEY' )
-WEAVIEATE_API_KEY = os.getenv( 'WEAVIEATE_API_KEY' )
-QDRANT_API_KEY = os.getenv( 'QDRANT_API_KEY' )
-SINGLESTORE_API_KEY = os.getenv( 'SINGLESTORE_API_KEY' )
+BOBO_LLM = r'https://huggingface.co/leeroy-jankins/bobo'
+BOOGR_LLM = r'https://huggingface.co/leeroy-jankins/boogr'
+NOMNOM_LLM = r'https://huggingface.co/leeroy-jankins/nomi'
+BUBBA_LLM = r'https://huggingface.co/leeroy-jankins/bubba'
+JIMI_LLM = r'https://huggingface.co/leeroy-jankins/jimi'
+LEEROY_LLM = r'https://huggingface.co/leeroy-jankins/leeroy'
+BOO_LLM = r'https://huggingface.co/leeroy-jankins/boo'
+BUDDY_LLM = r"https://huggingface.co/leeroy-jankins/buddy"
+GIPITY_LLM = r'https://huggingface.co/leeroy-jankins/gipity'
+BRO_LLM = r'https://huggingface.co/leeroy-jankins/bro'
+
+
+# MACHINE LEARNING URLS
+
+POGI_PY = r'https://pogi-py.streamlit.app/'
+SAKE_PY = r'https://sake-py.streamlit.app/'
+SCHEDULEX = r'https://schedule-x.streamlit.app/'
+CUTEY_PY = r'https://cutey-py.streamlit.app/'
+MATHY_PY = r'https://mathy-py.streamlit.app/'
+CHONKY_PY = r'https://chonky-py.streamlit.app/'
+SIGE_PY = r'https://sige-py.streamlit.app/'
+MAPPY_PY = r'https://mappy-py.streamlit.app/'
+FOO_PY = r'https://fooo-py.streamlit.app/'
+
+
+# GENERATIVE AI URLS
+GURO = r''
+BOO_PY = r'https://boo-py.streamlit.app/'
+GIPITY_PY = r'https://gipity-py.streamlit.app/'
+JENI_PY = r'https://jeni-py.streamlit.app/'
+JIMI_PY = r'https://jimi-py.streamlit.app/'
+BUDDY_PY = r'https://buddy-py.streamlit.app/'
+LEEROY_PY = r'https://leeroy.streamlit.app/'
+
+
 SECRET_KEY = os.urandom( 32 )
 
 def set_environment( ):
