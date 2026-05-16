@@ -47,14 +47,9 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top">
       <div class="container">
         <a class="navbar-brand fw-bold" href="{{ url_for('home') }}">Armory</a>
-        <button>
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+          aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -67,31 +62,20 @@
               <a class="nav-link" href="#about" onclick="showSection('about')">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link"
-                href="#projects"
-                onclick="showSection('projects')">Tools</a>
+              <a class="nav-link" href="#projects" onclick="showSection('projects')">Tools</a>
             </li>
             <li class="nav-item">
-              <a
-                class="nav-link"
-                href="#education"
-                onclick="showSection('education')">Resources</a>
+              <a class="nav-link" href="#education" onclick="showSection('education')">Resources</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="{{ url_for('blogs') }}">Blogs</a>
             </li>
             <li class="nav-item">
-              <a
-                class="nav-link"
-                href="#contact"
-                onclick="showSection('contact')">Contact</a>
+              <a class="nav-link" href="#contact"  onclick="showSection('contact')">Contact</a>
             </li>
             <li class="nav-item ms-3">
               <div class="form-check form-switch mt-1">
-                <input
-                  class="form-check-input"
-                  type="checkbox"
-                  id="darkModeToggle"
+                <input class="form-check-input" type="checkbox" id="darkModeToggle"
                   aria-label="Dark mode toggle"/>
                 <label class="form-check-label" for="darkModeToggle">
                   <i class="fas fa-moon">Dark Mode</i>
