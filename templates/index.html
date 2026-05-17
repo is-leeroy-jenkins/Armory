@@ -1,9 +1,12 @@
 {% extends 'base.html' %} {% block content %}
-	<!-- Hero Section -->
-<section id="home" class="hero-section text-center text-white" data-aos="fade-up"
-	         style="position: relative; height: 90vh">
+<!-- Hero Section -->
+<section id="home" class="hero-section text-center text-white" 
+         data-aos="fade-up"  style="position: relative; height: 90vh">
+
   <!-- Background Overlay -->
-  <div class="hero-bg"></div>
+  <div class="hero-bg">
+  </div>
+	
   <!-- Foreground Text Container -->
   <div class="hero-content position-relative z-2 px-3">
     <h1 class="display-3 fw-bold mb-3"> Toolkit</h1>
@@ -13,9 +16,12 @@
     </p>
 
   </div>
-</section>
 
-<!-- About Section -->
+</section>
+	
+<!---------------------->
+<!-- About Section ----->
+<!---------------------->
 <section id="about" class="about-section py-5" data-aos="fade-up">
   <div class="container">
     <div class="row align-items-center">
@@ -54,7 +60,7 @@
       <!-- Right Side: Image Box -->
       <div class="col-lg-6 d-flex justify-content-center">
         <div class="about-img-box shadow-lg rounded-4 overflow-hidden">
-          <!-- Add relevant image from /static/notebooks/ here -->
+          <!-- Add relevant image from /static/images/ here -->
           <img src="{{ url_for('static', filename='images/Analytics.png') }}" alt="Terry Eppler"
                class="img-fluid"/>
         </div>
@@ -105,18 +111,18 @@
   <!---- Projects Grid --->
   <!---------------------->
     <div class="row g-4" id="projects-grid">
-      <!-- Example Project Card -->
+      <!-- SQL Access Project Card -->
       <div class="col-sm-6 col-md-4 project-card" data-category="sql">
         <div class="card project-box shadow position-relative h-100">
           <div class="project-img img-box">
-            <!-- Add relevant image from /static/notebooks/ here -->
+            <!-- Add relevant image from /static/images/ here -->
             <img src="{{ url_for('static', filename='images/sql-access.png') }}" alt="Access SQL"
                  class="card-img-top"/>
             <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
               <h5 class="text-white">SQL Access</h5>
               <p class="small text-white mb-2 px-2">
-                Microsoft Access is a powerful tool utilized for data analytics, particularly for
-                small to medium-sized datasets and specific analytical tasks.
+                MS Access & VBA are powerful tools utilized for data analytics, particularly for
+                prototyping and ad-hoc analysis.
               </p>
               <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Armory/blob/main/sql/notebooks/access/sql-access.ipynb"
                  target="_blank" class="text-white">
@@ -127,10 +133,11 @@
           </div>
         </div>
       </div>
+      <!-- Excel VBA Project Card -->
       <div class="col-sm-6 col-md-4 project-card" data-category="vba">
         <div class="card project-box shadow position-relative h-100">
           <div class="project-img img-box">
-            <!-- Add relevant image from /static/notebooks/ here -->
+            <!-- Add relevant image from /static/images/ here -->
             <img src="{{ url_for('static', filename='images/vba-excel.png') }}" alt="Excel VBA"
                  class="card-img-top"/>
             <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
@@ -148,10 +155,11 @@
           </div>
         </div>
       </div>
+      <!-- Python Project Card -->
       <div class="col-sm-6 col-md-4 project-card" data-category="python">
         <div class="card project-box shadow position-relative h-100">
           <div class="project-img img-box">
-            <!-- Add relevant image from /static/notebooks/ here -->
+            <!-- Add relevant image from /static/images/ here -->
             <img src="{{ url_for('static', filename='images/python.png') }}" alt="Python"
                  class="card-img-top"/>
             <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
@@ -168,10 +176,11 @@
           </div>
         </div>
       </div>
+      <!-- HTML5 Project Card -->
       <div class="col-sm-6 col-md-4 project-card" data-category="web">
         <div class="card project-box shadow position-relative h-100">
           <div class="project-img img-box">
-            <!-- Add relevant image from /static/notebooks/ here -->
+            <!-- Add relevant image from /static/images/ here -->
             <img src="{{ url_for('static', filename='images/html5.png') }}" alt="HTML5"
                  class="card-img-top"/>
             <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
@@ -188,10 +197,11 @@
           </div>
         </div>
       </div>
+      <!-- SQL Project Card -->
       <div class="col-sm-6 col-md-4 project-card" data-category="sql">
         <div class="card project-box shadow position-relative h-100">
           <div class="project-img img-box">
-            <!-- Add relevant image from /static/notebooks/ here -->
+            <!-- Add relevant image from /static/images/ here -->
             <img src="{{ url_for('static', filename='images/sql-sqlite.png') }}" alt="SQLite"
                  class="card-img-top"/>
             <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
@@ -209,10 +219,11 @@
           </div>
         </div>
       </div>
+      <!-- CSS3 Project Card -->
       <div class="col-sm-6 col-md-4 project-card" data-category="web">
         <div class="card project-box shadow position-relative h-100">
           <div class="project-img img-box">
-            <!-- Add relevant image from /static/notebooks/ here -->
+            <!-- Add relevant image from /static/images/ here -->
             <img src="{{ url_for('static', filename='images/css3.png') }}" alt="CSS3"
                  class="card-img-top"/>
             <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
@@ -234,7 +245,7 @@
       <div class="col-sm-6 col-md-4 project-card" data-category="web">
         <div class="card project-box shadow position-relative h-100">
           <div class="project-img img-box">
-            <!-- Add relevant image from /static/notebooks/ here -->
+            <!-- Add relevant image from /static/images/ here -->
             <img src="{{ url_for('static', filename='images/javascript.png') }}" alt="JavaScript"
                  class="card-img-top"/>
             <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
@@ -256,7 +267,7 @@
       <div class="col-sm-6 col-md-4 project-card" data-category="python">
         <div class="card project-box shadow position-relative h-100">
           <div class="project-img img-box">
-            <!-- Add relevant image from /static/notebooks/ here -->
+            <!-- Add relevant image from /static/images/ here -->
             <img src="{{ url_for('static', filename='images/python-pandas.png') }}" alt="Pandas"
                  class="card-img-top"/>
             <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
@@ -277,7 +288,7 @@
       <div class="col-sm-6 col-md-4 project-card" data-category="dax">
         <div class="card project-box shadow position-relative h-100">
           <div class="project-img img-box">
-            <!-- Add relevant image from /static/notebooks/ here -->
+            <!-- Add relevant image from /static/images/ here -->
             <img src="{{ url_for('static', filename='images/dax.png') }}" alt="DAX"
                  class="card-img-top"/>
             <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
@@ -295,11 +306,11 @@
           </div>
         </div>
     </div>
-      <!-- PBI Project Card -->
+      <!-- PBI Python Project Card -->
       <div class="col-sm-6 col-md-4 project-card" data-category="python">
         <div class="card project-box shadow position-relative h-100">
           <div class="project-img img-box">
-            <!-- Add relevant image from /static/notebooks/ here -->
+            <!-- Add relevant image from /static/images/ here -->
             <img src="{{ url_for('static', filename='images/python_pbi.png') }}" alt="Power BI"
                  class="card-img-top"/>
             <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
@@ -316,11 +327,11 @@
           </div>
         </div>
    </div>
-      <!-- Excel Project Card -->
+      <!-- Excel Functions Project Card -->
 	  <div class="col-sm-6 col-md-4 project-card" data-category="dax">
 	    <div class="card project-box shadow position-relative h-100">
 	      <div class="project-img img-box">
-	        <!-- Add relevant image from /static/notebooks/ here -->
+	        <!-- Add relevant image from /static/images/ here -->
 	        <img src="{{ url_for('static', filename='images/excel-functions.png') }}" alt="Excel Formulas"
 	             class="card-img-top"/>
 	        <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
@@ -341,7 +352,7 @@
 	  <div class="col-sm-6 col-md-4 project-card" data-category="vba">
 	    <div class="card project-box shadow position-relative h-100">
 	      <div class="project-img img-box">
-	        <!-- Add relevant image from /static/notebooks/ here -->
+	        <!-- Add relevant image from /static/images/ here -->
 	        <img src="{{ url_for('static', filename='images/vba-access.png') }}" alt="Access VBA"
 	             class="card-img-top"/>
 	        <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
@@ -363,7 +374,7 @@
 	  <div class="col-sm-6 col-md-4 project-card" data-category="python">
 	    <div class="card project-box shadow position-relative h-100">
 	      <div class="project-img img-box">
-	        <!-- Add relevant image from /static/notebooks/ here -->
+	        <!-- Add relevant image from /static/images/ here -->
 	        <img src="{{ url_for('static', filename='images/python-numpy.png') }}" alt="Numpy"
 	             class="card-img-top"/>
 	        <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
@@ -386,7 +397,7 @@
 	  <div class="col-sm-6 col-md-4 project-card" data-category="python">
 	    <div class="card project-box shadow position-relative h-100">
 	      <div class="project-img img-box">
-	        <!-- Add relevant image from /static/notebooks/ here -->
+	        <!-- Add relevant image from /static/images/ here -->
 	        <img src="{{ url_for('static', filename='images/python-matplot.png') }}" alt="Matplot"
 	             class="card-img-top"/>
 	        <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
@@ -407,7 +418,7 @@
 	  <div class="col-sm-6 col-md-4 project-card" data-category="sql">
 	    <div class="card project-box shadow position-relative h-100">
 	      <div class="project-img img-box">
-	        <!-- Add relevant image from /static/notebooks/ here -->
+	        <!-- Add relevant image from /static/images/ here -->
 	        <img src="{{ url_for('static', filename='images/sql-mssql.png') }}" alt="SQL Server"
 	             class="card-img-top"/>
 	        <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
@@ -425,14 +436,12 @@
 	      </div>
 	    </div>
 	  </div>
-      <!------------------------->
-      <!-- Machine Learning  ---->
-      <!------------------------->
+
       <!-- Chonky Project Card -->
 	  <div class="col-sm-6 col-md-4 project-card" data-category="ml">
 	    <div class="card project-box shadow position-relative h-100">
 	      <div class="project-img img-box">
-	        <!-- Add relevant image from /static/notebooks/ here -->
+	        <!-- Add relevant image from /static/images/ here -->
 	        <img src="{{ url_for('static', filename='images/Chonky.png') }}" alt="Chonky-Py"
 	             class="card-img-top"/>
 	        <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
@@ -455,7 +464,7 @@
 	  <div class="col-sm-6 col-md-4 project-card" data-category="ml">
 	    <div class="card project-box shadow position-relative h-100">
 	      <div class="project-img img-box">
-	        <!-- Add relevant image from /static/notebooks/ here -->
+	        <!-- Add relevant image from /static/images/ here -->
 	        <img src="{{ url_for('static', filename='images/Foo.png') }}"
 	             alt="Foo"
 	             class="card-img-top"/>
@@ -479,7 +488,7 @@
 	  <div class="col-sm-6 col-md-4 project-card" data-category="ml">
 	    <div class="card project-box shadow position-relative h-100">
 	      <div class="project-img img-box">
-	        <!-- Add relevant image from /static/notebooks/ here -->
+	        <!-- Add relevant image from /static/images/ here -->
 	        <img src="{{ url_for('static', filename='images/Cutey.png') }}"
 	             alt="Cutey-Py"
 	             class="card-img-top"/>
@@ -503,7 +512,7 @@
 	  <div class="col-sm-6 col-md-4 project-card" data-category="ml">
 	    <div class="card project-box shadow position-relative h-100">
 	      <div class="project-img img-box">
-	        <!-- Add relevant image from /static/notebooks/ here -->
+	        <!-- Add relevant image from /static/images/ here -->
 	        <img src="{{ url_for('static', filename='images/Mappy.png') }}"
 	             alt="Mappy-Py"
 	             class="card-img-top"/>
@@ -526,7 +535,7 @@
 	  <div class="col-sm-6 col-md-4 project-card" data-category="ml">
 	    <div class="card project-box shadow position-relative h-100">
 	      <div class="project-img img-box">
-	        <!-- Add relevant image from /static/notebooks/ here -->
+	        <!-- Add relevant image from /static/images/ here -->
 	        <img src="{{ url_for('static', filename='images/Mathy.png') }}"
 	             alt="Mathy-Py"
 	             class="card-img-top"/>
@@ -550,7 +559,7 @@
 	  <div class="col-sm-6 col-md-4 project-card" data-category="ml">
 	    <div class="card project-box shadow position-relative h-100">
 	      <div class="project-img img-box">
-	        <!-- Add relevant image from /static/notebooks/ here -->
+	        <!-- Add relevant image from /static/images/ here -->
 	        <img src="{{ url_for('static', filename='images/Pogi.png') }}"
 	             alt="Pogi-Py"
 	             class="card-img-top"/>
@@ -573,7 +582,7 @@
 	  <div class="col-sm-6 col-md-4 project-card" data-category="ml">
 	    <div class="card project-box shadow position-relative h-100">
 	      <div class="project-img img-box">
-	        <!-- Add relevant image from /static/notebooks/ here -->
+	        <!-- Add relevant image from /static/images/ here -->
 	        <img src="{{ url_for('static', filename='images/Sake.png') }}"
 	             alt="Sake-Py"
 	             class="card-img-top"/>
@@ -596,7 +605,7 @@
 	  <div class="col-sm-6 col-md-4 project-card" data-category="ml">
 	    <div class="card project-box shadow position-relative h-100">
 	      <div class="project-img img-box">
-	        <!-- Add relevant image from /static/notebooks/ here -->
+	        <!-- Add relevant image from /static/images/ here -->
 	        <img src="{{ url_for('static', filename='images/ScheduleX.png') }}"
 	             alt="Schedule-X"
 	             class="card-img-top"/>
@@ -619,7 +628,7 @@
 	  <div class="col-sm-6 col-md-4 project-card" data-category="ml">
 	    <div class="card project-box shadow position-relative h-100">
 	      <div class="project-img img-box">
-	        <!-- Add relevant image from /static/notebooks/ here -->
+	        <!-- Add relevant image from /static/images/ here -->
 	        <img src="{{ url_for('static', filename='images/Sige.png') }}"
 	             alt="Sige-Py"
 	             class="card-img-top"/>
