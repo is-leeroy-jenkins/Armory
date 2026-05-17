@@ -27,7 +27,7 @@ body.dark-mode
 {
 	--bg-color         : #141414;
 	--text-color       : #F6F4F4;
-	--primary-color    : #FFCC01;
+	--primary-color    : #5B4902;
 	--secondary-color  : #565557;
 	--gradient-primary : linear-gradient(90deg, #565557 40%, #FFCC01 100%);
 	--btn-bg-hover     : var(--gradient-primary);
