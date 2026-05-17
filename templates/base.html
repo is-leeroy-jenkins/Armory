@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{{ page_title }} | Armory </title>
-    <meta name="description" content="A toolkit for data analytics integration"/>
+    <meta name="description" content="A toolkit for data analytics & ai integration"/>
     <meta property="og:title" content="Armory | Analytics Toolkit"/>
     <meta property="og:description" content="A toolkit for data analytics, machine learning and ai integration"/>
     <meta property="og:image" content="{{ url_for('static', filename='notebooks/eppler-logo.png') }}" />
@@ -27,7 +27,7 @@
 	<link rel='shortcut icon' href="{{ url_for('static', filename='favicon.ico') }}"  type='image/x-icon'>
 	<link rel='icon' href="{{ url_for('static', filename='favicon.ico') }}" type='image/x-icon'>
   </head>
-  <body id="body" class="light-mode">
+  <body id="body" class="dark-mode">
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top">
       <div class="container">
@@ -95,7 +95,7 @@
 
       // Dark mode toggle handler
       document
-        .getElementById("darkModeToggle")
+        .getElementById( "darkModeToggle" )
         .addEventListener( "change", function ( )
         {
           const body = document.getElementById( "body" );
@@ -110,7 +110,8 @@
           }
         });
 
-      // Function to show/hide sections by id can be implemented if using SPA style navigation
+      // Function to show/hide sections by id can be
+      // implemented if using SPA style navigation
       function showSection( sectionId )
       {
         // Will implement as we create sections stepwise

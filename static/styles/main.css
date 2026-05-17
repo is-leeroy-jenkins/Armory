@@ -251,7 +251,7 @@ body.dark-mode .navbar .nav-link:focus
 	overflow      : hidden;
 	border-radius : 12px 12px 0 0;
 	position      : relative;
-	background    : #2D2D2D0;
+	background    : #2D2D2D;
 }
 
 .img-box img
