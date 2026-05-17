@@ -2,11 +2,8 @@
 <!-- Hero Section -->
 <section id="home" class="hero-section text-center text-white" 
          data-aos="fade-up"  style="position: relative; height: 90vh">
-
   <!-- Background Overlay -->
-  <div class="hero-bg">
-  </div>
-	
+  <div class="hero-bg"></div>
   <!-- Foreground Text Container -->
   <div class="hero-content position-relative z-2 px-3">
     <h1 class="display-3 fw-bold mb-3"> Toolkit</h1>
@@ -16,10 +13,58 @@
     </p>
 
   </div>
-
 </section>
 
-<!----------------------------->
+<!-- About Section -->
+<section id="about" class="about-section py-5" data-aos="fade-up">
+  <div class="container">
+    <div class="row align-items-center">
+      <!-- Left Side: About Text -->
+      <div class="col-lg-6 mb-4 mb-lg-0">
+        <h2 class="fw-bold mb-3">About</h2>
+        <p>
+           A comprehensive, modular learning and reference toolkit designed to advance the integration
+           and modernization of data analytics workflows across organizations. The repository provides
+           a unified, stepwise pathway from spreadsheet-based analytics to enterprise-scale automation,
+           data science, and interactive dashboard deployment.
+        </p>
+        <ul class="about-list mt-3">
+          <li>
+            <i class="fas fa-circle-check text-primary"></i>
+	          Data Modeling & Analysis
+          </li>
+          <li>
+            <i class="fas fa-circle-check text-primary"></i>
+	          Natural Language Processing
+          </li>
+          <li>
+            <i class="fas fa-circle-check text-primary"></i>
+	          Machine & Deep Learning
+          </li>
+          <li>
+            <i class="fas fa-circle-check text-primary"></i>
+	          Predictive Analytics
+          </li>
+          <li>
+            <i class="fas fa-circle-check text-primary"></i>
+	          AI Integration
+          </li>
+        </ul>
+      </div>
+      <!-- Right Side: Image Box -->
+      <div class="col-lg-6 d-flex justify-content-center">
+        <div class="about-img-box shadow-lg rounded-4 overflow-hidden">
+          <!-- Add relevant image from /static/notebooks/ here -->
+          <img src="{{ url_for('static', filename='images/Analytics.png') }}" alt="Terry Eppler"
+               class="img-fluid"/>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+	<!----------------------------->
 <!-------- Tools Section ------>
 <!----------------------------->
 <section id="tools" class="tools-section py-5" data-aos="fade-up">
@@ -32,18 +77,6 @@
   <div class="d-flex justify-content-center mb-4">
       <button class="btn btn-outline-primary me-2 filter-btn active" data-filter="all">
         All
-      </button>
-      <button class="btn btn-outline-primary me-2 filter-btn" data-filter="sql">
-        SQL
-      </button>
-      <button class="btn btn-outline-primary me-2 filter-btn" data-filter="vba">
-        VBA
-      </button>
-      <button class="btn btn-outline-primary me-2 filter-btn" data-filter="web">
-        Web
-      </button>
-      <button class="btn btn-outline-primary me-2 filter-btn" data-filter="python">
-        Python
       </button>
       <button class="btn btn-outline-primary me-2 filter-btn" data-filter="ml">
         Machine Learning
@@ -60,332 +93,6 @@
   <!---- Tools Grid --->
   <!---------------------->
 	<div class="row g-4" id="projects-grid">
-      <!-- SQL Access Project Card -->
-      <div class="col-sm-6 col-md-4 project-card" data-category="sql">
-        <div class="card project-box shadow position-relative h-100">
-          <div class="project-img img-box">
-            <!-- Add relevant image from /static/images/ here -->
-            <img src="{{ url_for('static', filename='images/sql-access.png') }}" alt="Access SQL"
-                 class="card-img-top"/>
-            <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
-              <h5 class="text-white">SQL Access</h5>
-              <p class="small text-white mb-2 px-2">
-                MS Access & VBA are powerful tools utilized for data analytics, particularly for
-                prototyping and ad-hoc analysis.
-              </p>
-              <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Armory/blob/main/sql/notebooks/access/sql-access.ipynb"
-                 target="_blank" class="text-white">
-                <i class="fab fa-github fa-2x text-white"></i>
-                <p>Click here</p>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Excel VBA Project Card -->
-      <div class="col-sm-6 col-md-4 project-card" data-category="vba">
-        <div class="card project-box shadow position-relative h-100">
-          <div class="project-img img-box">
-            <!-- Add relevant image from /static/images/ here -->
-            <img src="{{ url_for('static', filename='images/vba-excel.png') }}" alt="Excel VBA"
-                 class="card-img-top"/>
-            <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
-              <h5 class="text-white">VBA Excel</h5>
-              <p class="small text-white mb-2 px-2">
-                Excel VBA serves as a powerful tool in data analytics, enabling automation,
-                and enhanced functionality within Microsoft Excel.
-              </p>
-              <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Armory/blob/main/vba/notebook/excel/vba-excel.ipynb"
-                 target="_blank" class="text-white">
-                <i class="fab fa-github fa-2x text-white"></i>
-                <p>Click here</p>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Python Project Card -->
-      <div class="col-sm-6 col-md-4 project-card" data-category="python">
-        <div class="card project-box shadow position-relative h-100">
-          <div class="project-img img-box">
-            <!-- Add relevant image from /static/images/ here -->
-            <img src="{{ url_for('static', filename='images/python.png') }}" alt="Python"
-                 class="card-img-top"/>
-            <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
-              <h5 class="text-white">Python</h5>
-              <p class="small text-white mb-2 px-2">
-                Python is a widely used and highly effective programming language for data analysis.
-              </p>
-              <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Armory/blob/main/python/notebooks/py/python.ipynb"
-                 target="_blank" class="text-white">
-                <i class="fab fa-github fa-2x text-white"></i>
-                <p>Click here</p>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- HTML5 Project Card -->
-      <div class="col-sm-6 col-md-4 project-card" data-category="web">
-        <div class="card project-box shadow position-relative h-100">
-          <div class="project-img img-box">
-            <!-- Add relevant image from /static/images/ here -->
-            <img src="{{ url_for('static', filename='images/html5.png') }}" alt="HTML5"
-                 class="card-img-top"/>
-            <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
-              <h5 class="text-white">HTML5</h5>
-              <p class="small text-white mb-2 px-2">
-                HTML5 is the core code used to structure and present content on the World Wide Web
-              </p>
-              <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Armory/blob/main/html/notebooks/html-tutorial.ipynb"
-                 target="_blank" class="text-white">
-                <i class="fab fa-github fa-2x text-white"></i>
-                <p>Click here</p>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- SQL Project Card -->
-      <div class="col-sm-6 col-md-4 project-card" data-category="sql">
-        <div class="card project-box shadow position-relative h-100">
-          <div class="project-img img-box">
-            <!-- Add relevant image from /static/images/ here -->
-            <img src="{{ url_for('static', filename='images/sql-sqlite.png') }}" alt="SQLite"
-                 class="card-img-top"/>
-            <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
-              <h5 class="text-white">SQLite</h5>
-              <p class="small text-white mb-2 px-2">
-                SQLite is a serverless, self-contained relational database system implemented
-                as a C library and does not require a separate server.
-              </p>
-              <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Armory/blob/main/sql/notebooks/sqlite/sql-sqlite.ipynb"
-                 target="_blank" class="text-white">
-                <i class="fab fa-github fa-2x text-white"></i>
-                <p>Click here</p>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- CSS3 Project Card -->
-      <div class="col-sm-6 col-md-4 project-card" data-category="web">
-        <div class="card project-box shadow position-relative h-100">
-          <div class="project-img img-box">
-            <!-- Add relevant image from /static/images/ here -->
-            <img src="{{ url_for('static', filename='images/css3.png') }}" alt="CSS3"
-                 class="card-img-top"/>
-            <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
-              <h5 class="text-white">CSS3</h5>
-              <p class="small text-white mb-2 px-2">
-                Cascading Style Sheets language adds features, transformations,
-                and animations to create more dynamic data visualizations.
-              </p>
-              <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Armory/blob/main/css/notebooks/css-tutorial.ipynb"
-                 target="_blank" class="text-white">
-                <i class="fab fa-github fa-2x text-white"></i>
-                <p>Click here</p>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- JavaScript Project Card -->
-      <div class="col-sm-6 col-md-4 project-card" data-category="web">
-        <div class="card project-box shadow position-relative h-100">
-          <div class="project-img img-box">
-            <!-- Add relevant image from /static/images/ here -->
-            <img src="{{ url_for('static', filename='images/javascript.png') }}" alt="JavaScript"
-                 class="card-img-top"/>
-            <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
-              <h5 class="text-white">JavaScript</h5>
-              <p class="small text-white mb-2 px-2">
-                JavaScript is a high-level, multi-paradigm programming language that
-                conforms to the ECMAScript standard.
-              </p>
-              <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Armory/blob/main/javascript/notebook/javascript.ipynb"
-                 target="_blank" class="text-white">
-                <i class="fab fa-github fa-2x text-white"></i>
-                <p>Click here</p>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Pandas Project Card -->
-      <div class="col-sm-6 col-md-4 project-card" data-category="python">
-        <div class="card project-box shadow position-relative h-100">
-          <div class="project-img img-box">
-            <!-- Add relevant image from /static/images/ here -->
-            <img src="{{ url_for('static', filename='images/python-pandas.png') }}" alt="Pandas"
-                 class="card-img-top"/>
-            <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
-              <h5 class="text-white">Pandas</h5>
-              <p class="small text-white mb-2 px-2">
-                Pandas is an open-source Python library widely used for data analysis and manipulation.
-              </p>
-              <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Armory/blob/main/python/notebooks/pandas/pandas.ipynb"
-                 target="_blank" class="text-white">
-                <i class="fab fa-github fa-2x text-white"></i>
-                <p>Click here</p>
-              </a>
-            </div>
-          </div>
-        </div>
-    </div>
-      <!-- DAX Project Card -->
-      <div class="col-sm-6 col-md-4 project-card" data-category="dax">
-        <div class="card project-box shadow position-relative h-100">
-          <div class="project-img img-box">
-            <!-- Add relevant image from /static/images/ here -->
-            <img src="{{ url_for('static', filename='images/dax.png') }}" alt="DAX"
-                 class="card-img-top"/>
-            <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
-              <h5 class="text-white">DAX</h5>
-              <p class="small text-white mb-2 px-2">
-                Data Analysis Expressions (DAX) is a powerful formula language used in
-                Microsoft Excel, Power BI, and SQL Server Analysis Services.
-              </p>
-              <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Armory/blob/main/excel/notebooks/dax/dax.ipynb"
-                 target="_blank" class="text-white">
-                <i class="fab fa-github fa-2x text-white"></i>
-                <p>Click here</p>
-              </a>
-            </div>
-          </div>
-        </div>
-    </div>
-      <!-- PBI Python Project Card -->
-      <div class="col-sm-6 col-md-4 project-card" data-category="python">
-        <div class="card project-box shadow position-relative h-100">
-          <div class="project-img img-box">
-            <!-- Add relevant image from /static/images/ here -->
-            <img src="{{ url_for('static', filename='images/python_pbi.png') }}" alt="Power BI"
-                 class="card-img-top"/>
-            <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
-              <h5 class="text-white">Power BI</h5>
-              <p class="small text-white mb-2 px-2">
-                Power BI and Python can be integrated to enhance data analysis and visualization capabilities.
-              </p>
-              <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Armory/blob/main/python/notebooks/pbi/pbi.ipynb"
-                 target="_blank" class="text-white">
-                <i class="fab fa-github fa-2x text-white"></i>
-                <p>Click here</p>
-              </a>
-            </div>
-          </div>
-        </div>
-   </div>
-      <!-- Excel Functions Project Card -->
-	  <div class="col-sm-6 col-md-4 project-card" data-category="dax">
-	    <div class="card project-box shadow position-relative h-100">
-	      <div class="project-img img-box">
-	        <!-- Add relevant image from /static/images/ here -->
-	        <img src="{{ url_for('static', filename='images/excel-functions.png') }}" alt="Excel Formulas"
-	             class="card-img-top"/>
-	        <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
-	          <h5 class="text-white">Excel Formulas</h5>
-	          <p class="small text-white mb-2 px-2">
-	            Excel formulas are user-created calculations starting with an equals sign used in data analysis
-	          </p>
-	          <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Armory/blob/main/excel/notebooks/formulas/excel-formulas.ipynb"
-	             target="_blank" class="text-white">
-	            <i class="fab fa-github fa-2x text-white"></i>
-	            <p>Click here</p>
-	          </a>
-	        </div>
-	      </div>
-	    </div>
-	  </div>
-	  <!-- Access VBA Project Card -->
-	  <div class="col-sm-6 col-md-4 project-card" data-category="vba">
-	    <div class="card project-box shadow position-relative h-100">
-	      <div class="project-img img-box">
-	        <!-- Add relevant image from /static/images/ here -->
-	        <img src="{{ url_for('static', filename='images/vba-access.png') }}" alt="Access VBA"
-	             class="card-img-top"/>
-	        <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
-	          <h5 class="text-white">Access VBA</h5>
-	          <p class="small text-white mb-2 px-2">
-	            Visual Basic for Applications (VBA) is the programming language used to extend the
-	            functionality of Microsoft Access and other Microsoft Office applications.
-	          </p>
-	          <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Armory/blob/main/vba/notebook/access/vba-access.ipynb"
-	             target="_blank" class="text-white">
-	            <i class="fab fa-github fa-2x text-white"></i>
-	            <p>Click here</p>
-	          </a>
-	        </div>
-	      </div>
-	    </div>
-	  </div>
-	  <!-- Numpy Project Card -->
-	  <div class="col-sm-6 col-md-4 project-card" data-category="python">
-	    <div class="card project-box shadow position-relative h-100">
-	      <div class="project-img img-box">
-	        <!-- Add relevant image from /static/images/ here -->
-	        <img src="{{ url_for('static', filename='images/python-numpy.png') }}" alt="Numpy"
-	             class="card-img-top"/>
-	        <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
-	          <h5 class="text-white">Numpy</h5>
-	          <p class="small text-white mb-2 px-2">
-	            NumPy is an open-source Python library fundamental for scientific computing,
-	            providing a powerful N-dimensional array object (ndarray) and a wide collection of
-	            high-level mathematical functions for fast operations on these arrays.
-	          </p>
-	          <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Armory/blob/main/python/notebooks/numpy/numpy.ipynb"
-	             target="_blank" class="text-white">
-	            <i class="fab fa-github fa-2x text-white"></i>
-	            <p>Click here</p>
-	          </a>
-	        </div>
-	      </div>
-	    </div>
-	  </div>
-	  <!-- Matplot Project Card -->
-	  <div class="col-sm-6 col-md-4 project-card" data-category="python">
-	    <div class="card project-box shadow position-relative h-100">
-	      <div class="project-img img-box">
-	        <!-- Add relevant image from /static/images/ here -->
-	        <img src="{{ url_for('static', filename='images/python-matplot.png') }}" alt="Matplot"
-	             class="card-img-top"/>
-	        <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
-	          <h5 class="text-white">Matplot</h5>
-	          <p class="small text-white mb-2 px-2">
-	            Matplot is an open-source Python library fundamental for data visualization and analysis.
-	          </p>
-	          <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Armory/blob/main/python/notebooks/matplot/matplotlib.ipynb"
-	             target="_blank" class="text-white">
-	            <i class="fab fa-github fa-2x text-white"></i>
-	            <p>Click here</p>
-	          </a>
-	        </div>
-	      </div>
-	    </div>
-	  </div>
-	  <!-- SQL Server Project Card -->
-	  <div class="col-sm-6 col-md-4 project-card" data-category="sql">
-	    <div class="card project-box shadow position-relative h-100">
-	      <div class="project-img img-box">
-	        <!-- Add relevant image from /static/images/ here -->
-	        <img src="{{ url_for('static', filename='images/sql-mssql.png') }}" alt="SQL Server"
-	             class="card-img-top"/>
-	        <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
-	          <h5 class="text-white">SQL Server</h5>
-	          <p class="small text-white mb-2 px-2">
-	            SQL Server is a relational database management system (RDBMS) developed by Microsoft
-	            that stores and retrieves data for other applications using Transact-SQL (T-SQL).
-	          </p>
-	          <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Armory/blob/main/sql/notebooks/sqlserver/sql_server.ipynb"
-	             target="_blank" class="text-white">
-	            <i class="fab fa-github fa-2x text-white"></i>
-	            <p>Click here</p>
-	          </a>
-	        </div>
-	      </div>
-	    </div>
-	  </div>
-
       <!-- Chonky Project Card -->
 	  <div class="col-sm-6 col-md-4 project-card" data-category="ml">
 	    <div class="card project-box shadow position-relative h-100">
