@@ -6,348 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="145d3bc9-f9e1-42d8-8fc6-aa749a696475" name="Changes" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/styles/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Boilerplate/CODE_OF_CONDUCT.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Boilerplate/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Boilerplate/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Boilerplate/assests/Thumbs.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Boilerplate/assests/log-report-example.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Boilerplate/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Boilerplate/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Boilerplate/src/AnalyticsTracker.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Boilerplate/src/CastingFunctions.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Boilerplate/src/Colors.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Boilerplate/src/Console.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Boilerplate/src/EventListenerEmitter.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Boilerplate/src/EventListenerItem.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Boilerplate/src/FileSystemUtilities.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Boilerplate/src/JSON.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Boilerplate/src/LocalStorage.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Boilerplate/src/MainApplication.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Boilerplate/src/MainTesting.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Boilerplate/src/PerformanceTimer.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Boilerplate/src/SecurityUtilities.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Boilerplate/src/StringUtilities.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Boilerplate/src/TestCase.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Boilerplate/src/TestMatcher.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Boilerplate/src/TestSuite.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Boilerplate/src/TimingUtilities.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Boilerplate/templates/console.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/CSV Utils/CSVUtils.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/CSV Utils/CSVUtils_Examples.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/CSV Utils/CSVUtils_Test.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/CSV Utils/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/CSV Utils/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/CSV Utils/VBScript/CSVUtils.vbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/CSV Utils/VBScript/CSVUtils_Test.vbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/CSV Utils/VBScript/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/CSV Utils/VBScript/README_v17.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/CSV Utils/VBScript/convert2vbs.vbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Database Connections/Connection/clsConnection.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Database Connections/Connection/clsConnectionComplete.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Database Connections/Connection/mFunctionToConnect.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Database Connections/PivotTables/Slicers/ObjectFilterSlice.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Database Connections/PivotTables/Slicers/SlicerControl.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Database Connections/PivotTables/Slicers/baseFiltrosPivotTable.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Database Connections/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Excel GeoCoder/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Excel GeoCoder/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Excel GeoCoder/docs/CNAME" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Excel GeoCoder/docs/index.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Excel GeoCoder/excel-geocoder-samples.xlsm.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Excel GeoCoder/excel-geocoder-samples.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Excel GeoCoder/geocoder.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Excel Helpers/.gitignore.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Excel Helpers/FileSelector.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Excel Helpers/LICENCE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Excel Helpers/ListObjectHelper.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Excel Helpers/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Excel Helpers/SheetObjectHelper.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Excel Helpers/ValidateHeadersResult.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/IDE Code Export/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/IDE Code Export/.gitattributes.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/IDE Code Export/.gitignore.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/IDE Code Export/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/IDE Code Export/CODE_OF_CONDUCT.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/IDE Code Export/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/IDE Code Export/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/IDE Code Export/addin-installer.iss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/IDE Code Export/config.iss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/IDE Code Export/img/add-code.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/IDE Code Export/img/build-from-source.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/IDE Code Export/img/ribbon-buttons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/IDE Code Export/img/unhide-file-extensions.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/IDE Code Export/inc/code.iss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/IDE Code Export/inc/files-addins.iss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/IDE Code Export/inc/messages.iss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/IDE Code Export/inc/setup.iss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/IDE Code Export/inc/win32.iss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/IDE Code Export/src/CodeExport.config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/IDE Code Export/src/JsonConverter.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/IDE Code Export/src/VBA-IDE-Code-Export.package/[Content_Types].xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/IDE Code Export/src/VBA-IDE-Code-Export.package/_rels/.rels" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/IDE Code Export/src/VBA-IDE-Code-Export.package/customUI/customUI.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/IDE Code Export/src/VBA-IDE-Code-Export.package/docProps/app.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/IDE Code Export/src/VBA-IDE-Code-Export.package/docProps/core.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/IDE Code Export/src/VBA-IDE-Code-Export.package/xl/_rels/workbook.xml.rels" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/IDE Code Export/src/VBA-IDE-Code-Export.package/xl/styles.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/IDE Code Export/src/VBA-IDE-Code-Export.package/xl/theme/theme1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/IDE Code Export/src/VBA-IDE-Code-Export.package/xl/workbook.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/IDE Code Export/src/VBA-IDE-Code-Export.package/xl/worksheets/sheet1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/IDE Code Export/src/clsConfiguration.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/IDE Code Export/src/clsVBECmdHandler.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/IDE Code Export/src/modExcelToXML.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/IDE Code Export/src/modImportExport.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/IDE Code Export/src/modMenu.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/IDE Code Export/src/modUtil.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/IDE Code Export/test-projects/comprehensive/CodeExport.config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/IDE Code Export/test-projects/comprehensive/Module1.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/IDE Code Export/test-projects/comprehensive/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/IDE Code Export/test-projects/comprehensive/src/Class1.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/IDE Code Export/test-projects/comprehensive/src/UsrFrm/UserForm1.frm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/IDE Code Export/test-projects/comprehensive/src/UsrFrm/UserForm1.frx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/IDE Code Export/test-projects/comprehensive/src/XlObjects/Sheet1.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/IDE Code Export/test-projects/comprehensive/src/XlObjects/ThisWorkbook.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/IDE Code Export/test-projects/comprehensive/template-workbook.xlsm.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Modern UI/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Modern UI/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Modern UI/samples/SampleAccess.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Modern UI/samples/SampleAccessBeforeCodeSeparation.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Modern UI/samples/VBA_TOOLS.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Modern UI/samples/bin/BCrypt.Net-Next.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Modern UI/samples/bin/HtmlRenderer.WinForms.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Modern UI/samples/bin/HtmlRenderer.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Modern UI/samples/bin/Microsoft.AspNet.SignalR.Client.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Modern UI/samples/bin/Microsoft.CSharp.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Modern UI/samples/bin/Microsoft.Threading.Tasks.Extensions.Desktop.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Modern UI/samples/bin/Microsoft.Threading.Tasks.Extensions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Modern UI/samples/bin/Microsoft.Threading.Tasks.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Modern UI/samples/bin/MySql.Data.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Modern UI/samples/bin/Newtonsoft.Json.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Modern UI/samples/bin/System.Net.Http.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Modern UI/samples/bin/System.Runtime.Serialization.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Modern UI/samples/bin/WinSCP.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Modern UI/samples/bin/WinSCPnet.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Modern UI/samples/bin/ZintNetLib.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Modern UI/samples/dll_test.accdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Modern UI/samples/dll_test.xlsm.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Modern UI/samples/x64 dll/VBA_TOOLS.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Modern UI/samples/x64 dll/bin/BCrypt.Net-Next.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Modern UI/samples/x64 dll/bin/HtmlRenderer.WinForms.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Modern UI/samples/x64 dll/bin/HtmlRenderer.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Modern UI/samples/x64 dll/bin/Microsoft.AspNet.SignalR.Client.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Modern UI/samples/x64 dll/bin/Microsoft.CSharp.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Modern UI/samples/x64 dll/bin/Microsoft.Threading.Tasks.Extensions.Desktop.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Modern UI/samples/x64 dll/bin/Microsoft.Threading.Tasks.Extensions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Modern UI/samples/x64 dll/bin/Microsoft.Threading.Tasks.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Modern UI/samples/x64 dll/bin/MySql.Data.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Modern UI/samples/x64 dll/bin/Newtonsoft.Json.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Modern UI/samples/x64 dll/bin/System.Net.Http.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Modern UI/samples/x64 dll/bin/WinSCP.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Modern UI/samples/x64 dll/bin/WinSCPnet.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Modern UI/samples/x64 dll/bin/ZintNetLib.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Modern UI/screenshots/DropDownBox.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Modern UI/screenshots/FileDropInAction.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Modern UI/screenshots/Hyperlink.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Modern UI/screenshots/ImageControlInAction.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Modern UI/screenshots/InAction.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Modern UI/screenshots/InAction1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Modern UI/screenshots/InputBox.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Modern UI/screenshots/InputBoxDefault.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Modern UI/screenshots/VBA-RICH-DIALOG-BOX.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Modern UI/screenshots/VBA-RICH-UI-AreYouSureCollection.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Modern UI/screenshots/VBA-RICH-UI-CoolContextMenu.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Modern UI/screenshots/VBA-RICH-UI-CoolSimpleMessageBox.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Modern UI/screenshots/VBA-RICH-UI-DRAG-DROP.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Modern UI/screenshots/VBA-RICH-UI-DialogboxGreen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Modern UI/screenshots/VBA-RICH-UI-DragMe.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Modern UI/screenshots/VBA-RICH-UI-InputBoxMultiline.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Modern UI/screenshots/VBA-RICH-UI-InputBoxPurple.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Modern UI/screenshots/VBA-RICH-UI-ProgressBar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Modern UI/screenshots/VBA-RICH-UI-ProgressBarRed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Modern UI/screenshots/VBA-RICH-UI-collections.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Modern UI/screenshots/code39Barcode.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Modern UI/screenshots/information.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Modern UI/screenshots/qrBarcode.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Modern UI/screenshots/unblockADll1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/Modern UI/screenshots/vbatoolsIsSafe.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/ModernBox/.gitignore.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/ModernBox/Form_ModernBox.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/ModernBox/Form_ModputBox.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/ModernBox/HtmlHelp.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/ModernBox/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/ModernBox/ModernBox.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/ModernBox/ModernDemo.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/ModernBox/ModernStyle.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/ModernBox/ModernThemeColours.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/ModernBox/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/ModernBox/demos/ModernBox 1.3.1.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/ModernBox/demos/ModernBox.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/ModernBox/images/AppModBox.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/ModernBox/images/AppMsgBox.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/ModernBox/images/BuyMeACoffee.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/ModernBox/images/EE Logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/ModernBox/images/EE Title.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/ModernBox/images/ErrorMox.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/ModernBox/images/ErrorMox10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/ModernBox/images/InputBox.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/ModernBox/images/InputBox10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/ModernBox/images/InputMox.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/ModernBox/images/InputMox10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/ModernBox/images/InputMoxHelp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/ModernBox/images/ModBox.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/ModernBox/images/ModBox10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/ModernBox/images/ModBox10Close.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/ModernBox/images/ModBoxLarge.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/ModernBox/images/ModBoxThankYou.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/ModernBox/images/ModBoxThankYou10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/ModernBox/images/ModernDialog.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/ModernBox/images/MsgBox.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/ModernBox/images/MsgBox10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/VBA-Library-master/Clipboard.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/VBA-Library-master/CollectionTools.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/VBA-Library-master/CommonDialogTools.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/VBA-Library-master/CsvModule.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/VBA-Library-master/DataFunctions.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/VBA-Library-master/DateLocalization.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/VBA-Library-master/Dictionary1.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/VBA-Library-master/Dictionary2.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/VBA-Library-master/DictionaryTools.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/VBA-Library-master/ExcelPersonalSharedMacros.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/VBA-Library-master/ExcelUtils.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/VBA-Library-master/ExportDatabaseObjects.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/VBA-Library-master/FileTools.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/VBA-Library-master/InOutFile.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/VBA-Library-master/IniFileReader.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/VBA-Library-master/JsonConverter.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/VBA-Library-master/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/VBA-Library-master/MsAccessImportCsv.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/VBA-Library-master/OleDbImport.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/VBA-Library-master/PublishSourceCodeChanges.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/VBA-Library-master/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/VBA-Library-master/Registry.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/VBA-Library-master/Settings _ Preferences.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/VBA-Library-master/ShellExecute.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/VBA-Library-master/Stack.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/VBA-Library-master/StringTools.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/VBA-Library-master/VBTools.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/VBA-Library-master/VBTools1.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/VBAUtilities-master/AccessDBUtilities/ADOFieldWrapper.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/VBAUtilities-master/AccessDBUtilities/ADOTableWrapper.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/VBAUtilities-master/AccessDBUtilities/AccessLockFileReader.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/VBAUtilities-master/AccessDBUtilities/DAOPropertyManager.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/VBAUtilities-master/AccessDBUtilities/DBBackupManager.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/VBAUtilities-master/AccessDBUtilities/DBCompressor.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/VBAUtilities-master/AccessDBUtilities/DBTableLinkHelper.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/VBAUtilities-master/AccessDBUtilities/StatusLine.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/VBAUtilities-master/Crypto/HashCng.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/VBAUtilities-master/Crypto/SecureRandomNumberCng.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/VBAUtilities-master/ErrorHandling/MessageManager.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/VBAUtilities-master/ExcelUtilities/WorkbookCustomPropertyHandler.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/VBAUtilities-master/ExcelUtilities/WorksheetCustomPropertyHandler.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/VBAUtilities-master/FileHandling/DriveHelper.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/VBAUtilities-master/FileHandling/FileCompressionManager.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/VBAUtilities-master/FileHandling/RandomFileName.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/VBAUtilities-master/Internet/FTPClient.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/VBAUtilities-master/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/VBAUtilities-master/Math/BearingHelper.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/VBAUtilities-master/Math/SphereDistanceCalculator.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/VBAUtilities-master/Math/Trigonometrics.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/VBAUtilities-master/NumberConversion/Base64Converter.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/VBAUtilities-master/NumberConversion/Base64ConverterCryptAPI.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/VBAUtilities-master/NumberConversion/HexConverter.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/VBAUtilities-master/NumberConversion/RomanNumberConverter.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/VBAUtilities-master/OSUtilities/SetPriorityClass.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/VBAUtilities-master/OSUtilities/SpecialFolder.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/VBAUtilities-master/OSUtilities/SystemInformation.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/VBAUtilities-master/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/VBAUtilities-master/Sorting/InsertionSort.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/VBAUtilities-master/Sorting/InsertionSortWithIndex.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/VBAUtilities-master/Sorting/PureQuickSort.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/VBAUtilities-master/Sorting/PureQuickSortWithIndex.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/VBAUtilities-master/Sorting/QuickSort.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/VBAUtilities-master/Sorting/QuickSortWithIndex.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/VBAUtilities-master/Sorting/Stack.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/VBAUtilities-master/StringHandling/StringBuilder.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/VBAUtilities-master/StringHandling/UTF8Converter.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/VBAUtilities-master/TimeUtilities/TimeConverter.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/VBAUtilities-master/Timing/HighPrecisionTimer.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/VBAUtilities-master/Timing/Waiter.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/vba-parts-master/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/vba-parts-master/vba1/MADODBStream.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/vba-parts-master/vba1/MExcelApp.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/vba-parts-master/vba1/MFile.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/vba-parts-master/vba1/MFileSystem.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/vba-parts-master/vba1/MFolder.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/vba-parts-master/vba1/MHTMLDocument.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/vba-parts-master/vba1/MRegExp.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/vba-parts-master/vba1/MXMLDOM.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/vba-parts-master/vba1/MXMLHTTP.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/vba-parts-master/vba2/MADODBStream.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/vba-parts-master/vba2/MExcelApp.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/vba-parts-master/vba2/MFile.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/vba-parts-master/vba2/MFileSystem.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/vba-parts-master/vba2/MFolder.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/vba-parts-master/vba2/MHTMLDocument.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/vba-parts-master/vba2/MRegExp.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/vba-parts-master/vba2/MXMLDOM.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/vba-parts-master/vba2/MXMLHTTP.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/vba-parts-master/vba3/MADODBStream.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/vba-parts-master/vba3/MExcelApp.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/vba-parts-master/vba3/MFile.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/vba-parts-master/vba3/MFileSystem.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/vba-parts-master/vba3/MFolder.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/vba-parts-master/vba3/MHTMLDocument.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/vba-parts-master/vba3/MRegExp.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/vba-parts-master/vba3/MXMLDOM.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/vba-parts-master/vba3/MXMLHTTP.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/vbaDeveloper-master/.gitignore.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/vbaDeveloper-master/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/vbaDeveloper-master/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/vbaDeveloper-master/src/VbaLogger.xlam/ConsoleLogger.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/vbaDeveloper-master/src/VbaLogger.xlam/FileLogger.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/vbaDeveloper-master/src/VbaLogger.xlam/LogFactory.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/vbaDeveloper-master/src/VbaLogger.xlam/Logger.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/vbaDeveloper-master/src/VbaLogger.xlam/LoggerPrototype.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/winsqlite3.dll-4-VBA-master/.gitignore.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/winsqlite3.dll-4-VBA-master/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/winsqlite3.dll-4-VBA-master/test.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/winsqlite3.dll-4-VBA-master/winsqlite3_4_VBA.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/xlib-master/Modules/Tests.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/xlib-master/Modules/xlibArray.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/xlib-master/Modules/xlibArrayTests.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/xlib-master/Modules/xlibColor.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/xlib-master/Modules/xlibColorTests.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/xlib-master/Modules/xlibDateTime.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/xlib-master/Modules/xlibDateTimeTests.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/xlib-master/Modules/xlibEnvironment.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/xlib-master/Modules/xlibEnvironmentTests.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/xlib-master/Modules/xlibFile.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/xlib-master/Modules/xlibFileTests.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/xlib-master/Modules/xlibMath.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/xlib-master/Modules/xlibMathTests.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/xlib-master/Modules/xlibMeta.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/xlib-master/Modules/xlibMetaTests.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/xlib-master/Modules/xlibNetwork.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/xlib-master/Modules/xlibNetworkTests.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/xlib-master/Modules/xlibRandom.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/xlib-master/Modules/xlibRandomTests.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/xlib-master/Modules/xlibRegex.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/xlib-master/Modules/xlibRegexTests.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/xlib-master/Modules/xlibStringManipulation.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/xlib-master/Modules/xlibStringManipulationTests.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/xlib-master/Modules/xlibStringMetrics.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/xlib-master/Modules/xlibStringMetricsTests.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/xlib-master/Modules/xlibUtilities.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/xlib-master/Modules/xlibUtilitiesTests.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/xlib-master/Modules/xlibValidators.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/xlib-master/Modules/xlibValidatorsTests.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/xlib-master/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/xlib-master/Unminified/Xlib.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/xlib-master/Unminified/XlibTests.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/xlib-master/Xlib.min.bas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vba/src/UTILITIES/xlib-master/XlibTests.min.bas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -453,7 +113,7 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -481,7 +141,7 @@
       <workItem from="1778894236687" duration="2177000" />
       <workItem from="1778911577793" duration="4624000" />
       <workItem from="1778924954071" duration="52305000" />
-      <workItem from="1779051808791" duration="1011000" />
+      <workItem from="1779051808791" duration="5032000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -827,7 +487,15 @@
       <option name="project" value="LOCAL" />
       <updated>1779049460295</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="update">
+      <option name="closed" value="true" />
+      <created>1779052841686</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1779052841686</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -849,6 +517,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Armory$Armory.coverage" NAME="Armory Coverage Results" MODIFIED="1779035036668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Armory$Armory.coverage" NAME="Armory Coverage Results" MODIFIED="1779056637305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

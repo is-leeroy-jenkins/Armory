@@ -18,62 +18,11 @@
   </div>
 
 </section>
-	
-<!---------------------->
-<!-- About Section ----->
-<!---------------------->
-<section id="about" class="about-section py-5" data-aos="fade-up">
-  <div class="container">
-    <div class="row align-items-center">
-      <!-- Left Side: About Text -->
-      <div class="col-lg-6 mb-4 mb-lg-0">
-        <h2 class="fw-bold mb-3">About</h2>
-        <p>
-           A comprehensive, modular learning and reference toolkit designed to advance the integration
-           and modernization of data analytics workflows across organizations. The repository provides
-           a unified, stepwise pathway from spreadsheet-based analytics to enterprise-scale automation,
-           data science, and interactive dashboard deployment.
-        </p>
-        <ul class="about-list mt-3">
-          <li>
-            <i class="fas fa-circle-check text-primary"></i>
-	          Data Modeling & Analysis
-          </li>
-          <li>
-            <i class="fas fa-circle-check text-primary"></i>
-	          Natural Language Processing
-          </li>
-          <li>
-            <i class="fas fa-circle-check text-primary"></i>
-	          Machine & Deep Learning
-          </li>
-          <li>
-            <i class="fas fa-circle-check text-primary"></i>
-	          Predictive Analytics
-          </li>
-          <li>
-            <i class="fas fa-circle-check text-primary"></i>
-	          AI Integration
-          </li>
-        </ul>
-      </div>
-      <!-- Right Side: Image Box -->
-      <div class="col-lg-6 d-flex justify-content-center">
-        <div class="about-img-box shadow-lg rounded-4 overflow-hidden">
-          <!-- Add relevant image from /static/images/ here -->
-          <img src="{{ url_for('static', filename='images/Analytics.png') }}" alt="Terry Eppler"
-               class="img-fluid"/>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-</section>
 
-<!---------------------->
-<!-- Projects Section -->
-<!---------------------->
-<section id="projects" class="projects-section py-5" data-aos="fade-up">
+<!----------------------------->
+<!-------- Tools Section ------>
+<!----------------------------->
+<section id="tools" class="tools-section py-5" data-aos="fade-up">
   <div class="container">
     <h2 class="fw-bold text-center mb-4">Tools</h2>
 	  <!---------------------->
@@ -81,21 +30,6 @@
 	  <!---------------------->
   </div>
   <div class="d-flex justify-content-center mb-4">
-      <button class="btn btn-outline-primary me-2 filter-btn active" data-filter="all">
-        All
-      </button>
-      <button class="btn btn-outline-primary me-2 filter-btn" data-filter="ml">
-        Machine Learning
-      </button>
-      <button class="btn btn-outline-primary me-2 filter-btn" data-filter="llm">
-        Large Language Models
-      </button>
-      <button class="btn btn-outline-primary me-2 filter-btn" data-filter="ai">
-        Generative AI
-      </button>
-      <button class="btn btn-outline-primary me-2 filter-btn" data-filter="python">
-        Python
-      </button>
       <button class="btn btn-outline-primary me-2 filter-btn" data-filter="sql">
         SQL
       </button>
@@ -105,12 +39,15 @@
       <button class="btn btn-outline-primary me-2 filter-btn" data-filter="web">
         Web
       </button>
+      <button class="btn btn-outline-primary me-2 filter-btn" data-filter="python">
+        Python
+      </button>
     </div>
 
   <!---------------------->
-  <!---- Projects Grid --->
+  <!---- Tools Grid --->
   <!---------------------->
-    <div class="row g-4" id="projects-grid">
+	<div class="row g-4" id="projects-grid">
       <!-- SQL Access Project Card -->
       <div class="col-sm-6 col-md-4 project-card" data-category="sql">
         <div class="card project-box shadow position-relative h-100">
@@ -283,7 +220,7 @@
             </div>
           </div>
         </div>
-   </div>
+    </div>
       <!-- DAX Project Card -->
       <div class="col-sm-6 col-md-4 project-card" data-category="dax">
         <div class="card project-box shadow position-relative h-100">
@@ -436,6 +373,35 @@
 	      </div>
 	    </div>
 	  </div>
+    </div>
+</section>
+
+<!----------------------------->
+<!-- Applications Section ----->
+<!----------------------------->
+<section id="applications" class="applications-section py-5" data-aos="fade-up">
+  <div class="container">
+    <h2 class="fw-bold text-center mb-4">Applications</h2>
+	  <!---------------------->
+	  <!-- Filter Buttons ---->
+	  <!---------------------->
+  </div>
+  <div class="d-flex justify-content-center mb-4">
+      <button class="btn btn-outline-primary me-2 filter-btn" data-filter="ml">
+        Machine Learning
+      </button>
+      <button class="btn btn-outline-primary me-2 filter-btn" data-filter="llm">
+        Large Language Models
+      </button>
+      <button class="btn btn-outline-primary me-2 filter-btn" data-filter="ai">
+        Generative AI
+      </button>
+    </div>
+
+	<!-------------------------->
+	<!---- Applications Grid --->
+	<!-------------------------->
+	<div class="row g-4" id="projects-grid">
 
       <!-- Chonky Project Card -->
 	  <div class="col-sm-6 col-md-4 project-card" data-category="ml">
@@ -569,7 +535,7 @@
 	            A Generative AI & Machine-Learning pipeline for forecasting federal balances at the
 	            Treasury Appropriation Fund Symbol (TAFS) level.
 	          </p>
-	          <a href="https://github.com/is-leeroy-jenkins/Pogi#pogi"  target="_blank"
+	          <a href="https://github.com/is-leeroy-jenkins/Pogi#pogi" target="_blank"
 	             class="text-white">
 	            <i class="fab fa-github fa-2x text-white"></i>
 	            <p>Click here</p>
@@ -648,9 +614,7 @@
 	      </div>
 	    </div>
 	  </div>
-      <!------------------------->
-      <!--Large Language Models-->
-      <!------------------------->
+
       <!----- Giptity LLM --------->
 	  <div class="col-sm-6 col-md-4 project-card" data-category="llm">
 	    <div class="card project-box shadow position-relative h-100">
@@ -882,9 +846,8 @@
 	      </div>
 	    </div>
 	  </div>
-      <!------------------------->
-      <!-----  Generative AI ---->
-      <!------------------------->
+
+      <!-----  Boo AI ---->
 	  <div class="col-sm-6 col-md-4 project-card" data-category="ai">
 	    <div class="card project-box shadow position-relative h-100">
 	      <div class="project-img img-box">
@@ -1047,5 +1010,7 @@
 	  </div>
     </div>
 </section>
+
+
 
 {% endblock %}
