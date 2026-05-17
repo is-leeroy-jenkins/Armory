@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="145d3bc9-f9e1-42d8-8fc6-aa749a696475" name="Changes" comment="update">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/images/boo_ai.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/boo_ai.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/buddy_ai.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/buddy_ai.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/python-tensorflow.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/python-tensorflow.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/styles/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +126,7 @@
       <workItem from="1778891735033" duration="739000" />
       <workItem from="1778894236687" duration="2177000" />
       <workItem from="1778911577793" duration="4624000" />
-      <workItem from="1778924954071" duration="44855000" />
+      <workItem from="1778924954071" duration="45589000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -446,7 +440,15 @@
       <option name="project" value="LOCAL" />
       <updated>1779028917717</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="update">
+      <option name="closed" value="true" />
+      <created>1779031462192</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1779031462192</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
