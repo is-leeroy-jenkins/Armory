@@ -13,7 +13,7 @@
 </div>
 
 ## 📑 Table of Contents
-- [Excel Formulas](https://github.com/is-leeroy-jenkins/Armory?tab=readme-ov-file#-excel-formulas--the-foundation)
+- [Excel Formulas](https://github.com/is-leeroy-jenkins/Armory?tab=readme-ov-file#--excel-formulas-the-foundation)
 - [SQL](https://github.com/is-leeroy-jenkins/Armory?tab=readme-ov-file#-sql-access--desktop-relational-data-management)
   - [SQL (Access)](https://github.com/is-leeroy-jenkins/Armory?tab=readme-ov-file#-sql-access--desktop-relational-data-management)
   - [SQL (SQLite)](https://github.com/is-leeroy-jenkins/Armory?tab=readme-ov-file#-sql-sqlite--portable-modern-data-engine)
