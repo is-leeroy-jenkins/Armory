@@ -1,7 +1,49 @@
+<!--
+// ******************************************************************************************
+//     Name:                    index.html
+//     Assembly:                Armory
+//     Author:                  Terry D. Eppler
+//     Created:                 03-24-2023
+//
+//     Last Modified By:        Terry D. Eppler
+//     Last Modified On:        05-31-2024
+// ******************************************************************************************
+// <copyright file="index.html" company="Terry Eppler">
+//    Armory is a Flask application for Data Analytics Integration & Modernization
+//
+//    Copyright ©  2024  Terry Eppler
+//
+//    Permission is hereby granted, free of charge, to any person obtaining a copy
+//    of this software and associated documentation files (the “Software”),
+//    to deal in the Software without restriction,
+//    including without limitation the rights to use,
+//    copy, modify, merge, publish, distribute, sublicense,
+//    and/or sell copies of the Software,
+//    and to permit persons to whom the Software is furnished to do so,
+//    subject to the following conditions:
+//
+//    The above copyright notice and this permission notice shall be included in all
+//    copies or substantial portions of the Software.
+//
+//    THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+//    INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+//    FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT.
+//    IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+//    DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+//    ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+//    DEALINGS IN THE SOFTWARE.
+//
+//    You can contact me at:  terryeppler@gmail.com or eppler.terry@epa.gov
+// </copyright>
+// <summary>
+//  index.html
+// </summary>
+// *****************************************************************************************
+-->
 {% extends 'base.html' %} {% block content %}
-<!-- Hero Section -->
-<section id="home" class="hero-section text-center text-white" 
-         data-aos="fade-up"  style="position: relative; height: 90vh">
+	<!-- Hero Section -->
+	<section id="home" class="hero-section text-center text-white" data-aos="fade-up"
+	         style="position: relative; height: 90vh">
   <!-- Background Overlay -->
   <div class="hero-bg"></div>
   <!-- Foreground Text Container -->
@@ -15,8 +57,8 @@
   </div>
 </section>
 
-<!-- About Section -->
-<section id="about" class="about-section py-5" data-aos="fade-up">
+	<!-- About Section -->
+	<section id="about" class="about-section py-5" data-aos="fade-up">
   <div class="container">
     <div class="row align-items-center">
       <!-- Left Side: About Text -->
@@ -54,7 +96,7 @@
       <!-- Right Side: Image Box -->
       <div class="col-lg-6 d-flex justify-content-center">
         <div class="about-img-box shadow-lg rounded-4 overflow-hidden">
-          <!-- Add relevant image from /static/notebooks/ here -->
+          <!-- Add relevant image from /static/images/ here -->
           <img src="{{ url_for('static', filename='images/Analytics.png') }}" alt="Terry Eppler"
                class="img-fluid"/>
         </div>
@@ -62,645 +104,358 @@
     </div>
   </div>
 </section>
-
-
-	<!----------------------------->
-<!-------- Tools Section ------>
-<!----------------------------->
-<section id="tools" class="tools-section py-5" data-aos="fade-up">
+	<!---------------------->
+	<!-- Projects Section -->
+	<!---------------------->
+	<section id="projects" class="projects-section py-5" data-aos="fade-up">
   <div class="container">
     <h2 class="fw-bold text-center mb-4">Tools</h2>
 	  <!---------------------->
 	  <!-- Filter Buttons ---->
 	  <!---------------------->
-  </div>
-  <div class="d-flex justify-content-center mb-4">
+    <div class="d-flex justify-content-center mb-4">
       <button class="btn btn-outline-primary me-2 filter-btn active" data-filter="all">
         All
       </button>
-      <button class="btn btn-outline-primary me-2 filter-btn" data-filter="ml">
-        Machine Learning
+      <button class="btn btn-outline-primary me-2 filter-btn" data-filter="python">
+        Python
       </button>
-      <button class="btn btn-outline-primary me-2 filter-btn" data-filter="llm">
-        Large Language Models
+      <button class="btn btn-outline-primary me-2 filter-btn" data-filter="sql">
+        SQL
       </button>
-      <button class="btn btn-outline-primary me-2 filter-btn" data-filter="ai">
-        Generative AI
+      <button class="btn btn-outline-primary me-2 filter-btn" data-filter="vba">
+        VBA
+      </button>
+      <button class="btn btn-outline-primary me-2 filter-btn" data-filter="web">
+        Web
       </button>
     </div>
-
-  <!---------------------->
-  <!---- Tools Grid --->
-  <!---------------------->
-	<div class="row g-4" id="projects-grid">
-      <!-- Chonky Project Card -->
-	  <div class="col-sm-6 col-md-4 project-card" data-category="ml">
-	    <div class="card project-box shadow position-relative h-100">
-	      <div class="project-img img-box">
-	        <!-- Add relevant image from /static/images/ here -->
-	        <img src="{{ url_for('static', filename='images/Chonky.png') }}" alt="Chonky-Py"
-	             class="card-img-top"/>
-	        <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
-	          <h5 class="text-white">Chonky</h5>
-	          <p class="small text-white mb-2 px-2">
-	            A natural language processing application written in python and tailored for
-	            financial analysts, data scientists, and machine learning practitioners working
-	            with unstructured text.
-	          </p>
-	          <a href="https://github.com/is-leeroy-jenkins/Chonky#chonky-py"
-	             target="_blank" class="text-white">
-	            <i class="fab fa-github fa-2x text-white"></i>
-	            <p>Click here</p>
-	          </a>
-	        </div>
-	      </div>
-	    </div>
-	  </div>
-      <!-- Foo Project Card -->
-	  <div class="col-sm-6 col-md-4 project-card" data-category="ml">
-	    <div class="card project-box shadow position-relative h-100">
-	      <div class="project-img img-box">
-	        <!-- Add relevant image from /static/images/ here -->
-	        <img src="{{ url_for('static', filename='images/Foo.png') }}"
-	             alt="Foo"
-	             class="card-img-top"/>
-	        <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
-	          <h5 class="text-white">Foo</h5>
-	          <p class="small text-white mb-2 px-2">
-	            An Agentic tooling for Retrieval-Augmented Pipelines and Agentic Workflows written in
-	            python designed to give users explicit, hands-on control over how data is retrieved,
-	            loaded, extracted, queried, and explored from a variety of sources.
-	          </p>
-	          <a href="https://github.com/is-leeroy-jenkins/Foo#foo"
-	             target="_blank" class="text-white">
-	            <i class="fab fa-github fa-2x text-white"></i>
-	            <p>Click here</p>
-	          </a>
-	        </div>
-	      </div>
-	    </div>
-	  </div>
-      <!-- Cutey Project Card -->
-	  <div class="col-sm-6 col-md-4 project-card" data-category="ml">
-	    <div class="card project-box shadow position-relative h-100">
-	      <div class="project-img img-box">
-	        <!-- Add relevant image from /static/images/ here -->
-	        <img src="{{ url_for('static', filename='images/Cutey.png') }}"
-	             alt="Cutey-Py"
-	             class="card-img-top"/>
-	        <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
-	          <h5 class="text-white">Cutey</h5>
-	          <p class="small text-white mb-2 px-2">
-	            A machine-learning toolkit for federal financial management & accounting implemented
-	            in Python that integrates structured budget execution data—such as the SF-133 and
-	            agency-specific datasets to inform predictive models across multiple financial scenarios
-	          </p>
-	          <a href="https://github.com/is-leeroy-jenkins/Cutey#cutey"
-	             target="_blank" class="text-white">
-	            <i class="fab fa-github fa-2x text-white"></i>
-	            <p>Click here</p>
-	          </a>
-	        </div>
-	      </div>
-	    </div>
-	  </div>
-      <!-- Mappy Project Card -->
-	  <div class="col-sm-6 col-md-4 project-card" data-category="ml">
-	    <div class="card project-box shadow position-relative h-100">
-	      <div class="project-img img-box">
-	        <!-- Add relevant image from /static/images/ here -->
-	        <img src="{{ url_for('static', filename='images/Mappy.png') }}"
-	             alt="Mappy-Py"
-	             class="card-img-top"/>
-	        <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
-	          <h5 class="text-white">Mappy</h5>
-	          <p class="small text-white mb-2 px-2">
-	            GIS data ingestion pipelines across 100+ scientific APIs with builtin geocoding,
-	            distance matrices, static mapping, time zone conversions for use in agentic tooling & workflows.
-	          </p>
-	          <a href="https://github.com/is-leeroy-jenkins/Mappy#mappy"
-	             target="_blank" class="text-white">
-	            <i class="fab fa-github fa-2x text-white"></i>
-	            <p>Click here</p>
-	          </a>
-	        </div>
-	      </div>
-	    </div>
-	  </div>
-      <!-- Mathy Project Card -->
-	  <div class="col-sm-6 col-md-4 project-card" data-category="ml">
-	    <div class="card project-box shadow position-relative h-100">
-	      <div class="project-img img-box">
-	        <!-- Add relevant image from /static/images/ here -->
-	        <img src="{{ url_for('static', filename='images/Mathy.png') }}"
-	             alt="Mathy-Py"
-	             class="card-img-top"/>
-	        <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
-	          <h5 class="text-white">Mathy</h5>
-	          <p class="small text-white mb-2 px-2">
-	            Machine-learning pipelines for pre-processing & training of tabular data offering
-	            classification, regression, clustering and time-series models for ML workflows
-	            in federal finance.
-	          </p>
-	          <a href="https://github.com/is-leeroy-jenkins/Mathy#mathy-py"
-	             target="_blank" class="text-white">
-	            <i class="fab fa-github fa-2x text-white"></i>
-	            <p>Click here</p>
-	          </a>
-	        </div>
-	      </div>
-	    </div>
-	  </div>
-      <!-- Pogi Project Card -->
-	  <div class="col-sm-6 col-md-4 project-card" data-category="ml">
-	    <div class="card project-box shadow position-relative h-100">
-	      <div class="project-img img-box">
-	        <!-- Add relevant image from /static/images/ here -->
-	        <img src="{{ url_for('static', filename='images/Pogi.png') }}"
-	             alt="Pogi-Py"
-	             class="card-img-top"/>
-	        <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
-	          <h5 class="text-white">Pogi-Py</h5>
-	          <p class="small text-white mb-2 px-2">
-	            A Generative AI & Machine-Learning pipeline for forecasting federal balances at the
-	            Treasury Appropriation Fund Symbol (TAFS) level.
-	          </p>
-	          <a href="https://github.com/is-leeroy-jenkins/Pogi#pogi" target="_blank"
-	             class="text-white">
-	            <i class="fab fa-github fa-2x text-white"></i>
-	            <p>Click here</p>
-	          </a>
-	        </div>
-	      </div>
-	    </div>
-	  </div>
-      <!-- Sake Project Card -->
-	  <div class="col-sm-6 col-md-4 project-card" data-category="ml">
-	    <div class="card project-box shadow position-relative h-100">
-	      <div class="project-img img-box">
-	        <!-- Add relevant image from /static/images/ here -->
-	        <img src="{{ url_for('static', filename='images/Sake.png') }}"
-	             alt="Sake-Py"
-	             class="card-img-top"/>
-	        <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
-	          <h5 class="text-white">Sake</h5>
-	          <p class="small text-white mb-2 px-2">
-	            A modular machine learning framework for budget execution & data analysis written
-	            in Python and built with Scikit, XGBoost, PyTorch, and TensorFlow.
-	          </p>
-	          <a href="https://github.com/is-leeroy-jenkins/Sake#sake" target="_blank"
-	             class="text-white">
-	            <i class="fab fa-github fa-2x text-white"></i>
-	            <p>Click here</p>
-	          </a>
-	        </div>
-	      </div>
-	    </div>
-	  </div>
-      <!-- Schedule-X Project Card -->
-	  <div class="col-sm-6 col-md-4 project-card" data-category="ml">
-	    <div class="card project-box shadow position-relative h-100">
-	      <div class="project-img img-box">
-	        <!-- Add relevant image from /static/images/ here -->
-	        <img src="{{ url_for('static', filename='images/ScheduleX.png') }}"
-	             alt="Schedule-X"
-	             class="card-img-top"/>
-	        <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
-	          <h5 class="text-white">Schedule-X</h5>
-	          <p class="small text-white mb-2 px-2">
-	            A machine-learning pipeline for Combined Schedule (X) reporting and data analytics
-	            toolkit integrating generative-ai for federal financial management.
-	          </p>
-	          <a href="https://github.com/is-leeroy-jenkins/SchedX#schedule-x" target="_blank"
-	             class="text-white">
-	            <i class="fab fa-github fa-2x text-white"></i>
-	            <p>Click here</p>
-	          </a>
-	        </div>
-	      </div>
-	    </div>
-	  </div>
-      <!-- Sige Project Card -->
-	  <div class="col-sm-6 col-md-4 project-card" data-category="ml">
-	    <div class="card project-box shadow position-relative h-100">
-	      <div class="project-img img-box">
-	        <!-- Add relevant image from /static/images/ here -->
-	        <img src="{{ url_for('static', filename='images/Sige.png') }}"
-	             alt="Sige-Py"
-	             class="card-img-top"/>
-	        <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
-	          <h5 class="text-white">Sige-Py</h5>
-	          <p class="small text-white mb-2 px-2">
-	            A specialized machine learning and time series forecasting tool built for
-	            federal financial analysts, budget officers, and data scientists working with
-	            Treasury Account Symbols (TAS) and federal outlays.
-	          </p>
-	          <a href="https://github.com/is-leeroy-jenkins/Sige#sige" target="_blank"
-	             class="text-white">
-	            <i class="fab fa-github fa-2x text-white"></i>
-	            <p>Click here</p>
-	          </a>
-	        </div>
-	      </div>
-	    </div>
-	  </div>
-
-      <!----- Giptity LLM --------->
-	  <div class="col-sm-6 col-md-4 project-card" data-category="llm">
-	    <div class="card project-box shadow position-relative h-100">
-	      <div class="project-img img-box">
-	        <!-- Add relevant image from /static/images/ here -->
-	        <img src="{{ url_for('static', filename='images/gipity_llm.png') }}"
-	             alt="Gipity 5"
-	             class="card-img-top"/>
-	        <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
-	          <h5 class="text-white">Gipity LLM</h5>
-	          <p class="small text-white mb-2 px-2">
-	            A fine-tuned verion OpenAI’s Chat GPT-5 for  local or self-hosted environments and RAG
-	            (Retrieval-Augmented Generation) stacks that require predictable, fast outputs.
-	          </p>
-	          <a href="https://huggingface.co/leeroy-jankins/gipity" target="_blank"
-	             class="text-white">
-	            <i class="fab fa-github fa-2x text-white"></i>
-	            <p>Click here</p>
-	          </a>
-	        </div>
-	      </div>
-	    </div>
-	  </div>
-      <!----- Boo LLM --------->
-	  <div class="col-sm-6 col-md-4 project-card" data-category="llm">
-	    <div class="card project-box shadow position-relative h-100">
-	      <div class="project-img img-box">
-	        <!-- Add relevant image from /static/images/ here -->
-	        <img src="{{ url_for('static', filename='images/boo_llm.png') }}"
-	             alt="Boo"
-	             class="card-img-top"/>
-	        <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
-	          <h5 class="text-white">Boo LLM</h5>
-	          <p class="small text-white mb-2 px-2">
-	            Boo is a compact, instruction-tuned LLM derived from Phi-4-mini-reasoning and
-	            packaged in GGUF Q4_K_M quantization for fast local inference.
-	          </p>
-	          <a href="https://huggingface.co/leeroy-jankins/boo" target="_blank"
-	             class="text-white">
-	            <i class="fab fa-github fa-2x text-white"></i>
-	            <p>Click here</p>
-	          </a>
-	        </div>
-	      </div>
-	    </div>
-	  </div>
-      <!----- Bobo LLM --------->
-	  <div class="col-sm-6 col-md-4 project-card" data-category="llm">
-	    <div class="card project-box shadow position-relative h-100">
-	      <div class="project-img img-box">
-	        <!-- Add relevant image from /static/images/ here -->
-	        <img src="{{ url_for('static', filename='images/bobo_llm.png') }}"
-	             alt="Bobo"
-	             class="card-img-top"/>
-	        <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
-	          <h5 class="text-white">Bobo</h5>
-	          <p class="small text-white mb-2 px-2">
-	            An embedding model derived from mixedbread-ai/mxbai-embed-large-v1, packaged for
-	            drop-in use in semantic search, RAG (Retrieval-Augmented Generation), clustering,
-	            deduplication, and zero-shot classification.
-	          </p>
-	          <a href="https://huggingface.co/leeroy-jankins/bobo" target="_blank"
-	             class="text-white">
-	            <i class="fab fa-github fa-2x text-white"></i>
-	            <p>Click here</p>
-	          </a>
-	        </div>
-	      </div>
-	    </div>
-	  </div>
-      <!----- Llama Leeroy  --------->
-	  <div class="col-sm-6 col-md-4 project-card" data-category="llm">
-	    <div class="card project-box shadow position-relative h-100">
-	      <div class="project-img img-box">
-	        <!-- Add relevant image from /static/images/ here -->
-	        <img src="{{ url_for('static', filename='images/leeroy_llm.png') }}"
-	             alt="Leeroy"
-	             class="card-img-top"/>
-	        <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
-	          <h5 class="text-white">Leeroy LLaMa</h5>
-	          <p class="small text-white mb-2 px-2">
-	            A fine-tuned variant of Meta's Llama 3.2 1B Instruct, quantized to Q4_K_M GGUF format
-	            for high-efficiency, low-latency inference.
-	          </p>
-	          <a href="https://huggingface.co/leeroy-jankins/leeroy" target="_blank"
-	             class="text-white">
-	            <i class="fab fa-github fa-2x text-white"></i>
-	            <p>Click here</p>
-	          </a>
-	        </div>
-	      </div>
-	    </div>
-	  </div>
-      <!----- Booger LLM  --------->
-	  <div class="col-sm-6 col-md-4 project-card" data-category="llm">
-	    <div class="card project-box shadow position-relative h-100">
-	      <div class="project-img img-box">
-	        <!-- Add relevant image from /static/images/ here -->
-	        <img src="{{ url_for('static', filename='images/booger_llm.png') }}"
-	             alt="Leeroy"
-	             class="card-img-top"/>
-	        <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
-	          <h5 class="text-white">Booger LLM</h5>
-	          <p class="small text-white mb-2 px-2">
-	            An embedding model derived from BAAI's bge-small-en-v1.5, part of the BGE
-	            (BAAI General Embedding) family.
-	          </p>
-	          <a href="https://huggingface.co/leeroy-jankins/boogr" target="_blank"
-	             class="text-white">
-	            <i class="fab fa-github fa-2x text-white"></i>
-	            <p>Click here</p>
-	          </a>
-	        </div>
-	      </div>
-	    </div>
-	  </div>
-      <!----- Bro LLM  --------->
-	  <div class="col-sm-6 col-md-4 project-card" data-category="llm">
-	    <div class="card project-box shadow position-relative h-100">
-	      <div class="project-img img-box">
-	        <!-- Add relevant image from /static/images/ here -->
-	        <img src="{{ url_for('static', filename='images/bro_llm.png') }}"
-	             alt="Lil Bro"
-	             class="card-img-top"/>
-	        <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
-	          <h5 class="text-white">Lil Bro</h5>
-	          <p class="small text-white mb-2 px-2">
-	             A multi-modal model derived from Google's gemma-3-4b-it-GGUF designed for local use
-	             with strong retrieval quality with support for task-style instruction, and RAG.
-	          </p>
-	          <a href="https://huggingface.co/leeroy-jankins/bro" target="_blank"
-	             class="text-white">
-	            <i class="fab fa-github fa-2x text-white"></i>
-	            <p>Click here</p>
-	          </a>
-	        </div>
-	      </div>
-	    </div>
-	  </div>
-      <!----- Bubba LLM  --------->
-	  <div class="col-sm-6 col-md-4 project-card" data-category="llm">
-	    <div class="card project-box shadow position-relative h-100">
-	      <div class="project-img img-box">
-	        <!-- Add relevant image from /static/images/ here -->
-	        <img src="{{ url_for('static', filename='images/bubba_llm.png') }}"
-	             alt="Bubba"
-	             class="card-img-top"/>
-	        <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
-	          <h5 class="text-white">Bubba LLM</h5>
-	          <p class="small text-white mb-2 px-2">
-	            A quantized LLM in GGUF format based on OpenAI’s gpt-oss-20b with fine-tuned weights
-	            for practical, low-latency instruction, summarization,  reasoning, and code generation.
-	          </p>
-	          <a href="https://huggingface.co/leeroy-jankins/bubba" target="_blank"
-	             class="text-white">
-	            <i class="fab fa-github fa-2x text-white"></i>
-	            <p>Click here</p>
-	          </a>
-	        </div>
-	      </div>
-	    </div>
-	  </div>
-      <!----- Buddy LLM  --------->
-	  <div class="col-sm-6 col-md-4 project-card" data-category="llm">
-	    <div class="card project-box shadow position-relative h-100">
-	      <div class="project-img img-box">
-	        <!-- Add relevant image from /staticimages// here -->
-	        <img src="{{ url_for('static', filename='images/buddy_llm.png') }}"
-	             alt="Buddy Lite"
-	             class="card-img-top"/>
-	        <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
-	          <h5 class="text-white">Buddy Lite</h5>
-	          <p class="small text-white mb-2 px-2">
-	            A fine-tuned, local text generation model based on Google's Gemma 3 with a
-	            128K context window, and multilingual support in over 140 languages.
-	          </p>
-	          <a href="https://huggingface.co/leeroy-jankins/buddy" target="_blank"
-	             class="text-white">
-	            <i class="fab fa-github fa-2x text-white"></i>
-	            <p>Click here</p>
-	          </a>
-	        </div>
-	      </div>
-	    </div>
-	  </div>
-      <!----- Jimi LLM  --------->
-	  <div class="col-sm-6 col-md-4 project-card" data-category="llm">
-	    <div class="card project-box shadow position-relative h-100">
-	      <div class="project-img img-box">
-	        <!-- Add relevant image from /static/images/ here -->
-	        <img src="{{ url_for('static', filename='images/jimmi_llm.png') }}"
-	             alt="Jimi LLM"
-	             class="card-img-top"/>
-	        <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
-	          <h5 class="text-white">Jimi LLM</h5>
-	          <p class="small text-white mb-2 px-2">
-	             A local, multi-modal model derived from Google's gemma-4-E4B-it-GGUF designed for
-	             strong retrieval quality with support for long context windows.
-	          </p>
-	          <a href="https://huggingface.co/leeroy-jankins/jimi" target="_blank"
-	             class="text-white">
-	            <i class="fab fa-github fa-2x text-white"></i>
-	            <p>Click here</p>
-	          </a>
-	        </div>
-	      </div>
-	    </div>
-	  </div>
-      <!----- Nomi LLM  --------->
-	  <div class="col-sm-6 col-md-4 project-card" data-category="llm">
-	    <div class="card project-box shadow position-relative h-100">
-	      <div class="project-img img-box">
-	        <!-- Add relevant image from /static/images/ here -->
-	        <img src="{{ url_for('static', filename='images/nomnom_llm.png') }}"
-	             alt="Nomi"
-	             class="card-img-top"/>
-	        <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
-	          <h5 class="text-white">Nomi LLM</h5>
-	          <p class="small text-white mb-2 px-2">
-	             Nomi is a embedding model derived from Nomic's  nomic-embed-text-v1.5 for
-	             long context windows.
-	          </p>
-	          <a href="https://huggingface.co/leeroy-jankins/nomi" target="_blank"
-	             class="text-white">
-	            <i class="fab fa-github fa-2x text-white"></i>
-	            <p>Click here</p>
-	          </a>
-	        </div>
-	      </div>
-	    </div>
-	  </div>
-
-      <!-----  Boo AI ---->
-	  <div class="col-sm-6 col-md-4 project-card" data-category="ai">
-	    <div class="card project-box shadow position-relative h-100">
-	      <div class="project-img img-box">
-	        <!-- Add relevant image from /static/images/ here -->
-	        <img src="{{ url_for('static', filename='images/boo_ai.png') }}"
-	             alt="Boo"
-	             class="card-img-top"/>
-	        <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
-	          <h5 class="text-white">Boo AI</h5>
-	          <p class="small text-white mb-2 px-2">
-	            A Python application for building, deploying, and managing AI-powered assistants
-	            tailored for federal data analysis, budget execution, and data science
-	          </p>
-	          <a href="https://github.com/is-leeroy-jenkins/Boo#boo" target="_blank"
-	             class="text-white">
-	            <i class="fab fa-github fa-2x text-white"></i>
-	            <p>Click here</p>
-	          </a>
-	        </div>
-	      </div>
-	    </div>
-	  </div>
-      <!----- Gipity AI --------->
-	  <div class="col-sm-6 col-md-4 project-card" data-category="ai">
-	    <div class="card project-box shadow position-relative h-100">
-	      <div class="project-img img-box">
-	        <!-- Add relevant image from /static/images/ here -->
-	        <img src="{{ url_for('static', filename='images/gipity_ai.png') }}"
-	             alt="Gipity AI"
-	             class="card-img-top"/>
-	        <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
-	          <h5 class="text-white">Gipity AI</h5>
-	          <p class="small text-white mb-2 px-2">
-	            An generative AI application based on OpenAI’s Chat GPT-5 designed for local use and
-	            multi-modal workflows.
-	          </p>
-	          <a href="https://github.com/is-leeroy-jenkins/Gipity#gipity" target="_blank"
-	             class="text-white">
-	            <i class="fab fa-github fa-2x text-white"></i>
-	            <p>Click here</p>
-	          </a>
-	        </div>
-	      </div>
-	    </div>
-	  </div>
-      <!----- Buddy AI --------->
-	  <div class="col-sm-6 col-md-4 project-card" data-category="ai">
-	    <div class="card project-box shadow position-relative h-100">
-	      <div class="project-img img-box">
-	        <!-- Add relevant image from /static/images/ here -->
-	        <img src="{{ url_for('static', filename='images/buddy_ai.png') }}"
-	             alt="Buddy AI"
-	             class="card-img-top"/>
-	        <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
-	          <h5 class="text-white">Buddy AI</h5>
-	          <p class="small text-white mb-2 px-2">
-	            A multi-modal, multi-provider AI fine-tuned on federal guidance,
-	            budget execution data, and a vectorized financial policy documents.
-	          </p>
-	          <a href="https://github.com/is-leeroy-jenkins/Buddy#buddy" target="_blank"
-	             class="text-white">
-	            <i class="fab fa-github fa-2x text-white"></i>
-	            <p>Click here</p>
-	          </a>
-	        </div>
-	      </div>
-	    </div>
-	  </div>
-      <!----- Jeni AI  --------->
-	  <div class="col-sm-6 col-md-4 project-card" data-category="ai">
-	    <div class="card project-box shadow position-relative h-100">
-	      <div class="project-img img-box">
-	        <!-- Add relevant image from /static/images/ here -->
-	        <img src="{{ url_for('static', filename='images/jeni_ai.png') }}"
-	             alt="Jeni"
-	             class="card-img-top"/>
-	        <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
-	          <h5 class="text-white">Jeni AI</h5>
-	          <p class="small text-white mb-2 px-2">
-	             A local, multi-modal model AI based on Google's gemini api designed for  use with
-	             support for long context windows.
-	          </p>
-	          <a href="https://github.com/is-leeroy-jenkins/Jeni#jeni" target="_blank"
-	             class="text-white">
-	            <i class="fab fa-github fa-2x text-white"></i>
-	            <p>Click here</p>
-	          </a>
-	        </div>
-	      </div>
-	    </div>
-	  </div>
-      <!----- Guro AI --------->
-	  <div class="col-sm-6 col-md-4 project-card" data-category="ai">
-	    <div class="card project-box shadow position-relative h-100">
-	      <div class="project-img img-box">
-	        <!-- Add relevant image from /static/images/ here -->
-	        <img src="{{ url_for('static', filename='images/guro_ai.png') }}"
-	             alt="Guro"
-	             class="card-img-top"/>
-	        <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
-	          <h5 class="text-white">Guro</h5>
-	          <p class="small text-white mb-2 px-2">
-	            A prompt engineering library of over 100 specialized prompts structured for
-	            compatibility with OpenAI, Anthropic, Cohere, Gemini, Grok and other LLM providers.
-	          </p>
-	          <a href="https://github.com/is-leeroy-jenkins/Guro#guro" target="_blank"
-	             class="text-white">
-	            <i class="fab fa-github fa-2x text-white"></i>
-	            <p>Click here</p>
-	          </a>
-	        </div>
-	      </div>
-	    </div>
-	  </div>
-      <!----- Jimi AI  --------->
-	  <div class="col-sm-6 col-md-4 project-card" data-category="ai">
-	    <div class="card project-box shadow position-relative h-100">
-	      <div class="project-img img-box">
-	        <!-- Add relevant image from /static/images/ here -->
-	        <img src="{{ url_for('static', filename='images/jimi_ai.png') }}"
-	             alt="Jimi AI"
-	             class="card-img-top"/>
-	        <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
-	          <h5 class="text-white">Jimi AI</h5>
-	          <p class="small text-white mb-2 px-2">
-	             A local, multi-modal model derived from Google's gemma-4-E4B-it-GGUF designed for
-	             strong retrieval quality with support for long context windows.
-	          </p>
-	          <a href="https://github.com/is-leeroy-jenkins/Jimi#jimi" target="_blank"
-	             class="text-white">
-	            <i class="fab fa-github fa-2x text-white"></i>
-	            <p>Click here</p>
-	          </a>
-	        </div>
-	      </div>
-	    </div>
-	  </div>
-      <!----- Leeroy AI  --------->
-	  <div class="col-sm-6 col-md-4 project-card" data-category="ai">
-	    <div class="card project-box shadow position-relative h-100">
-	      <div class="project-img img-box">
-	        <!-- Add relevant image from /static/images/ here -->
-	        <img src="{{ url_for('static', filename='images/leeroy_ai.png') }}"
-	             alt="Leeroy AI"
-	             class="card-img-top"/>
-	        <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
-	          <h5 class="text-white">Leeroy AI</h5>
-	          <p class="small text-white mb-2 px-2">
-	            A fine-tuned variant of Meta's Llama 3.2 1B Instruct, quantized to Q4_K_M GGUF format
-	            for high-efficiency, low-latency inference.
-	          </p>
-	          <a href="https://github.com/is-leeroy-jenkins/Leeroy#leeroy" target="_blank"
-	             class="text-white">
-	            <i class="fab fa-github fa-2x text-white"></i>
-	            <p>Click here</p>
-	          </a>
-	        </div>
-	      </div>
-	    </div>
-	  </div>
+	  <!---------------------->
+	  <!---- Projects Grid --->
+	  <!---------------------->
+    <div class="row g-4" id="projects-grid">
+      <!-- Example Project Card -->
+      <div class="col-sm-6 col-md-4 project-card" data-category="sql">
+        <div class="card project-box shadow position-relative h-100">
+          <div class="project-img img-box">
+            <!-- Add relevant image from /static/images/ here -->
+            <img src="{{ url_for('static', filename='images/sql-access.png') }}" alt="Access SQL"
+                 class="card-img-top"/>
+            <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
+              <h5 class="text-white">SQL Access</h5>
+              <p class="small text-white mb-2 px-2">
+                Microsoft Access is a powerful tool utilized for data analytics, particularly for
+                small to medium-sized datasets and specific analytical tasks.
+              </p>
+              <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Armory/blob/main/sql/notebooks/access/sql-access.ipynb"
+                 target="_blank" class="text-white">
+                <i class="fab fa-github fa-2x text-white"></i>
+                <p>Click here</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 project-card" data-category="vba">
+        <div class="card project-box shadow position-relative h-100">
+          <div class="project-img img-box">
+            <!-- Add relevant image from /static/images/ here -->
+            <img src="{{ url_for('static', filename='images/vba-excel.png') }}" alt="Excel VBA"
+                 class="card-img-top"/>
+            <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
+              <h5 class="text-white">VBA Excel</h5>
+              <p class="small text-white mb-2 px-2">
+                Excel VBA serves as a powerful tool in data analytics, enabling automation,
+                and enhanced functionality within Microsoft Excel.
+              </p>
+              <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Armory/blob/main/vba/notebook/excel/vba-excel.ipynb"
+                 target="_blank" class="text-white">
+                <i class="fab fa-github fa-2x text-white"></i>
+                <p>Click here</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 project-card" data-category="python">
+        <div class="card project-box shadow position-relative h-100">
+          <div class="project-img img-box">
+            <!-- Add relevant image from /static/images/ here -->
+            <img src="{{ url_for('static', filename='images/python.png') }}" alt="Python"
+                 class="card-img-top"/>
+            <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
+              <h5 class="text-white">Python</h5>
+              <p class="small text-white mb-2 px-2">
+                Python is a widely used and highly effective programming language for data analysis.
+              </p>
+              <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Armory/blob/main/python/notebooks/py/python.ipynb"
+                 target="_blank" class="text-white">
+                <i class="fab fa-github fa-2x text-white"></i>
+                <p>Click here</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 project-card" data-category="web">
+        <div class="card project-box shadow position-relative h-100">
+          <div class="project-img img-box">
+            <!-- Add relevant image from /static/images/ here -->
+            <img src="{{ url_for('static', filename='images/html5.png') }}" alt="HTML5"
+                 class="card-img-top"/>
+            <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
+              <h5 class="text-white">HTML5</h5>
+              <p class="small text-white mb-2 px-2">
+                HTML5 is the core code used to structure and present content on the World Wide Web
+              </p>
+              <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Armory/blob/main/html/notebooks/html-tutorial.ipynb"
+                 target="_blank" class="text-white">
+                <i class="fab fa-github fa-2x text-white"></i>
+                <p>Click here</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 project-card" data-category="sql">
+        <div class="card project-box shadow position-relative h-100">
+          <div class="project-img img-box">
+            <!-- Add relevant image from /static/images/ here -->
+            <img src="{{ url_for('static', filename='images/sql-sqlite.png') }}" alt="SQLite"
+                 class="card-img-top"/>
+            <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
+              <h5 class="text-white">SQLite</h5>
+              <p class="small text-white mb-2 px-2">
+                SQLite is a serverless, self-contained relational database system implemented
+                as a C library and does not require a separate server.
+              </p>
+              <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Armory/blob/main/sql/notebooks/sqlite/sql-sqlite.ipynb"
+                 target="_blank" class="text-white">
+                <i class="fab fa-github fa-2x text-white"></i>
+                <p>Click here</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 project-card" data-category="web">
+        <div class="card project-box shadow position-relative h-100">
+          <div class="project-img img-box">
+            <!-- Add relevant image from /static/images/ here -->
+            <img src="{{ url_for('static', filename='images/css3.png') }}" alt="CSS3"
+                 class="card-img-top"/>
+            <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
+              <h5 class="text-white">CSS3</h5>
+              <p class="small text-white mb-2 px-2">
+                Cascading Style Sheets language adds features, transformations,
+                and animations to create more dynamic data visualizations.
+              </p>
+              <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Armory/blob/main/css/notebooks/css-tutorial.ipynb"
+                 target="_blank" class="text-white">
+                <i class="fab fa-github fa-2x text-white"></i>
+                <p>Click here</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- JavaScript Project Card -->
+      <div class="col-sm-6 col-md-4 project-card" data-category="web">
+        <div class="card project-box shadow position-relative h-100">
+          <div class="project-img img-box">
+            <!-- Add relevant image from /static/images/ here -->
+            <img src="{{ url_for('static', filename='images/javascript.png') }}" alt="JavaScript"
+                 class="card-img-top"/>
+            <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
+              <h5 class="text-white">JavaScript</h5>
+              <p class="small text-white mb-2 px-2">
+                JavaScript is a high-level, multi-paradigm programming language that
+                conforms to the ECMAScript standard.
+              </p>
+              <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Armory/blob/main/javascript/notebook/javascript.ipynb"
+                 target="_blank" class="text-white">
+                <i class="fab fa-github fa-2x text-white"></i>
+                <p>Click here</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Pandas Project Card -->
+      <div class="col-sm-6 col-md-4 project-card" data-category="python">
+        <div class="card project-box shadow position-relative h-100">
+          <div class="project-img img-box">
+            <!-- Add relevant image from /static/images/ here -->
+            <img src="{{ url_for('static', filename='images/python-pandas.png') }}" alt="Pandas"
+                 class="card-img-top"/>
+            <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
+              <h5 class="text-white">Pandas</h5>
+              <p class="small text-white mb-2 px-2">
+                Pandas is an open-source Python library widely used for data analysis and manipulation.
+              </p>
+              <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Armory/blob/main/python/notebooks/pandas/pandas.ipynb"
+                 target="_blank" class="text-white">
+                <i class="fab fa-github fa-2x text-white"></i>
+                <p>Click here</p>
+              </a>
+            </div>
+          </div>
+        </div>
+   </div>
+      <!-- DAX Project Card -->
+      <div class="col-sm-6 col-md-4 project-card" data-category="dax">
+        <div class="card project-box shadow position-relative h-100">
+          <div class="project-img img-box">
+            <!-- Add relevant image from /static/images/ here -->
+            <img src="{{ url_for('static', filename='images/dax.png') }}" alt="DAX"
+                 class="card-img-top"/>
+            <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
+              <h5 class="text-white">DAX</h5>
+              <p class="small text-white mb-2 px-2">
+                Data Analysis Expressions (DAX) is a powerful formula language used in
+                Microsoft Excel, Power BI, and SQL Server Analysis Services.
+              </p>
+              <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Armory/blob/main/excel/notebooks/dax/dax.ipynb"
+                 target="_blank" class="text-white">
+                <i class="fab fa-github fa-2x text-white"></i>
+                <p>Click here</p>
+              </a>
+            </div>
+          </div>
+        </div>
+   </div>
+      <!-- PBI Project Card -->
+      <div class="col-sm-6 col-md-4 project-card" data-category="python">
+        <div class="card project-box shadow position-relative h-100">
+          <div class="project-img img-box">
+            <!-- Add relevant image from /static/images/ here -->
+            <img src="{{ url_for('static', filename='images/python_pbi.png') }}" alt="Power BI"
+                 class="card-img-top"/>
+            <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
+              <h5 class="text-white">Power BI</h5>
+              <p class="small text-white mb-2 px-2">
+                Power BI and Python can be integrated to enhance data analysis and visualization capabilities.
+              </p>
+              <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Armory/blob/main/python/notebooks/pbi/pbi.ipynb"
+                 target="_blank" class="text-white">
+                <i class="fab fa-github fa-2x text-white"></i>
+                <p>Click here</p>
+              </a>
+            </div>
+          </div>
+        </div>
+   </div>
+      <!-- Excel Project Card -->
+  <div class="col-sm-6 col-md-4 project-card" data-category="dax">
+    <div class="card project-box shadow position-relative h-100">
+      <div class="project-img img-box">
+        <!-- Add relevant image from /static/images/ here -->
+        <img src="{{ url_for('static', filename='images/excel-functions.png') }}"
+             alt="Excel Formulas"
+             class="card-img-top"/>
+        <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
+          <h5 class="text-white">Excel Formulas</h5>
+          <p class="small text-white mb-2 px-2">
+            Excel formulas are user-created calculations starting with an equals sign used in data analysis
+          </p>
+          <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Armory/blob/main/excel/notebooks/formulas/excel-formulas.ipynb"
+             target="_blank" class="text-white">
+            <i class="fab fa-github fa-2x text-white"></i>
+            <p>Click here</p>
+          </a>
+        </div>
+      </div>
     </div>
+  </div>
+      <!-- Access VBA Project Card -->
+  <div class="col-sm-6 col-md-4 project-card" data-category="vba">
+    <div class="card project-box shadow position-relative h-100">
+      <div class="project-img img-box">
+        <!-- Add relevant image from /static/images/ here -->
+        <img src="{{ url_for('static', filename='images/vba-access.png') }}" alt="Access VBA"
+             class="card-img-top"/>
+        <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
+          <h5 class="text-white">Access VBA</h5>
+          <p class="small text-white mb-2 px-2">
+            Visual Basic for Applications (VBA) is the programming language used to extend the
+            functionality of Microsoft Access and other Microsoft Office applications.
+          </p>
+          <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Armory/blob/main/vba/notebook/access/vba-access.ipynb"
+             target="_blank" class="text-white">
+            <i class="fab fa-github fa-2x text-white"></i>
+            <p>Click here</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+      <!-- Numpy Project Card -->
+  <div class="col-sm-6 col-md-4 project-card" data-category="python">
+    <div class="card project-box shadow position-relative h-100">
+      <div class="project-img img-box">
+        <!-- Add relevant image from /static/images/ here -->
+        <img src="{{ url_for('static', filename='images/python-numpy.png') }}" alt="Numpy"
+             class="card-img-top"/>
+        <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
+          <h5 class="text-white">Numpy</h5>
+          <p class="small text-white mb-2 px-2">
+            NumPy is an open-source Python library fundamental for scientific computing,
+            providing a powerful N-dimensional array object (ndarray) and a wide collection of
+            high-level mathematical functions for fast operations on these arrays.
+          </p>
+          <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Armory/blob/main/python/notebooks/numpy/numpy.ipynb"
+             target="_blank" class="text-white">
+            <i class="fab fa-github fa-2x text-white"></i>
+            <p>Click here</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+      <!-- Matplot Project Card -->
+  <div class="col-sm-6 col-md-4 project-card" data-category="python">
+    <div class="card project-box shadow position-relative h-100">
+      <div class="project-img img-box">
+        <!-- Add relevant image from /static/images/ here -->
+        <img src="{{ url_for('static', filename='images/python-matplot.png') }}" alt="Matplot"
+             class="card-img-top"/>
+        <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
+          <h5 class="text-white">Matplot</h5>
+          <p class="small text-white mb-2 px-2">
+            Matplot is an open-source Python library fundamental for data visualization and analysis.
+          </p>
+          <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Armory/blob/main/python/notebooks/matplot/matplotlib.ipynb"
+             target="_blank" class="text-white">
+            <i class="fab fa-github fa-2x text-white"></i>
+            <p>Click here</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+      <!-- SQL Server Project Card -->
+  <div class="col-sm-6 col-md-4 project-card" data-category="sql">
+    <div class="card project-box shadow position-relative h-100">
+      <div class="project-img img-box">
+        <!-- Add relevant image from /static/images/ here -->
+        <img src="{{ url_for('static', filename='images/sql-mssql.png') }}" alt="SQL Server"
+             class="card-img-top"/>
+        <div class="project-overlay d-flex flex-column justify-content-center align-items-center">
+          <h5 class="text-white">SQL Server</h5>
+          <p class="small text-white mb-2 px-2">
+            SQL Server is a relational database management system (RDBMS) developed by Microsoft
+            that stores and retrieves data for other applications using Transact-SQL (T-SQL).
+          </p>
+          <a href="https://colab.research.google.com/github/is-leeroy-jenkins/Armory/blob/main/sql/notebooks/sqlserver/sql_server.ipynb"
+             target="_blank" class="text-white">
+            <i class="fab fa-github fa-2x text-white"></i>
+            <p>Click here</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
-
 
 
 {% endblock %}
