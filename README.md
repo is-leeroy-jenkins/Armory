@@ -12,6 +12,17 @@
   </p>
 </div>
 
+## 📘 Overview
+
+* Each tutorial is written for analysts modernizing workflows.
+* Lessons progress linearly, introducing tools and logic at each level of the analytic maturity
+  model.
+
+## 🎥 Demo
+
+![](https://github.com/is-leeroy-jenkins/Armory/blob/main/resources/images/Armory.gif)
+___
+
 ## 📑 Table of Contents
 - [Excel Formulas](https://github.com/is-leeroy-jenkins/Armory?tab=readme-ov-file#--excel-formulas-the-foundation)
 - [SQL](https://github.com/is-leeroy-jenkins/Armory?tab=readme-ov-file#-sql-access--desktop-relational-data-management)
@@ -29,18 +40,6 @@
 - [Matplotlib](https://github.com/is-leeroy-jenkins/Armory?tab=readme-ov-file#-matplotlib--data-visualization-for-analysts)
 - [SQL Server](https://github.com/is-leeroy-jenkins/Armory?tab=readme-ov-file#-sql-server--enterprise-grade-data-management)
 - [JavaScript](https://github.com/is-leeroy-jenkins/Armory?tab=readme-ov-file#-javascript--web-interactivity--scripting)
-
-
-
-
-
-
-## 📘 Overview
-
-* Each tutorial is written for analysts modernizing workflows.
-* Lessons progress linearly, introducing tools and logic at each level of the analytic maturity model.
-___
-![](https://github.com/is-leeroy-jenkins/Armory/blob/main/resources/images/Armory.gif)
 
 ## 🧩 Repository Structure
 
