@@ -101,7 +101,6 @@ def contact( ):
     email = request.form.get( 'email' )
     phone = request.form.get( 'phone', '' )
     message = request.form.get( 'message' )
-
     if not name or not email or not message:
         flash( 'Please fill in all required fields.', 'danger' )
         return redirect(url_for( 'home', _anchor='contact' ) )

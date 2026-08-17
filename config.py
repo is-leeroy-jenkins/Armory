@@ -72,12 +72,12 @@ FOO_PY = r'https://fooo-py.streamlit.app/'
 
 # GENERATIVE AI URLS
 GURO = r''
-BOO_PY = r'https://boo-py.streamlit.app/'
-GIPITY_PY = r'https://gipity-py.streamlit.app/'
-JENI_PY = r'https://jeni-py.streamlit.app/'
-JIMI_PY = r'https://jimi-py.streamlit.app/'
-BUDDY_PY = r'https://buddy-py.streamlit.app/'
-LEEROY_PY = r'https://leeroy.streamlit.app/'
+BOO = r'https://boo-py.streamlit.app/'
+GIPITY = r'https://gipity-py.streamlit.app/'
+JENI = r'https://jeni-py.streamlit.app/'
+JIMI = r'https://jimi-py.streamlit.app/'
+BUDDY = r'https://buddy-py.streamlit.app/'
+LEEROY = r'https://leeroy.streamlit.app/'
 
 
 SECRET_KEY = os.urandom( 32 )

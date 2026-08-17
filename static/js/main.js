@@ -90,7 +90,7 @@ const typingSpeed = 100;
 const deletingSpeed = 50;
 const delayBetween = 2000;
 
-function type()
+function type( )
 {
 	const currentRole = roles[ typedIndex ];
 	if( isDeleting )
