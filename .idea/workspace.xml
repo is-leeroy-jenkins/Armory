@@ -5,11 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="145d3bc9-f9e1-42d8-8fc6-aa749a696475" name="Changes" comment="update">
-      <change beforePath="$PROJECT_DIR$/python/notebooks/colab/google-colab.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python/notebooks/colab/google-colab.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/resources/images/python-colab.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/python-colab.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/resources/images/python-nltk.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/resources/images/python-pytorch.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/python-pytorch.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/python-nltk.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/python-nltk.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -154,15 +149,7 @@
       <workItem from="1779311934039" duration="46000" />
       <workItem from="1780049147251" duration="1709000" />
       <workItem from="1786970582619" duration="12741000" />
-      <workItem from="1786990545485" duration="5515000" />
-    </task>
-    <task id="LOCAL-00010" summary="update">
-      <option name="closed" value="true" />
-      <created>1778940786799</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1778940786799</updated>
+      <workItem from="1786990545485" duration="6046000" />
     </task>
     <task id="LOCAL-00011" summary="update">
       <option name="closed" value="true" />
@@ -548,7 +535,15 @@
       <option name="project" value="LOCAL" />
       <updated>1787000157237</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="update">
+      <option name="closed" value="true" />
+      <created>1787000649230</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1787000649230</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -571,6 +566,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Armory$Armory.coverage" NAME="Armory Coverage Results" MODIFIED="1786984229126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Armory$Armory.coverage" NAME="Armory Coverage Results" MODIFIED="1787000714557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
