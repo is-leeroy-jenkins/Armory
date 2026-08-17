@@ -47,7 +47,7 @@ import os
 
 BOBO_LLM = r'https://huggingface.co/leeroy-jankins/bobo'
 BOOGR_LLM = r'https://huggingface.co/leeroy-jankins/boogr'
-NOMNOM_LLM = r'https://huggingface.co/leeroy-jankins/nomi'
+NOMI_LLM = r'https://huggingface.co/leeroy-jankins/nomi'
 BUBBA_LLM = r'https://huggingface.co/leeroy-jankins/bubba'
 JIMI_LLM = r'https://huggingface.co/leeroy-jankins/jimi'
 LEEROY_LLM = r'https://huggingface.co/leeroy-jankins/leeroy'
